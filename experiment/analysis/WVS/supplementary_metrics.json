@@ -1,0 +1,2182 @@
+{
+  "dataset": "WVS",
+  "coding_invariant": {
+    "claude-haiku-4.5": {
+      "A": {
+        "median_deltaV": 0.075,
+        "n_pairs": 32,
+        "n_pairs_positive": 18,
+        "n_pairs_ci_excludes_0": 16,
+        "by_pair": {
+          "Q48:education": {
+            "V_human": 0.088,
+            "V_model": 0.365,
+            "deltaV": 0.278,
+            "deltaV_ci95": [
+              0.199,
+              0.377
+            ]
+          },
+          "Q48:agecat": {
+            "V_human": 0.014,
+            "V_model": 0.0,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.014,
+              0.151
+            ]
+          },
+          "Q106:education": {
+            "V_human": 0.066,
+            "V_model": 0.0,
+            "deltaV": -0.066,
+            "deltaV_ci95": [
+              -0.066,
+              0.144
+            ]
+          },
+          "Q106:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.112
+            ]
+          },
+          "Q107:education": {
+            "V_human": 0.069,
+            "V_model": 0.109,
+            "deltaV": 0.04,
+            "deltaV_ci95": [
+              -0.069,
+              0.182
+            ]
+          },
+          "Q107:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.15,
+            "deltaV": 0.132,
+            "deltaV_ci95": [
+              0.076,
+              0.248
+            ]
+          },
+          "Q108:education": {
+            "V_human": 0.068,
+            "V_model": 0.126,
+            "deltaV": 0.058,
+            "deltaV_ci95": [
+              -0.068,
+              0.217
+            ]
+          },
+          "Q108:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.107
+            ]
+          },
+          "Q112:education": {
+            "V_human": 0.079,
+            "V_model": 0.171,
+            "deltaV": 0.092,
+            "deltaV_ci95": [
+              0.039,
+              0.253
+            ]
+          },
+          "Q112:agecat": {
+            "V_human": 0.041,
+            "V_model": 0.157,
+            "deltaV": 0.116,
+            "deltaV_ci95": [
+              0.074,
+              0.263
+            ]
+          },
+          "Q113:education": {
+            "V_human": 0.057,
+            "V_model": 0.0,
+            "deltaV": -0.057,
+            "deltaV_ci95": [
+              -0.057,
+              0.081
+            ]
+          },
+          "Q113:agecat": {
+            "V_human": 0.06,
+            "V_model": 0.0,
+            "deltaV": -0.06,
+            "deltaV_ci95": [
+              -0.06,
+              0.026
+            ]
+          },
+          "Q114:education": {
+            "V_human": 0.055,
+            "V_model": 0.02,
+            "deltaV": -0.035,
+            "deltaV_ci95": [
+              -0.055,
+              0.121
+            ]
+          },
+          "Q114:agecat": {
+            "V_human": 0.047,
+            "V_model": 0.0,
+            "deltaV": -0.047,
+            "deltaV_ci95": [
+              -0.047,
+              0.038
+            ]
+          },
+          "Q121:education": {
+            "V_human": 0.066,
+            "V_model": 0.376,
+            "deltaV": 0.31,
+            "deltaV_ci95": [
+              0.244,
+              0.397
+            ]
+          },
+          "Q121:agecat": {
+            "V_human": 0.021,
+            "V_model": 0.124,
+            "deltaV": 0.103,
+            "deltaV_ci95": [
+              0.026,
+              0.218
+            ]
+          },
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.262,
+            "deltaV": 0.218,
+            "deltaV_ci95": [
+              0.15,
+              0.341
+            ]
+          },
+          "Q122:agecat": {
+            "V_human": 0.028,
+            "V_model": 0.312,
+            "deltaV": 0.284,
+            "deltaV_ci95": [
+              0.147,
+              0.423
+            ]
+          },
+          "Q123:education": {
+            "V_human": 0.081,
+            "V_model": 0.342,
+            "deltaV": 0.261,
+            "deltaV_ci95": [
+              0.197,
+              0.359
+            ]
+          },
+          "Q123:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.234,
+            "deltaV": 0.215,
+            "deltaV_ci95": [
+              0.181,
+              0.344
+            ]
+          },
+          "Q158:education": {
+            "V_human": 0.058,
+            "V_model": 0.202,
+            "deltaV": 0.145,
+            "deltaV_ci95": [
+              0.01,
+              0.235
+            ]
+          },
+          "Q158:agecat": {
+            "V_human": 0.02,
+            "V_model": 0.0,
+            "deltaV": -0.02,
+            "deltaV_ci95": [
+              -0.02,
+              0.058
+            ]
+          },
+          "Q159:education": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              0.132
+            ]
+          },
+          "Q159:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.163,
+            "deltaV": 0.145,
+            "deltaV_ci95": [
+              -0.018,
+              0.268
+            ]
+          },
+          "Q160:education": {
+            "V_human": 0.039,
+            "V_model": 0.378,
+            "deltaV": 0.339,
+            "deltaV_ci95": [
+              0.288,
+              0.43
+            ]
+          },
+          "Q160:agecat": {
+            "V_human": 0.015,
+            "V_model": 0.164,
+            "deltaV": 0.148,
+            "deltaV_ci95": [
+              0.128,
+              0.283
+            ]
+          },
+          "Q164:education": {
+            "V_human": 0.119,
+            "V_model": 0.381,
+            "deltaV": 0.262,
+            "deltaV_ci95": [
+              0.211,
+              0.38
+            ]
+          },
+          "Q164:agecat": {
+            "V_human": 0.042,
+            "V_model": 0.171,
+            "deltaV": 0.129,
+            "deltaV_ci95": [
+              0.139,
+              0.28
+            ]
+          },
+          "Q177:education": {
+            "V_human": 0.041,
+            "V_model": 0.0,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.041,
+              -0.041
+            ]
+          },
+          "Q177:agecat": {
+            "V_human": 0.062,
+            "V_model": 0.0,
+            "deltaV": -0.062,
+            "deltaV_ci95": [
+              -0.062,
+              0.138
+            ]
+          },
+          "Q178:education": {
+            "V_human": 0.044,
+            "V_model": 0.0,
+            "deltaV": -0.044,
+            "deltaV_ci95": [
+              -0.044,
+              0.178
+            ]
+          },
+          "Q178:agecat": {
+            "V_human": 0.059,
+            "V_model": 0.0,
+            "deltaV": -0.059,
+            "deltaV_ci95": [
+              -0.059,
+              0.138
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": -0.031,
+        "n_pairs": 28,
+        "n_pairs_positive": 6,
+        "n_pairs_ci_excludes_0": 13,
+        "by_pair": {
+          "Q48:agecat": {
+            "V_human": 0.014,
+            "V_model": 0.0,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.014,
+              0.092
+            ]
+          },
+          "Q106:education": {
+            "V_human": 0.066,
+            "V_model": 0.0,
+            "deltaV": -0.066,
+            "deltaV_ci95": [
+              -0.066,
+              0.179
+            ]
+          },
+          "Q106:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.086
+            ]
+          },
+          "Q107:education": {
+            "V_human": 0.069,
+            "V_model": 0.0,
+            "deltaV": -0.069,
+            "deltaV_ci95": [
+              -0.069,
+              -0.069
+            ]
+          },
+          "Q107:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              -0.019
+            ]
+          },
+          "Q108:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.214
+            ]
+          },
+          "Q112:education": {
+            "V_human": 0.079,
+            "V_model": 0.0,
+            "deltaV": -0.079,
+            "deltaV_ci95": [
+              -0.079,
+              0.13
+            ]
+          },
+          "Q112:agecat": {
+            "V_human": 0.041,
+            "V_model": 0.0,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.041,
+              0.048
+            ]
+          },
+          "Q113:education": {
+            "V_human": 0.057,
+            "V_model": 0.015,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.057,
+              0.116
+            ]
+          },
+          "Q113:agecat": {
+            "V_human": 0.06,
+            "V_model": 0.0,
+            "deltaV": -0.06,
+            "deltaV_ci95": [
+              -0.06,
+              0.062
+            ]
+          },
+          "Q114:education": {
+            "V_human": 0.055,
+            "V_model": 0.0,
+            "deltaV": -0.055,
+            "deltaV_ci95": [
+              -0.055,
+              0.047
+            ]
+          },
+          "Q114:agecat": {
+            "V_human": 0.047,
+            "V_model": 0.0,
+            "deltaV": -0.047,
+            "deltaV_ci95": [
+              -0.047,
+              0.077
+            ]
+          },
+          "Q121:education": {
+            "V_human": 0.066,
+            "V_model": 0.243,
+            "deltaV": 0.177,
+            "deltaV_ci95": [
+              0.09,
+              0.274
+            ]
+          },
+          "Q121:agecat": {
+            "V_human": 0.021,
+            "V_model": 0.0,
+            "deltaV": -0.021,
+            "deltaV_ci95": [
+              -0.021,
+              0.119
+            ]
+          },
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.466,
+            "deltaV": 0.422,
+            "deltaV_ci95": [
+              0.368,
+              0.494
+            ]
+          },
+          "Q122:agecat": {
+            "V_human": 0.028,
+            "V_model": 0.248,
+            "deltaV": 0.22,
+            "deltaV_ci95": [
+              0.166,
+              0.358
+            ]
+          },
+          "Q123:education": {
+            "V_human": 0.081,
+            "V_model": 0.221,
+            "deltaV": 0.14,
+            "deltaV_ci95": [
+              0.035,
+              0.288
+            ]
+          },
+          "Q123:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.291,
+            "deltaV": 0.273,
+            "deltaV_ci95": [
+              0.217,
+              0.41
+            ]
+          },
+          "Q158:education": {
+            "V_human": 0.058,
+            "V_model": 0.0,
+            "deltaV": -0.058,
+            "deltaV_ci95": [
+              -0.058,
+              -0.058
+            ]
+          },
+          "Q158:agecat": {
+            "V_human": 0.02,
+            "V_model": 0.0,
+            "deltaV": -0.02,
+            "deltaV_ci95": [
+              -0.02,
+              -0.02
+            ]
+          },
+          "Q159:education": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              0.235
+            ]
+          },
+          "Q159:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.065
+            ]
+          },
+          "Q160:education": {
+            "V_human": 0.039,
+            "V_model": 0.124,
+            "deltaV": 0.085,
+            "deltaV_ci95": [
+              -0.039,
+              0.374
+            ]
+          },
+          "Q160:agecat": {
+            "V_human": 0.015,
+            "V_model": 0.0,
+            "deltaV": -0.015,
+            "deltaV_ci95": [
+              -0.015,
+              0.236
+            ]
+          },
+          "Q164:education": {
+            "V_human": 0.119,
+            "V_model": 0.0,
+            "deltaV": -0.119,
+            "deltaV_ci95": [
+              -0.119,
+              -0.119
+            ]
+          },
+          "Q164:agecat": {
+            "V_human": 0.042,
+            "V_model": 0.0,
+            "deltaV": -0.042,
+            "deltaV_ci95": [
+              -0.042,
+              -0.042
+            ]
+          },
+          "Q177:education": {
+            "V_human": 0.041,
+            "V_model": 0.0,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.041,
+              -0.041
+            ]
+          },
+          "Q177:agecat": {
+            "V_human": 0.062,
+            "V_model": 0.0,
+            "deltaV": -0.062,
+            "deltaV_ci95": [
+              -0.062,
+              -0.062
+            ]
+          }
+        }
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "median_deltaV": 0.16,
+        "n_pairs": 32,
+        "n_pairs_positive": 25,
+        "n_pairs_ci_excludes_0": 23,
+        "by_pair": {
+          "Q48:education": {
+            "V_human": 0.088,
+            "V_model": 0.328,
+            "deltaV": 0.24,
+            "deltaV_ci95": [
+              0.139,
+              0.358
+            ]
+          },
+          "Q48:agecat": {
+            "V_human": 0.014,
+            "V_model": 0.0,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.014,
+              0.147
+            ]
+          },
+          "Q106:education": {
+            "V_human": 0.066,
+            "V_model": 0.16,
+            "deltaV": 0.094,
+            "deltaV_ci95": [
+              0.014,
+              0.288
+            ]
+          },
+          "Q106:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.141,
+            "deltaV": 0.121,
+            "deltaV_ci95": [
+              0.077,
+              0.28
+            ]
+          },
+          "Q107:education": {
+            "V_human": 0.069,
+            "V_model": 0.333,
+            "deltaV": 0.263,
+            "deltaV_ci95": [
+              0.219,
+              0.341
+            ]
+          },
+          "Q107:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.194,
+            "deltaV": 0.175,
+            "deltaV_ci95": [
+              0.098,
+              0.3
+            ]
+          },
+          "Q108:education": {
+            "V_human": 0.068,
+            "V_model": 0.343,
+            "deltaV": 0.275,
+            "deltaV_ci95": [
+              0.243,
+              0.434
+            ]
+          },
+          "Q108:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.094,
+            "deltaV": 0.076,
+            "deltaV_ci95": [
+              0.014,
+              0.239
+            ]
+          },
+          "Q112:education": {
+            "V_human": 0.079,
+            "V_model": 0.29,
+            "deltaV": 0.211,
+            "deltaV_ci95": [
+              0.152,
+              0.327
+            ]
+          },
+          "Q112:agecat": {
+            "V_human": 0.041,
+            "V_model": 0.197,
+            "deltaV": 0.156,
+            "deltaV_ci95": [
+              0.126,
+              0.307
+            ]
+          },
+          "Q113:education": {
+            "V_human": 0.057,
+            "V_model": 0.325,
+            "deltaV": 0.268,
+            "deltaV_ci95": [
+              0.207,
+              0.338
+            ]
+          },
+          "Q113:agecat": {
+            "V_human": 0.06,
+            "V_model": 0.0,
+            "deltaV": -0.06,
+            "deltaV_ci95": [
+              -0.06,
+              0.115
+            ]
+          },
+          "Q114:education": {
+            "V_human": 0.055,
+            "V_model": 0.333,
+            "deltaV": 0.279,
+            "deltaV_ci95": [
+              0.208,
+              0.361
+            ]
+          },
+          "Q114:agecat": {
+            "V_human": 0.047,
+            "V_model": 0.039,
+            "deltaV": -0.008,
+            "deltaV_ci95": [
+              -0.047,
+              0.154
+            ]
+          },
+          "Q121:education": {
+            "V_human": 0.066,
+            "V_model": 0.294,
+            "deltaV": 0.228,
+            "deltaV_ci95": [
+              0.166,
+              0.314
+            ]
+          },
+          "Q121:agecat": {
+            "V_human": 0.021,
+            "V_model": 0.116,
+            "deltaV": 0.094,
+            "deltaV_ci95": [
+              -0.021,
+              0.222
+            ]
+          },
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.398,
+            "deltaV": 0.354,
+            "deltaV_ci95": [
+              0.27,
+              0.442
+            ]
+          },
+          "Q122:agecat": {
+            "V_human": 0.028,
+            "V_model": 0.293,
+            "deltaV": 0.265,
+            "deltaV_ci95": [
+              0.191,
+              0.366
+            ]
+          },
+          "Q123:education": {
+            "V_human": 0.081,
+            "V_model": 0.461,
+            "deltaV": 0.38,
+            "deltaV_ci95": [
+              0.291,
+              0.475
+            ]
+          },
+          "Q123:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.289,
+            "deltaV": 0.271,
+            "deltaV_ci95": [
+              0.195,
+              0.404
+            ]
+          },
+          "Q158:education": {
+            "V_human": 0.058,
+            "V_model": 0.0,
+            "deltaV": -0.058,
+            "deltaV_ci95": [
+              -0.058,
+              0.142
+            ]
+          },
+          "Q158:agecat": {
+            "V_human": 0.02,
+            "V_model": 0.067,
+            "deltaV": 0.047,
+            "deltaV_ci95": [
+              -0.02,
+              0.197
+            ]
+          },
+          "Q159:education": {
+            "V_human": 0.043,
+            "V_model": 0.159,
+            "deltaV": 0.115,
+            "deltaV_ci95": [
+              -0.043,
+              0.228
+            ]
+          },
+          "Q159:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.061,
+            "deltaV": 0.043,
+            "deltaV_ci95": [
+              -0.018,
+              0.21
+            ]
+          },
+          "Q160:education": {
+            "V_human": 0.039,
+            "V_model": 0.326,
+            "deltaV": 0.287,
+            "deltaV_ci95": [
+              0.254,
+              0.398
+            ]
+          },
+          "Q160:agecat": {
+            "V_human": 0.015,
+            "V_model": 0.18,
+            "deltaV": 0.165,
+            "deltaV_ci95": [
+              0.167,
+              0.31
+            ]
+          },
+          "Q164:education": {
+            "V_human": 0.119,
+            "V_model": 0.286,
+            "deltaV": 0.166,
+            "deltaV_ci95": [
+              0.128,
+              0.306
+            ]
+          },
+          "Q164:agecat": {
+            "V_human": 0.042,
+            "V_model": 0.14,
+            "deltaV": 0.098,
+            "deltaV_ci95": [
+              0.104,
+              0.26
+            ]
+          },
+          "Q177:education": {
+            "V_human": 0.041,
+            "V_model": 0.0,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.041,
+              -0.041
+            ]
+          },
+          "Q177:agecat": {
+            "V_human": 0.062,
+            "V_model": 0.0,
+            "deltaV": -0.062,
+            "deltaV_ci95": [
+              -0.062,
+              -0.062
+            ]
+          },
+          "Q178:education": {
+            "V_human": 0.044,
+            "V_model": 0.0,
+            "deltaV": -0.044,
+            "deltaV_ci95": [
+              -0.044,
+              0.168
+            ]
+          },
+          "Q178:agecat": {
+            "V_human": 0.059,
+            "V_model": 0.279,
+            "deltaV": 0.22,
+            "deltaV_ci95": [
+              0.157,
+              0.288
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": 0.024,
+        "n_pairs": 32,
+        "n_pairs_positive": 16,
+        "n_pairs_ci_excludes_0": 16,
+        "by_pair": {
+          "Q48:education": {
+            "V_human": 0.088,
+            "V_model": 0.236,
+            "deltaV": 0.148,
+            "deltaV_ci95": [
+              -0.053,
+              0.265
+            ]
+          },
+          "Q48:agecat": {
+            "V_human": 0.014,
+            "V_model": 0.0,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.014,
+              0.114
+            ]
+          },
+          "Q106:education": {
+            "V_human": 0.066,
+            "V_model": 0.0,
+            "deltaV": -0.066,
+            "deltaV_ci95": [
+              -0.066,
+              0.115
+            ]
+          },
+          "Q106:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.039
+            ]
+          },
+          "Q107:education": {
+            "V_human": 0.069,
+            "V_model": 0.147,
+            "deltaV": 0.078,
+            "deltaV_ci95": [
+              -0.069,
+              0.188
+            ]
+          },
+          "Q107:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.036
+            ]
+          },
+          "Q108:education": {
+            "V_human": 0.068,
+            "V_model": 0.226,
+            "deltaV": 0.158,
+            "deltaV_ci95": [
+              0.009,
+              0.291
+            ]
+          },
+          "Q108:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.196
+            ]
+          },
+          "Q112:education": {
+            "V_human": 0.079,
+            "V_model": 0.145,
+            "deltaV": 0.066,
+            "deltaV_ci95": [
+              0.03,
+              0.23
+            ]
+          },
+          "Q112:agecat": {
+            "V_human": 0.041,
+            "V_model": 0.252,
+            "deltaV": 0.211,
+            "deltaV_ci95": [
+              0.144,
+              0.325
+            ]
+          },
+          "Q113:education": {
+            "V_human": 0.057,
+            "V_model": 0.141,
+            "deltaV": 0.084,
+            "deltaV_ci95": [
+              -0.057,
+              0.174
+            ]
+          },
+          "Q113:agecat": {
+            "V_human": 0.06,
+            "V_model": 0.0,
+            "deltaV": -0.06,
+            "deltaV_ci95": [
+              -0.06,
+              0.053
+            ]
+          },
+          "Q114:education": {
+            "V_human": 0.055,
+            "V_model": 0.232,
+            "deltaV": 0.177,
+            "deltaV_ci95": [
+              0.093,
+              0.27
+            ]
+          },
+          "Q114:agecat": {
+            "V_human": 0.047,
+            "V_model": 0.032,
+            "deltaV": -0.015,
+            "deltaV_ci95": [
+              -0.047,
+              0.175
+            ]
+          },
+          "Q121:education": {
+            "V_human": 0.066,
+            "V_model": 0.281,
+            "deltaV": 0.215,
+            "deltaV_ci95": [
+              0.156,
+              0.293
+            ]
+          },
+          "Q121:agecat": {
+            "V_human": 0.021,
+            "V_model": 0.181,
+            "deltaV": 0.16,
+            "deltaV_ci95": [
+              0.093,
+              0.273
+            ]
+          },
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.263,
+            "deltaV": 0.218,
+            "deltaV_ci95": [
+              0.109,
+              0.326
+            ]
+          },
+          "Q122:agecat": {
+            "V_human": 0.028,
+            "V_model": 0.204,
+            "deltaV": 0.176,
+            "deltaV_ci95": [
+              0.045,
+              0.303
+            ]
+          },
+          "Q123:education": {
+            "V_human": 0.081,
+            "V_model": 0.42,
+            "deltaV": 0.339,
+            "deltaV_ci95": [
+              0.276,
+              0.408
+            ]
+          },
+          "Q123:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.211,
+            "deltaV": 0.192,
+            "deltaV_ci95": [
+              0.092,
+              0.319
+            ]
+          },
+          "Q158:education": {
+            "V_human": 0.058,
+            "V_model": 0.278,
+            "deltaV": 0.221,
+            "deltaV_ci95": [
+              0.12,
+              0.324
+            ]
+          },
+          "Q158:agecat": {
+            "V_human": 0.02,
+            "V_model": 0.0,
+            "deltaV": -0.02,
+            "deltaV_ci95": [
+              -0.02,
+              0.176
+            ]
+          },
+          "Q159:education": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              0.181
+            ]
+          },
+          "Q159:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.08,
+            "deltaV": 0.061,
+            "deltaV_ci95": [
+              -0.018,
+              0.22
+            ]
+          },
+          "Q160:education": {
+            "V_human": 0.039,
+            "V_model": 0.322,
+            "deltaV": 0.283,
+            "deltaV_ci95": [
+              0.232,
+              0.381
+            ]
+          },
+          "Q160:agecat": {
+            "V_human": 0.015,
+            "V_model": 0.0,
+            "deltaV": -0.015,
+            "deltaV_ci95": [
+              -0.015,
+              0.2
+            ]
+          },
+          "Q164:education": {
+            "V_human": 0.119,
+            "V_model": 0.0,
+            "deltaV": -0.119,
+            "deltaV_ci95": [
+              -0.119,
+              0.061
+            ]
+          },
+          "Q164:agecat": {
+            "V_human": 0.042,
+            "V_model": 0.0,
+            "deltaV": -0.042,
+            "deltaV_ci95": [
+              -0.042,
+              0.065
+            ]
+          },
+          "Q177:education": {
+            "V_human": 0.041,
+            "V_model": 0.0,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.041,
+              -0.041
+            ]
+          },
+          "Q177:agecat": {
+            "V_human": 0.062,
+            "V_model": 0.0,
+            "deltaV": -0.062,
+            "deltaV_ci95": [
+              -0.062,
+              -0.062
+            ]
+          },
+          "Q178:education": {
+            "V_human": 0.044,
+            "V_model": 0.0,
+            "deltaV": -0.044,
+            "deltaV_ci95": [
+              -0.044,
+              -0.044
+            ]
+          },
+          "Q178:agecat": {
+            "V_human": 0.059,
+            "V_model": 0.0,
+            "deltaV": -0.059,
+            "deltaV_ci95": [
+              -0.059,
+              -0.059
+            ]
+          }
+        }
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "median_deltaV": 0.013,
+        "n_pairs": 32,
+        "n_pairs_positive": 17,
+        "n_pairs_ci_excludes_0": 12,
+        "by_pair": {
+          "Q48:education": {
+            "V_human": 0.088,
+            "V_model": 0.311,
+            "deltaV": 0.224,
+            "deltaV_ci95": [
+              0.187,
+              0.334
+            ]
+          },
+          "Q48:agecat": {
+            "V_human": 0.014,
+            "V_model": 0.0,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.014,
+              0.154
+            ]
+          },
+          "Q106:education": {
+            "V_human": 0.066,
+            "V_model": 0.07,
+            "deltaV": 0.005,
+            "deltaV_ci95": [
+              -0.066,
+              0.214
+            ]
+          },
+          "Q106:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.177
+            ]
+          },
+          "Q107:education": {
+            "V_human": 0.069,
+            "V_model": 0.064,
+            "deltaV": -0.005,
+            "deltaV_ci95": [
+              -0.069,
+              0.204
+            ]
+          },
+          "Q107:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.062,
+            "deltaV": 0.043,
+            "deltaV_ci95": [
+              -0.019,
+              0.237
+            ]
+          },
+          "Q108:education": {
+            "V_human": 0.068,
+            "V_model": 0.0,
+            "deltaV": -0.068,
+            "deltaV_ci95": [
+              -0.068,
+              0.188
+            ]
+          },
+          "Q108:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.128,
+            "deltaV": 0.11,
+            "deltaV_ci95": [
+              -0.014,
+              0.29
+            ]
+          },
+          "Q112:education": {
+            "V_human": 0.079,
+            "V_model": 0.0,
+            "deltaV": -0.079,
+            "deltaV_ci95": [
+              -0.079,
+              0.183
+            ]
+          },
+          "Q112:agecat": {
+            "V_human": 0.041,
+            "V_model": 0.121,
+            "deltaV": 0.08,
+            "deltaV_ci95": [
+              0.038,
+              0.26
+            ]
+          },
+          "Q113:education": {
+            "V_human": 0.057,
+            "V_model": 0.0,
+            "deltaV": -0.057,
+            "deltaV_ci95": [
+              -0.057,
+              0.066
+            ]
+          },
+          "Q113:agecat": {
+            "V_human": 0.06,
+            "V_model": 0.0,
+            "deltaV": -0.06,
+            "deltaV_ci95": [
+              -0.06,
+              0.128
+            ]
+          },
+          "Q114:education": {
+            "V_human": 0.055,
+            "V_model": 0.0,
+            "deltaV": -0.055,
+            "deltaV_ci95": [
+              -0.055,
+              0.123
+            ]
+          },
+          "Q114:agecat": {
+            "V_human": 0.047,
+            "V_model": 0.068,
+            "deltaV": 0.021,
+            "deltaV_ci95": [
+              -0.047,
+              0.192
+            ]
+          },
+          "Q121:education": {
+            "V_human": 0.066,
+            "V_model": 0.202,
+            "deltaV": 0.136,
+            "deltaV_ci95": [
+              0.066,
+              0.261
+            ]
+          },
+          "Q121:agecat": {
+            "V_human": 0.021,
+            "V_model": 0.081,
+            "deltaV": 0.059,
+            "deltaV_ci95": [
+              -0.021,
+              0.214
+            ]
+          },
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.186,
+            "deltaV": 0.142,
+            "deltaV_ci95": [
+              0.048,
+              0.238
+            ]
+          },
+          "Q122:agecat": {
+            "V_human": 0.028,
+            "V_model": 0.0,
+            "deltaV": -0.028,
+            "deltaV_ci95": [
+              -0.028,
+              0.159
+            ]
+          },
+          "Q123:education": {
+            "V_human": 0.081,
+            "V_model": 0.0,
+            "deltaV": -0.081,
+            "deltaV_ci95": [
+              -0.081,
+              0.031
+            ]
+          },
+          "Q123:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.156
+            ]
+          },
+          "Q158:education": {
+            "V_human": 0.058,
+            "V_model": 0.388,
+            "deltaV": 0.33,
+            "deltaV_ci95": [
+              0.276,
+              0.424
+            ]
+          },
+          "Q158:agecat": {
+            "V_human": 0.02,
+            "V_model": 0.0,
+            "deltaV": -0.02,
+            "deltaV_ci95": [
+              -0.02,
+              0.161
+            ]
+          },
+          "Q159:education": {
+            "V_human": 0.043,
+            "V_model": 0.318,
+            "deltaV": 0.274,
+            "deltaV_ci95": [
+              0.22,
+              0.397
+            ]
+          },
+          "Q159:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.173
+            ]
+          },
+          "Q160:education": {
+            "V_human": 0.039,
+            "V_model": 0.251,
+            "deltaV": 0.212,
+            "deltaV_ci95": [
+              0.178,
+              0.354
+            ]
+          },
+          "Q160:agecat": {
+            "V_human": 0.015,
+            "V_model": 0.146,
+            "deltaV": 0.131,
+            "deltaV_ci95": [
+              0.145,
+              0.28
+            ]
+          },
+          "Q164:education": {
+            "V_human": 0.119,
+            "V_model": 0.183,
+            "deltaV": 0.064,
+            "deltaV_ci95": [
+              0.029,
+              0.232
+            ]
+          },
+          "Q164:agecat": {
+            "V_human": 0.042,
+            "V_model": 0.0,
+            "deltaV": -0.042,
+            "deltaV_ci95": [
+              -0.042,
+              0.195
+            ]
+          },
+          "Q177:education": {
+            "V_human": 0.041,
+            "V_model": 0.068,
+            "deltaV": 0.027,
+            "deltaV_ci95": [
+              0.027,
+              0.263
+            ]
+          },
+          "Q177:agecat": {
+            "V_human": 0.062,
+            "V_model": 0.118,
+            "deltaV": 0.056,
+            "deltaV_ci95": [
+              0.05,
+              0.253
+            ]
+          },
+          "Q178:education": {
+            "V_human": 0.044,
+            "V_model": 0.167,
+            "deltaV": 0.123,
+            "deltaV_ci95": [
+              0.1,
+              0.292
+            ]
+          },
+          "Q178:agecat": {
+            "V_human": 0.059,
+            "V_model": 0.0,
+            "deltaV": -0.059,
+            "deltaV_ci95": [
+              -0.032,
+              0.205
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": 0.421,
+        "n_pairs": 1,
+        "n_pairs_positive": 1,
+        "n_pairs_ci_excludes_0": 1,
+        "by_pair": {
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.465,
+            "deltaV": 0.421,
+            "deltaV_ci95": [
+              0.317,
+              0.612
+            ]
+          }
+        }
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "median_deltaV": 0.166,
+        "n_pairs": 32,
+        "n_pairs_positive": 27,
+        "n_pairs_ci_excludes_0": 21,
+        "by_pair": {
+          "Q48:education": {
+            "V_human": 0.088,
+            "V_model": 0.454,
+            "deltaV": 0.366,
+            "deltaV_ci95": [
+              0.319,
+              0.463
+            ]
+          },
+          "Q48:agecat": {
+            "V_human": 0.014,
+            "V_model": 0.0,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.014,
+              0.185
+            ]
+          },
+          "Q106:education": {
+            "V_human": 0.066,
+            "V_model": 0.227,
+            "deltaV": 0.161,
+            "deltaV_ci95": [
+              0.091,
+              0.267
+            ]
+          },
+          "Q106:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.111,
+            "deltaV": 0.092,
+            "deltaV_ci95": [
+              -0.019,
+              0.259
+            ]
+          },
+          "Q107:education": {
+            "V_human": 0.069,
+            "V_model": 0.427,
+            "deltaV": 0.358,
+            "deltaV_ci95": [
+              0.317,
+              0.439
+            ]
+          },
+          "Q107:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.121,
+            "deltaV": 0.102,
+            "deltaV_ci95": [
+              0.058,
+              0.227
+            ]
+          },
+          "Q108:education": {
+            "V_human": 0.068,
+            "V_model": 0.361,
+            "deltaV": 0.293,
+            "deltaV_ci95": [
+              0.237,
+              0.46
+            ]
+          },
+          "Q108:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.201,
+            "deltaV": 0.183,
+            "deltaV_ci95": [
+              0.133,
+              0.318
+            ]
+          },
+          "Q112:education": {
+            "V_human": 0.079,
+            "V_model": 0.189,
+            "deltaV": 0.11,
+            "deltaV_ci95": [
+              0.016,
+              0.256
+            ]
+          },
+          "Q112:agecat": {
+            "V_human": 0.041,
+            "V_model": 0.232,
+            "deltaV": 0.191,
+            "deltaV_ci95": [
+              0.128,
+              0.31
+            ]
+          },
+          "Q113:education": {
+            "V_human": 0.057,
+            "V_model": 0.126,
+            "deltaV": 0.069,
+            "deltaV_ci95": [
+              -0.024,
+              0.173
+            ]
+          },
+          "Q113:agecat": {
+            "V_human": 0.06,
+            "V_model": 0.111,
+            "deltaV": 0.05,
+            "deltaV_ci95": [
+              -0.041,
+              0.198
+            ]
+          },
+          "Q114:education": {
+            "V_human": 0.055,
+            "V_model": 0.236,
+            "deltaV": 0.181,
+            "deltaV_ci95": [
+              0.102,
+              0.274
+            ]
+          },
+          "Q114:agecat": {
+            "V_human": 0.047,
+            "V_model": 0.146,
+            "deltaV": 0.099,
+            "deltaV_ci95": [
+              -0.009,
+              0.244
+            ]
+          },
+          "Q121:education": {
+            "V_human": 0.066,
+            "V_model": 0.315,
+            "deltaV": 0.249,
+            "deltaV_ci95": [
+              0.201,
+              0.324
+            ]
+          },
+          "Q121:agecat": {
+            "V_human": 0.021,
+            "V_model": 0.0,
+            "deltaV": -0.021,
+            "deltaV_ci95": [
+              -0.021,
+              0.137
+            ]
+          },
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.463,
+            "deltaV": 0.419,
+            "deltaV_ci95": [
+              0.367,
+              0.487
+            ]
+          },
+          "Q122:agecat": {
+            "V_human": 0.028,
+            "V_model": 0.267,
+            "deltaV": 0.239,
+            "deltaV_ci95": [
+              0.167,
+              0.363
+            ]
+          },
+          "Q123:education": {
+            "V_human": 0.081,
+            "V_model": 0.333,
+            "deltaV": 0.252,
+            "deltaV_ci95": [
+              0.101,
+              0.385
+            ]
+          },
+          "Q123:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.067,
+            "deltaV": 0.048,
+            "deltaV_ci95": [
+              -0.019,
+              0.216
+            ]
+          },
+          "Q158:education": {
+            "V_human": 0.058,
+            "V_model": 0.429,
+            "deltaV": 0.372,
+            "deltaV_ci95": [
+              0.313,
+              0.436
+            ]
+          },
+          "Q158:agecat": {
+            "V_human": 0.02,
+            "V_model": 0.13,
+            "deltaV": 0.11,
+            "deltaV_ci95": [
+              -0.02,
+              0.232
+            ]
+          },
+          "Q159:education": {
+            "V_human": 0.043,
+            "V_model": 0.468,
+            "deltaV": 0.425,
+            "deltaV_ci95": [
+              0.327,
+              0.523
+            ]
+          },
+          "Q159:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.042
+            ]
+          },
+          "Q160:education": {
+            "V_human": 0.039,
+            "V_model": 0.384,
+            "deltaV": 0.345,
+            "deltaV_ci95": [
+              0.307,
+              0.43
+            ]
+          },
+          "Q160:agecat": {
+            "V_human": 0.015,
+            "V_model": 0.229,
+            "deltaV": 0.213,
+            "deltaV_ci95": [
+              0.171,
+              0.321
+            ]
+          },
+          "Q164:education": {
+            "V_human": 0.119,
+            "V_model": 0.313,
+            "deltaV": 0.194,
+            "deltaV_ci95": [
+              0.115,
+              0.308
+            ]
+          },
+          "Q164:agecat": {
+            "V_human": 0.042,
+            "V_model": 0.128,
+            "deltaV": 0.085,
+            "deltaV_ci95": [
+              0.025,
+              0.232
+            ]
+          },
+          "Q177:education": {
+            "V_human": 0.041,
+            "V_model": 0.0,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.041,
+              0.03
+            ]
+          },
+          "Q177:agecat": {
+            "V_human": 0.062,
+            "V_model": 0.0,
+            "deltaV": -0.062,
+            "deltaV_ci95": [
+              -0.062,
+              -0.062
+            ]
+          },
+          "Q178:education": {
+            "V_human": 0.044,
+            "V_model": 0.128,
+            "deltaV": 0.084,
+            "deltaV_ci95": [
+              -0.044,
+              0.23
+            ]
+          },
+          "Q178:agecat": {
+            "V_human": 0.059,
+            "V_model": 0.229,
+            "deltaV": 0.17,
+            "deltaV_ci95": [
+              0.109,
+              0.263
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": 0.012,
+        "n_pairs": 32,
+        "n_pairs_positive": 17,
+        "n_pairs_ci_excludes_0": 16,
+        "by_pair": {
+          "Q48:education": {
+            "V_human": 0.088,
+            "V_model": 0.417,
+            "deltaV": 0.329,
+            "deltaV_ci95": [
+              0.264,
+              0.407
+            ]
+          },
+          "Q48:agecat": {
+            "V_human": 0.014,
+            "V_model": 0.0,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.014,
+              0.153
+            ]
+          },
+          "Q106:education": {
+            "V_human": 0.066,
+            "V_model": 0.308,
+            "deltaV": 0.242,
+            "deltaV_ci95": [
+              0.145,
+              0.352
+            ]
+          },
+          "Q106:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.179
+            ]
+          },
+          "Q107:education": {
+            "V_human": 0.069,
+            "V_model": 0.0,
+            "deltaV": -0.069,
+            "deltaV_ci95": [
+              -0.069,
+              0.153
+            ]
+          },
+          "Q107:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.0,
+            "deltaV": -0.019,
+            "deltaV_ci95": [
+              -0.019,
+              0.139
+            ]
+          },
+          "Q108:education": {
+            "V_human": 0.068,
+            "V_model": 0.191,
+            "deltaV": 0.123,
+            "deltaV_ci95": [
+              0.078,
+              0.258
+            ]
+          },
+          "Q108:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.221
+            ]
+          },
+          "Q112:education": {
+            "V_human": 0.079,
+            "V_model": 0.102,
+            "deltaV": 0.023,
+            "deltaV_ci95": [
+              -0.067,
+              0.209
+            ]
+          },
+          "Q112:agecat": {
+            "V_human": 0.041,
+            "V_model": 0.228,
+            "deltaV": 0.187,
+            "deltaV_ci95": [
+              0.076,
+              0.314
+            ]
+          },
+          "Q113:education": {
+            "V_human": 0.057,
+            "V_model": 0.221,
+            "deltaV": 0.164,
+            "deltaV_ci95": [
+              0.096,
+              0.264
+            ]
+          },
+          "Q113:agecat": {
+            "V_human": 0.06,
+            "V_model": 0.06,
+            "deltaV": 0.0,
+            "deltaV_ci95": [
+              -0.02,
+              0.191
+            ]
+          },
+          "Q114:education": {
+            "V_human": 0.055,
+            "V_model": 0.0,
+            "deltaV": -0.055,
+            "deltaV_ci95": [
+              -0.055,
+              0.118
+            ]
+          },
+          "Q114:agecat": {
+            "V_human": 0.047,
+            "V_model": 0.087,
+            "deltaV": 0.04,
+            "deltaV_ci95": [
+              -0.047,
+              0.196
+            ]
+          },
+          "Q121:education": {
+            "V_human": 0.066,
+            "V_model": 0.321,
+            "deltaV": 0.255,
+            "deltaV_ci95": [
+              0.207,
+              0.333
+            ]
+          },
+          "Q121:agecat": {
+            "V_human": 0.021,
+            "V_model": 0.095,
+            "deltaV": 0.074,
+            "deltaV_ci95": [
+              -0.021,
+              0.214
+            ]
+          },
+          "Q122:education": {
+            "V_human": 0.044,
+            "V_model": 0.409,
+            "deltaV": 0.365,
+            "deltaV_ci95": [
+              0.276,
+              0.458
+            ]
+          },
+          "Q122:agecat": {
+            "V_human": 0.028,
+            "V_model": 0.291,
+            "deltaV": 0.263,
+            "deltaV_ci95": [
+              0.138,
+              0.389
+            ]
+          },
+          "Q123:education": {
+            "V_human": 0.081,
+            "V_model": 0.519,
+            "deltaV": 0.438,
+            "deltaV_ci95": [
+              0.392,
+              0.513
+            ]
+          },
+          "Q123:agecat": {
+            "V_human": 0.019,
+            "V_model": 0.265,
+            "deltaV": 0.246,
+            "deltaV_ci95": [
+              0.189,
+              0.361
+            ]
+          },
+          "Q158:education": {
+            "V_human": 0.058,
+            "V_model": 0.337,
+            "deltaV": 0.279,
+            "deltaV_ci95": [
+              0.199,
+              0.355
+            ]
+          },
+          "Q158:agecat": {
+            "V_human": 0.02,
+            "V_model": 0.0,
+            "deltaV": -0.02,
+            "deltaV_ci95": [
+              -0.02,
+              0.129
+            ]
+          },
+          "Q159:education": {
+            "V_human": 0.043,
+            "V_model": 0.26,
+            "deltaV": 0.216,
+            "deltaV_ci95": [
+              0.135,
+              0.32
+            ]
+          },
+          "Q159:agecat": {
+            "V_human": 0.018,
+            "V_model": 0.0,
+            "deltaV": -0.018,
+            "deltaV_ci95": [
+              -0.018,
+              0.097
+            ]
+          },
+          "Q160:education": {
+            "V_human": 0.039,
+            "V_model": 0.148,
+            "deltaV": 0.108,
+            "deltaV_ci95": [
+              -0.02,
+              0.218
+            ]
+          },
+          "Q160:agecat": {
+            "V_human": 0.015,
+            "V_model": 0.0,
+            "deltaV": -0.015,
+            "deltaV_ci95": [
+              -0.015,
+              0.078
+            ]
+          },
+          "Q164:education": {
+            "V_human": 0.119,
+            "V_model": 0.0,
+            "deltaV": -0.119,
+            "deltaV_ci95": [
+              -0.119,
+              0.146
+            ]
+          },
+          "Q164:agecat": {
+            "V_human": 0.042,
+            "V_model": 0.0,
+            "deltaV": -0.042,
+            "deltaV_ci95": [
+              -0.042,
+              0.121
+            ]
+          },
+          "Q177:education": {
+            "V_human": 0.041,
+            "V_model": 0.0,
+            "deltaV": -0.041,
+            "deltaV_ci95": [
+              -0.041,
+              -0.041
+            ]
+          },
+          "Q177:agecat": {
+            "V_human": 0.062,
+            "V_model": 0.0,
+            "deltaV": -0.062,
+            "deltaV_ci95": [
+              -0.062,
+              -0.062
+            ]
+          },
+          "Q178:education": {
+            "V_human": 0.044,
+            "V_model": 0.0,
+            "deltaV": -0.044,
+            "deltaV_ci95": [
+              -0.044,
+              -0.044
+            ]
+          },
+          "Q178:agecat": {
+            "V_human": 0.059,
+            "V_model": 0.0,
+            "deltaV": -0.059,
+            "deltaV_ci95": [
+              -0.059,
+              -0.059
+            ]
+          }
+        }
+      }
+    }
+  },
+  "delta_base_ci": {
+    "claude-haiku-4.5": {
+      "A": {
+        "n": 2916,
+        "delta_base": -0.2178,
+        "delta_base_ci95": [
+          -0.2406,
+          -0.1972
+        ]
+      },
+      "C": {
+        "n": 1758,
+        "delta_base": -0.1354,
+        "delta_base_ci95": [
+          -0.1624,
+          -0.1086
+        ]
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "n": 2916,
+        "delta_base": -0.1519,
+        "delta_base_ci95": [
+          -0.1746,
+          -0.1315
+        ]
+      },
+      "C": {
+        "n": 2916,
+        "delta_base": -0.1108,
+        "delta_base_ci95": [
+          -0.1298,
+          -0.0917
+        ]
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "n": 2916,
+        "delta_base": -0.2088,
+        "delta_base_ci95": [
+          -0.2301,
+          -0.1866
+        ]
+      },
+      "C": {
+        "n": 440,
+        "delta_base": -0.2182,
+        "delta_base_ci95": [
+          -0.2727,
+          -0.1591
+        ]
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "n": 2916,
+        "delta_base": -0.1389,
+        "delta_base_ci95": [
+          -0.159,
+          -0.118
+        ]
+      },
+      "C": {
+        "n": 2916,
+        "delta_base": -0.1211,
+        "delta_base_ci95": [
+          -0.1399,
+          -0.102
+        ]
+      }
+    }
+  },
+  "reweighted_js": {
+    "claude-haiku-4.5": {
+      "A": {
+        "raw_js": 0.3818,
+        "pop_reweighted_js": 0.3822
+      },
+      "C": {
+        "raw_js": 0.046,
+        "pop_reweighted_js": 0.0461
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "raw_js": 0.2741,
+        "pop_reweighted_js": 0.2736
+      },
+      "C": {
+        "raw_js": 0.0371,
+        "pop_reweighted_js": 0.0373
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "raw_js": 0.2318,
+        "pop_reweighted_js": 0.232
+      },
+      "C": {
+        "raw_js": 0.1296,
+        "pop_reweighted_js": 0.1302
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "raw_js": 0.2934,
+        "pop_reweighted_js": 0.2935
+      },
+      "C": {
+        "raw_js": 0.0459,
+        "pop_reweighted_js": 0.0459
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": "WVS",
+  "distance": {
+    "claude-haiku-4.5": {
+      "A": {
+        "n": 2916,
+        "model_mae": 1.8587,
+        "baseline_mae": 1.7373,
+        "model_emd_steps": 1.8587,
+        "baseline_emd_steps": 1.7373
+      },
+      "C": {
+        "n": 1758,
+        "model_mae": 1.6627,
+        "baseline_mae": 1.467,
+        "model_emd_steps": 1.6627,
+        "baseline_emd_steps": 1.467
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "n": 2916,
+        "model_mae": 1.8395,
+        "baseline_mae": 1.7373,
+        "model_emd_steps": 1.8395,
+        "baseline_emd_steps": 1.7373
+      },
+      "C": {
+        "n": 2916,
+        "model_mae": 1.966,
+        "baseline_mae": 1.7373,
+        "model_emd_steps": 1.966,
+        "baseline_emd_steps": 1.7373
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "n": 2916,
+        "model_mae": 2.0508,
+        "baseline_mae": 1.7373,
+        "model_emd_steps": 2.0508,
+        "baseline_emd_steps": 1.7373
+      },
+      "C": {
+        "n": 440,
+        "model_mae": 2.2364,
+        "baseline_mae": 1.6318,
+        "model_emd_steps": 2.2364,
+        "baseline_emd_steps": 1.6318
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "n": 2916,
+        "model_mae": 1.8275,
+        "baseline_mae": 1.7373,
+        "model_emd_steps": 1.8275,
+        "baseline_emd_steps": 1.7373
+      },
+      "C": {
+        "n": 2916,
+        "model_mae": 2.0662,
+        "baseline_mae": 1.7373,
+        "model_emd_steps": 2.0662,
+        "baseline_emd_steps": 1.7373
+      }
+    }
+  },
+  "proper_scoring": {
+    "claude-haiku-4.5": {
+      "n": 1758,
+      "model_nll": 1.7603,
+      "baseline_nll": 1.6958,
+      "model_brier": 0.8045,
+      "baseline_brier": 0.7115
+    },
+    "claude-sonnet-4.6": {
+      "n": 2916,
+      "model_nll": 1.8835,
+      "baseline_nll": 1.8536,
+      "model_brier": 0.8123,
+      "baseline_brier": 0.7371
+    },
+    "llama3.1-8b": {
+      "n": 440,
+      "model_nll": 2.2614,
+      "baseline_nll": 1.8516,
+      "model_brier": 0.892,
+      "baseline_brier": 0.7292
+    },
+    "llama3.3-70b": {
+      "n": 2916,
+      "model_nll": 1.9393,
+      "baseline_nll": 1.8536,
+      "model_brier": 0.8228,
+      "baseline_brier": 0.7371
+    }
+  },
+  "learned_baselines": {
+    "pooled_accuracy": {
+      "logistic": 0.393,
+      "random_forest": 0.3656
+    },
+    "by_question": {
+      "logistic": {
+        "Q48": {
+          "n": 91,
+          "acc": 0.3736
+        },
+        "Q106": {
+          "n": 91,
+          "acc": 0.3187
+        },
+        "Q107": {
+          "n": 91,
+          "acc": 0.1868
+        },
+        "Q108": {
+          "n": 91,
+          "acc": 0.3187
+        },
+        "Q112": {
+          "n": 91,
+          "acc": 0.3736
+        },
+        "Q113": {
+          "n": 92,
+          "acc": 0.4348
+        },
+        "Q114": {
+          "n": 93,
+          "acc": 0.4624
+        },
+        "Q121": {
+          "n": 91,
+          "acc": 0.4176
+        },
+        "Q122": {
+          "n": 92,
+          "acc": 0.4783
+        },
+        "Q123": {
+          "n": 91,
+          "acc": 0.5495
+        },
+        "Q158": {
+          "n": 90,
+          "acc": 0.3444
+        },
+        "Q159": {
+          "n": 90,
+          "acc": 0.2667
+        },
+        "Q160": {
+          "n": 91,
+          "acc": 0.2308
+        },
+        "Q164": {
+          "n": 91,
+          "acc": 0.5165
+        },
+        "Q177": {
+          "n": 91,
+          "acc": 0.4835
+        },
+        "Q178": {
+          "n": 91,
+          "acc": 0.5275
+        }
+      },
+      "random_forest": {
+        "Q48": {
+          "n": 91,
+          "acc": 0.3297
+        },
+        "Q106": {
+          "n": 91,
+          "acc": 0.2088
+        },
+        "Q107": {
+          "n": 91,
+          "acc": 0.2527
+        },
+        "Q108": {
+          "n": 91,
+          "acc": 0.2088
+        },
+        "Q112": {
+          "n": 91,
+          "acc": 0.3297
+        },
+        "Q113": {
+          "n": 92,
+          "acc": 0.4565
+        },
+        "Q114": {
+          "n": 93,
+          "acc": 0.4946
+        },
+        "Q121": {
+          "n": 91,
+          "acc": 0.4176
+        },
+        "Q122": {
+          "n": 92,
+          "acc": 0.4565
+        },
+        "Q123": {
+          "n": 91,
+          "acc": 0.4945
+        },
+        "Q158": {
+          "n": 90,
+          "acc": 0.3222
+        },
+        "Q159": {
+          "n": 90,
+          "acc": 0.2111
+        },
+        "Q160": {
+          "n": 91,
+          "acc": 0.2198
+        },
+        "Q164": {
+          "n": 91,
+          "acc": 0.5055
+        },
+        "Q177": {
+          "n": 91,
+          "acc": 0.4396
+        },
+        "Q178": {
+          "n": 91,
+          "acc": 0.4945
+        }
+      }
+    }
+  }
+}

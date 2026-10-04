@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: >-
+  When Synthetic Users Fail: A Cross-Domain Benchmark of
+  LLM-Simulated Human Survey Responses
+message: >-
+  If you use this benchmark, the cached model outputs, or this code,
+  please cite the paper below.
+type: software
+authors:
+  - given-names: Zihan
+    family-names: Chen
+    email: zchen61@stevens.edu
+    affiliation: Stevens Institute of Technology
+  - given-names: Di
+    family-names: Zhu
+    email: dzhu1@stevens.edu
+    affiliation: Stevens Institute of Technology
+  - given-names: Lei Nico
+    family-names: Zheng
+    email: lei.zheng@umb.edu
+    affiliation: University of Massachusetts Boston
+abstract: >-
+  Code and data for a cross-domain benchmark of LLM-simulated human survey
+  responses. Four LLMs are evaluated on the General Social Survey and the
+  World Values Survey against non-LLM baselines fit on held-out human data.
+  Includes 50,076 cached model calls enabling fully offline reproduction.
+keywords:
+  - large language models
+  - synthetic users
+  - survey simulation
+  - evaluation benchmark
+license: MIT
+preferred-citation:
+  type: article
+  title: >-
+    When Synthetic Users Fail: A Cross-Domain Benchmark of
+    LLM-Simulated Human Survey Responses
+  authors:
+    - given-names: Zihan
+      family-names: Chen
+    - given-names: Di
+      family-names: Zhu
+    - given-names: Lei Nico
+      family-names: Zheng
+  journal: arXiv preprint arXiv:2607.26348
+  doi: 10.48550/arXiv.2607.26348
+  url: https://arxiv.org/abs/2607.26348
+  year: 2026

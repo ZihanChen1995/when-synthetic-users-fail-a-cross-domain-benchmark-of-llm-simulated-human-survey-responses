@@ -1,0 +1,15 @@
+{
+  "dataset": "GSS",
+  "weight_var": "wtssps",
+  "weight_coverage": 1.0,
+  "aggregate_distribution": {
+    "n_questions": 10,
+    "mean_js_unweighted_vs_weighted": 0.0001,
+    "max_js_unweighted_vs_weighted": 0.0003
+  },
+  "human_eta2": {
+    "n_pairs": 12,
+    "mean_abs_delta": 0.0016,
+    "max_abs_delta": 0.0065
+  }
+}

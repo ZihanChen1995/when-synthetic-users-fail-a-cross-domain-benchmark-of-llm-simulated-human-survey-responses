@@ -1,0 +1,2965 @@
+{
+  "dataset": "GSS",
+  "coding_invariant": {
+    "claude-haiku-4.5": {
+      "A": {
+        "median_deltaV": 0.108,
+        "n_pairs": 40,
+        "n_pairs_positive": 32,
+        "n_pairs_ci_excludes_0": 19,
+        "by_pair": {
+          "happy:race": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              -0.043
+            ]
+          },
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.0,
+            "deltaV": -0.082,
+            "deltaV_ci95": [
+              -0.082,
+              -0.082
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.0,
+            "deltaV": -0.017,
+            "deltaV_ci95": [
+              -0.017,
+              -0.017
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.0,
+            "deltaV": -0.065,
+            "deltaV_ci95": [
+              -0.065,
+              -0.065
+            ]
+          },
+          "trust:race": {
+            "V_human": 0.129,
+            "V_model": 0.045,
+            "deltaV": -0.084,
+            "deltaV_ci95": [
+              -0.129,
+              0.096
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.314,
+            "deltaV": 0.096,
+            "deltaV_ci95": [
+              -0.028,
+              0.217
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.191,
+            "deltaV": 0.124,
+            "deltaV_ci95": [
+              -0.028,
+              0.255
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.197,
+            "deltaV": 0.104,
+            "deltaV_ci95": [
+              -0.089,
+              0.266
+            ]
+          },
+          "fair:race": {
+            "V_human": 0.146,
+            "V_model": 0.154,
+            "deltaV": 0.008,
+            "deltaV_ci95": [
+              -0.083,
+              0.124
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.194,
+            "deltaV": 0.018,
+            "deltaV_ci95": [
+              -0.084,
+              0.189
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.14,
+            "deltaV": 0.081,
+            "deltaV_ci95": [
+              -0.058,
+              0.223
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.476,
+            "deltaV": 0.399,
+            "deltaV_ci95": [
+              0.18,
+              0.482
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.116,
+            "deltaV": 0.037,
+            "deltaV_ci95": [
+              -0.079,
+              0.165
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.251,
+            "deltaV": 0.114,
+            "deltaV_ci95": [
+              -0.137,
+              0.239
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.185,
+            "deltaV": 0.147,
+            "deltaV_ci95": [
+              -0.038,
+              0.26
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.2,
+            "deltaV": 0.149,
+            "deltaV_ci95": [
+              -0.05,
+              0.286
+            ]
+          },
+          "cappun:race": {
+            "V_human": 0.148,
+            "V_model": 0.14,
+            "deltaV": -0.008,
+            "deltaV_ci95": [
+              -0.148,
+              0.163
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.114,
+            "deltaV": -0.05,
+            "deltaV_ci95": [
+              -0.165,
+              0.121
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.319,
+            "deltaV": 0.265,
+            "deltaV_ci95": [
+              0.147,
+              0.417
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.656,
+            "deltaV": 0.349,
+            "deltaV_ci95": [
+              0.238,
+              0.431
+            ]
+          },
+          "grass:race": {
+            "V_human": 0.061,
+            "V_model": 0.228,
+            "deltaV": 0.166,
+            "deltaV_ci95": [
+              0.064,
+              0.266
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.23,
+            "deltaV": 0.13,
+            "deltaV_ci95": [
+              0.015,
+              0.284
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.184,
+            "deltaV": 0.14,
+            "deltaV_ci95": [
+              -0.024,
+              0.295
+            ]
+          },
+          "grass:polviews": {
+            "V_human": 0.251,
+            "V_model": 0.585,
+            "deltaV": 0.335,
+            "deltaV_ci95": [
+              0.24,
+              0.415
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.178,
+            "deltaV": 0.17,
+            "deltaV_ci95": [
+              -0.008,
+              0.333
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.311,
+            "deltaV": 0.138,
+            "deltaV_ci95": [
+              0.03,
+              0.295
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.368,
+            "deltaV": 0.245,
+            "deltaV_ci95": [
+              0.125,
+              0.396
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.706,
+            "deltaV": 0.304,
+            "deltaV_ci95": [
+              0.247,
+              0.379
+            ]
+          },
+          "gunlaw:race": {
+            "V_human": 0.081,
+            "V_model": 0.128,
+            "deltaV": 0.047,
+            "deltaV_ci95": [
+              -0.081,
+              0.16
+            ]
+          },
+          "gunlaw:degree": {
+            "V_human": 0.116,
+            "V_model": 0.12,
+            "deltaV": 0.003,
+            "deltaV_ci95": [
+              -0.116,
+              0.218
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.218,
+            "deltaV": 0.136,
+            "deltaV_ci95": [
+              0.013,
+              0.285
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.729,
+            "deltaV": 0.458,
+            "deltaV_ci95": [
+              0.358,
+              0.59
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.171,
+            "deltaV": 0.111,
+            "deltaV_ci95": [
+              0.048,
+              0.207
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.219,
+            "deltaV": 0.067,
+            "deltaV_ci95": [
+              0.023,
+              0.169
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.0,
+            "deltaV": -0.053,
+            "deltaV_ci95": [
+              -0.053,
+              0.122
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.583,
+            "deltaV": 0.377,
+            "deltaV_ci95": [
+              0.321,
+              0.451
+            ]
+          },
+          "confinan:race": {
+            "V_human": 0.022,
+            "V_model": 0.098,
+            "deltaV": 0.076,
+            "deltaV_ci95": [
+              -0.022,
+              0.226
+            ]
+          },
+          "confinan:degree": {
+            "V_human": 0.034,
+            "V_model": 0.061,
+            "deltaV": 0.027,
+            "deltaV_ci95": [
+              -0.034,
+              0.22
+            ]
+          },
+          "confinan:region": {
+            "V_human": 0.038,
+            "V_model": 0.112,
+            "deltaV": 0.075,
+            "deltaV_ci95": [
+              -0.038,
+              0.216
+            ]
+          },
+          "confinan:polviews": {
+            "V_human": 0.11,
+            "V_model": 0.555,
+            "deltaV": 0.445,
+            "deltaV_ci95": [
+              0.219,
+              0.517
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": 0.111,
+        "n_pairs": 40,
+        "n_pairs_positive": 31,
+        "n_pairs_ci_excludes_0": 20,
+        "by_pair": {
+          "happy:race": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              -0.043
+            ]
+          },
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.162,
+            "deltaV": 0.081,
+            "deltaV_ci95": [
+              -0.082,
+              0.206
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.0,
+            "deltaV": -0.017,
+            "deltaV_ci95": [
+              -0.017,
+              0.116
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.017,
+            "deltaV": -0.047,
+            "deltaV_ci95": [
+              -0.065,
+              0.222
+            ]
+          },
+          "trust:race": {
+            "V_human": 0.129,
+            "V_model": 0.061,
+            "deltaV": -0.068,
+            "deltaV_ci95": [
+              -0.129,
+              0.109
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.251,
+            "deltaV": 0.033,
+            "deltaV_ci95": [
+              -0.052,
+              0.136
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.153,
+            "deltaV": 0.086,
+            "deltaV_ci95": [
+              -0.068,
+              0.226
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.211,
+            "deltaV": 0.117,
+            "deltaV_ci95": [
+              -0.094,
+              0.275
+            ]
+          },
+          "fair:race": {
+            "V_human": 0.146,
+            "V_model": 0.03,
+            "deltaV": -0.116,
+            "deltaV_ci95": [
+              -0.146,
+              0.033
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.252,
+            "deltaV": 0.076,
+            "deltaV_ci95": [
+              0.001,
+              0.172
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.189,
+            "deltaV": 0.131,
+            "deltaV_ci95": [
+              0.029,
+              0.244
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.371,
+            "deltaV": 0.294,
+            "deltaV_ci95": [
+              0.187,
+              0.38
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.124,
+            "deltaV": 0.045,
+            "deltaV_ci95": [
+              0.003,
+              0.107
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.292,
+            "deltaV": 0.155,
+            "deltaV_ci95": [
+              0.051,
+              0.274
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.241,
+            "deltaV": 0.203,
+            "deltaV_ci95": [
+              0.094,
+              0.323
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.318,
+            "deltaV": 0.267,
+            "deltaV_ci95": [
+              0.184,
+              0.381
+            ]
+          },
+          "cappun:race": {
+            "V_human": 0.148,
+            "V_model": 0.144,
+            "deltaV": -0.004,
+            "deltaV_ci95": [
+              -0.148,
+              0.158
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.126,
+            "deltaV": -0.039,
+            "deltaV_ci95": [
+              -0.165,
+              0.14
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.325,
+            "deltaV": 0.271,
+            "deltaV_ci95": [
+              0.146,
+              0.414
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.661,
+            "deltaV": 0.354,
+            "deltaV_ci95": [
+              0.259,
+              0.434
+            ]
+          },
+          "grass:race": {
+            "V_human": 0.061,
+            "V_model": 0.175,
+            "deltaV": 0.114,
+            "deltaV_ci95": [
+              -0.061,
+              0.265
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.281,
+            "deltaV": 0.182,
+            "deltaV_ci95": [
+              0.067,
+              0.324
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.251,
+            "deltaV": 0.207,
+            "deltaV_ci95": [
+              0.068,
+              0.344
+            ]
+          },
+          "grass:polviews": {
+            "V_human": 0.251,
+            "V_model": 0.607,
+            "deltaV": 0.356,
+            "deltaV_ci95": [
+              0.272,
+              0.431
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.243,
+            "deltaV": 0.234,
+            "deltaV_ci95": [
+              0.114,
+              0.358
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.226,
+            "deltaV": 0.053,
+            "deltaV_ci95": [
+              -0.087,
+              0.211
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.226,
+            "deltaV": 0.102,
+            "deltaV_ci95": [
+              -0.037,
+              0.25
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.587,
+            "deltaV": 0.185,
+            "deltaV_ci95": [
+              0.105,
+              0.28
+            ]
+          },
+          "gunlaw:race": {
+            "V_human": 0.081,
+            "V_model": 0.215,
+            "deltaV": 0.134,
+            "deltaV_ci95": [
+              0.027,
+              0.239
+            ]
+          },
+          "gunlaw:degree": {
+            "V_human": 0.116,
+            "V_model": 0.078,
+            "deltaV": -0.038,
+            "deltaV_ci95": [
+              -0.116,
+              0.19
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.189,
+            "deltaV": 0.107,
+            "deltaV_ci95": [
+              -0.022,
+              0.255
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.601,
+            "deltaV": 0.33,
+            "deltaV_ci95": [
+              0.227,
+              0.496
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.138,
+            "deltaV": 0.079,
+            "deltaV_ci95": [
+              0.011,
+              0.187
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.27,
+            "deltaV": 0.118,
+            "deltaV_ci95": [
+              0.066,
+              0.228
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.096,
+            "deltaV": 0.043,
+            "deltaV_ci95": [
+              -0.043,
+              0.171
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.482,
+            "deltaV": 0.276,
+            "deltaV_ci95": [
+              0.221,
+              0.357
+            ]
+          },
+          "confinan:race": {
+            "V_human": 0.022,
+            "V_model": 0.0,
+            "deltaV": -0.022,
+            "deltaV_ci95": [
+              -0.022,
+              0.088
+            ]
+          },
+          "confinan:degree": {
+            "V_human": 0.034,
+            "V_model": 0.16,
+            "deltaV": 0.126,
+            "deltaV_ci95": [
+              -0.014,
+              0.294
+            ]
+          },
+          "confinan:region": {
+            "V_human": 0.038,
+            "V_model": 0.126,
+            "deltaV": 0.088,
+            "deltaV_ci95": [
+              -0.038,
+              0.238
+            ]
+          },
+          "confinan:polviews": {
+            "V_human": 0.11,
+            "V_model": 0.486,
+            "deltaV": 0.376,
+            "deltaV_ci95": [
+              -0.11,
+              0.489
+            ]
+          }
+        }
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "median_deltaV": 0.152,
+        "n_pairs": 40,
+        "n_pairs_positive": 32,
+        "n_pairs_ci_excludes_0": 22,
+        "by_pair": {
+          "happy:race": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              0.023
+            ]
+          },
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.096,
+            "deltaV": 0.014,
+            "deltaV_ci95": [
+              -0.082,
+              0.188
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.0,
+            "deltaV": -0.017,
+            "deltaV_ci95": [
+              -0.017,
+              0.082
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.309,
+            "deltaV": 0.245,
+            "deltaV_ci95": [
+              0.058,
+              0.395
+            ]
+          },
+          "trust:race": {
+            "V_human": 0.129,
+            "V_model": 0.064,
+            "deltaV": -0.065,
+            "deltaV_ci95": [
+              -0.129,
+              0.007
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.34,
+            "deltaV": 0.122,
+            "deltaV_ci95": [
+              0.052,
+              0.211
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.172,
+            "deltaV": 0.105,
+            "deltaV_ci95": [
+              -0.014,
+              0.233
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.046,
+            "deltaV": -0.048,
+            "deltaV_ci95": [
+              -0.094,
+              0.16
+            ]
+          },
+          "fair:race": {
+            "V_human": 0.146,
+            "V_model": 0.358,
+            "deltaV": 0.212,
+            "deltaV_ci95": [
+              0.137,
+              0.293
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.369,
+            "deltaV": 0.193,
+            "deltaV_ci95": [
+              0.13,
+              0.29
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.267,
+            "deltaV": 0.208,
+            "deltaV_ci95": [
+              0.122,
+              0.337
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.481,
+            "deltaV": 0.404,
+            "deltaV_ci95": [
+              0.289,
+              0.494
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.03,
+            "deltaV": -0.049,
+            "deltaV_ci95": [
+              -0.079,
+              0.014
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.217,
+            "deltaV": 0.08,
+            "deltaV_ci95": [
+              -0.137,
+              0.233
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.143,
+            "deltaV": 0.105,
+            "deltaV_ci95": [
+              -0.01,
+              0.242
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.181,
+            "deltaV": 0.13,
+            "deltaV_ci95": [
+              -0.05,
+              0.302
+            ]
+          },
+          "cappun:race": {
+            "V_human": 0.148,
+            "V_model": 0.096,
+            "deltaV": -0.052,
+            "deltaV_ci95": [
+              -0.148,
+              0.137
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.078,
+            "deltaV": -0.086,
+            "deltaV_ci95": [
+              -0.165,
+              0.132
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.347,
+            "deltaV": 0.293,
+            "deltaV_ci95": [
+              0.177,
+              0.435
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.681,
+            "deltaV": 0.374,
+            "deltaV_ci95": [
+              0.229,
+              0.466
+            ]
+          },
+          "grass:race": {
+            "V_human": 0.061,
+            "V_model": 0.109,
+            "deltaV": 0.048,
+            "deltaV_ci95": [
+              -0.061,
+              0.205
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.222,
+            "deltaV": 0.123,
+            "deltaV_ci95": [
+              -0.001,
+              0.273
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.26,
+            "deltaV": 0.216,
+            "deltaV_ci95": [
+              0.088,
+              0.352
+            ]
+          },
+          "grass:polviews": {
+            "V_human": 0.251,
+            "V_model": 0.651,
+            "deltaV": 0.401,
+            "deltaV_ci95": [
+              0.325,
+              0.47
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.195,
+            "deltaV": 0.186,
+            "deltaV_ci95": [
+              -0.008,
+              0.343
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.34,
+            "deltaV": 0.167,
+            "deltaV_ci95": [
+              0.053,
+              0.322
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.467,
+            "deltaV": 0.344,
+            "deltaV_ci95": [
+              0.231,
+              0.482
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.777,
+            "deltaV": 0.375,
+            "deltaV_ci95": [
+              0.297,
+              0.454
+            ]
+          },
+          "gunlaw:race": {
+            "V_human": 0.081,
+            "V_model": 0.281,
+            "deltaV": 0.199,
+            "deltaV_ci95": [
+              0.094,
+              0.297
+            ]
+          },
+          "gunlaw:degree": {
+            "V_human": 0.116,
+            "V_model": 0.122,
+            "deltaV": 0.005,
+            "deltaV_ci95": [
+              -0.116,
+              0.212
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.24,
+            "deltaV": 0.158,
+            "deltaV_ci95": [
+              0.03,
+              0.303
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.691,
+            "deltaV": 0.42,
+            "deltaV_ci95": [
+              0.336,
+              0.529
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.154,
+            "deltaV": 0.095,
+            "deltaV_ci95": [
+              0.009,
+              0.219
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.309,
+            "deltaV": 0.157,
+            "deltaV_ci95": [
+              0.1,
+              0.262
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.064,
+            "deltaV": 0.011,
+            "deltaV_ci95": [
+              -0.053,
+              0.17
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.678,
+            "deltaV": 0.472,
+            "deltaV_ci95": [
+              0.399,
+              0.541
+            ]
+          },
+          "confinan:race": {
+            "V_human": 0.022,
+            "V_model": 0.215,
+            "deltaV": 0.193,
+            "deltaV_ci95": [
+              0.114,
+              0.267
+            ]
+          },
+          "confinan:degree": {
+            "V_human": 0.034,
+            "V_model": 0.293,
+            "deltaV": 0.26,
+            "deltaV_ci95": [
+              0.178,
+              0.359
+            ]
+          },
+          "confinan:region": {
+            "V_human": 0.038,
+            "V_model": 0.0,
+            "deltaV": -0.038,
+            "deltaV_ci95": [
+              -0.038,
+              0.152
+            ]
+          },
+          "confinan:polviews": {
+            "V_human": 0.11,
+            "V_model": 0.257,
+            "deltaV": 0.148,
+            "deltaV_ci95": [
+              0.057,
+              0.243
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": 0.13,
+        "n_pairs": 40,
+        "n_pairs_positive": 29,
+        "n_pairs_ci_excludes_0": 25,
+        "by_pair": {
+          "happy:race": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              0.026
+            ]
+          },
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.1,
+            "deltaV": 0.018,
+            "deltaV_ci95": [
+              -0.082,
+              0.164
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.0,
+            "deltaV": -0.017,
+            "deltaV_ci95": [
+              -0.017,
+              0.148
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.257,
+            "deltaV": 0.193,
+            "deltaV_ci95": [
+              0.024,
+              0.358
+            ]
+          },
+          "trust:race": {
+            "V_human": 0.129,
+            "V_model": 0.064,
+            "deltaV": -0.065,
+            "deltaV_ci95": [
+              -0.129,
+              0.008
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.367,
+            "deltaV": 0.149,
+            "deltaV_ci95": [
+              0.058,
+              0.249
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.155,
+            "deltaV": 0.087,
+            "deltaV_ci95": [
+              -0.06,
+              0.212
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.129,
+            "deltaV": 0.035,
+            "deltaV_ci95": [
+              -0.094,
+              0.171
+            ]
+          },
+          "fair:race": {
+            "V_human": 0.146,
+            "V_model": 0.376,
+            "deltaV": 0.23,
+            "deltaV_ci95": [
+              0.137,
+              0.321
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.251,
+            "deltaV": 0.075,
+            "deltaV_ci95": [
+              0.022,
+              0.157
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.231,
+            "deltaV": 0.172,
+            "deltaV_ci95": [
+              0.078,
+              0.278
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.38,
+            "deltaV": 0.303,
+            "deltaV_ci95": [
+              0.099,
+              0.386
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.0,
+            "deltaV": -0.079,
+            "deltaV_ci95": [
+              -0.079,
+              -0.079
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.0,
+            "deltaV": -0.137,
+            "deltaV_ci95": [
+              -0.137,
+              -0.137
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.0,
+            "deltaV": -0.038,
+            "deltaV_ci95": [
+              -0.038,
+              -0.038
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.0,
+            "deltaV": -0.05,
+            "deltaV_ci95": [
+              -0.05,
+              -0.05
+            ]
+          },
+          "cappun:race": {
+            "V_human": 0.148,
+            "V_model": 0.205,
+            "deltaV": 0.057,
+            "deltaV_ci95": [
+              -0.122,
+              0.221
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.136,
+            "deltaV": -0.029,
+            "deltaV_ci95": [
+              -0.165,
+              0.136
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.255,
+            "deltaV": 0.201,
+            "deltaV_ci95": [
+              0.077,
+              0.357
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.678,
+            "deltaV": 0.371,
+            "deltaV_ci95": [
+              0.219,
+              0.468
+            ]
+          },
+          "grass:race": {
+            "V_human": 0.061,
+            "V_model": 0.047,
+            "deltaV": -0.014,
+            "deltaV_ci95": [
+              -0.061,
+              0.171
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.145,
+            "deltaV": 0.046,
+            "deltaV_ci95": [
+              -0.099,
+              0.229
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.264,
+            "deltaV": 0.22,
+            "deltaV_ci95": [
+              0.09,
+              0.363
+            ]
+          },
+          "grass:polviews": {
+            "V_human": 0.251,
+            "V_model": 0.695,
+            "deltaV": 0.444,
+            "deltaV_ci95": [
+              0.386,
+              0.505
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.172,
+            "deltaV": 0.164,
+            "deltaV_ci95": [
+              -0.008,
+              0.311
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.362,
+            "deltaV": 0.19,
+            "deltaV_ci95": [
+              0.074,
+              0.34
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.401,
+            "deltaV": 0.277,
+            "deltaV_ci95": [
+              0.154,
+              0.423
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.71,
+            "deltaV": 0.308,
+            "deltaV_ci95": [
+              0.231,
+              0.385
+            ]
+          },
+          "gunlaw:race": {
+            "V_human": 0.081,
+            "V_model": 0.192,
+            "deltaV": 0.111,
+            "deltaV_ci95": [
+              -0.031,
+              0.21
+            ]
+          },
+          "gunlaw:degree": {
+            "V_human": 0.116,
+            "V_model": 0.063,
+            "deltaV": -0.054,
+            "deltaV_ci95": [
+              -0.116,
+              0.19
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.279,
+            "deltaV": 0.197,
+            "deltaV_ci95": [
+              0.056,
+              0.335
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.808,
+            "deltaV": 0.537,
+            "deltaV_ci95": [
+              0.455,
+              0.629
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.164,
+            "deltaV": 0.105,
+            "deltaV_ci95": [
+              0.027,
+              0.219
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.335,
+            "deltaV": 0.183,
+            "deltaV_ci95": [
+              0.136,
+              0.286
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.063,
+            "deltaV": 0.01,
+            "deltaV_ci95": [
+              -0.053,
+              0.148
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.523,
+            "deltaV": 0.317,
+            "deltaV_ci95": [
+              0.252,
+              0.401
+            ]
+          },
+          "confinan:race": {
+            "V_human": 0.022,
+            "V_model": 0.308,
+            "deltaV": 0.286,
+            "deltaV_ci95": [
+              0.228,
+              0.349
+            ]
+          },
+          "confinan:degree": {
+            "V_human": 0.034,
+            "V_model": 0.243,
+            "deltaV": 0.209,
+            "deltaV_ci95": [
+              0.137,
+              0.296
+            ]
+          },
+          "confinan:region": {
+            "V_human": 0.038,
+            "V_model": 0.0,
+            "deltaV": -0.038,
+            "deltaV_ci95": [
+              -0.038,
+              0.088
+            ]
+          },
+          "confinan:polviews": {
+            "V_human": 0.11,
+            "V_model": 0.275,
+            "deltaV": 0.166,
+            "deltaV_ci95": [
+              0.083,
+              0.251
+            ]
+          }
+        }
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "median_deltaV": 0.033,
+        "n_pairs": 40,
+        "n_pairs_positive": 24,
+        "n_pairs_ci_excludes_0": 14,
+        "by_pair": {
+          "happy:race": {
+            "V_human": 0.043,
+            "V_model": 0.081,
+            "deltaV": 0.038,
+            "deltaV_ci95": [
+              -0.043,
+              0.206
+            ]
+          },
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.083,
+            "deltaV": 0.002,
+            "deltaV_ci95": [
+              -0.082,
+              0.16
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.111,
+            "deltaV": 0.094,
+            "deltaV_ci95": [
+              0.033,
+              0.224
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.12,
+            "deltaV": 0.055,
+            "deltaV_ci95": [
+              0.009,
+              0.244
+            ]
+          },
+          "trust:race": {
+            "V_human": 0.129,
+            "V_model": 0.074,
+            "deltaV": -0.054,
+            "deltaV_ci95": [
+              -0.129,
+              0.085
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.0,
+            "deltaV": -0.218,
+            "deltaV_ci95": [
+              -0.218,
+              -0.012
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.108,
+            "deltaV": 0.04,
+            "deltaV_ci95": [
+              -0.068,
+              0.18
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.27,
+            "deltaV": 0.176,
+            "deltaV_ci95": [
+              0.1,
+              0.286
+            ]
+          },
+          "fair:race": {
+            "V_human": 0.146,
+            "V_model": 0.253,
+            "deltaV": 0.107,
+            "deltaV_ci95": [
+              -0.017,
+              0.229
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.109,
+            "deltaV": -0.067,
+            "deltaV_ci95": [
+              -0.176,
+              0.134
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.08,
+            "deltaV": 0.021,
+            "deltaV_ci95": [
+              -0.056,
+              0.148
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.29,
+            "deltaV": 0.214,
+            "deltaV_ci95": [
+              0.032,
+              0.393
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.057,
+            "deltaV": -0.021,
+            "deltaV_ci95": [
+              -0.079,
+              0.148
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.079,
+            "deltaV": -0.058,
+            "deltaV_ci95": [
+              -0.126,
+              0.084
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.066,
+            "deltaV": 0.028,
+            "deltaV_ci95": [
+              -0.038,
+              0.197
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.332,
+            "deltaV": 0.282,
+            "deltaV_ci95": [
+              0.207,
+              0.407
+            ]
+          },
+          "cappun:race": {
+            "V_human": 0.148,
+            "V_model": 0.0,
+            "deltaV": -0.148,
+            "deltaV_ci95": [
+              -0.148,
+              0.046
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.033,
+            "deltaV": -0.132,
+            "deltaV_ci95": [
+              -0.165,
+              0.106
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.236,
+            "deltaV": 0.182,
+            "deltaV_ci95": [
+              0.06,
+              0.331
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.562,
+            "deltaV": 0.255,
+            "deltaV_ci95": [
+              0.114,
+              0.353
+            ]
+          },
+          "grass:race": {
+            "V_human": 0.061,
+            "V_model": 0.172,
+            "deltaV": 0.111,
+            "deltaV_ci95": [
+              -0.019,
+              0.232
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.025,
+            "deltaV": -0.075,
+            "deltaV_ci95": [
+              -0.099,
+              0.17
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.158,
+            "deltaV": 0.115,
+            "deltaV_ci95": [
+              -0.043,
+              0.275
+            ]
+          },
+          "grass:polviews": {
+            "V_human": 0.251,
+            "V_model": 0.626,
+            "deltaV": 0.375,
+            "deltaV_ci95": [
+              0.265,
+              0.481
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.093,
+            "deltaV": 0.085,
+            "deltaV_ci95": [
+              0.026,
+              0.179
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.111,
+            "deltaV": -0.061,
+            "deltaV_ci95": [
+              -0.172,
+              0.119
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.132,
+            "deltaV": 0.008,
+            "deltaV_ci95": [
+              -0.124,
+              0.159
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.553,
+            "deltaV": 0.151,
+            "deltaV_ci95": [
+              -0.015,
+              0.33
+            ]
+          },
+          "gunlaw:race": {
+            "V_human": 0.081,
+            "V_model": 0.0,
+            "deltaV": -0.081,
+            "deltaV_ci95": [
+              -0.081,
+              0.106
+            ]
+          },
+          "gunlaw:degree": {
+            "V_human": 0.116,
+            "V_model": 0.027,
+            "deltaV": -0.089,
+            "deltaV_ci95": [
+              -0.116,
+              0.149
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.0,
+            "deltaV": -0.082,
+            "deltaV_ci95": [
+              -0.082,
+              0.154
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.189,
+            "deltaV": -0.081,
+            "deltaV_ci95": [
+              -0.201,
+              0.113
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.096,
+            "deltaV": 0.037,
+            "deltaV_ci95": [
+              -0.031,
+              0.16
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.107,
+            "deltaV": -0.045,
+            "deltaV_ci95": [
+              -0.098,
+              0.102
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.0,
+            "deltaV": -0.053,
+            "deltaV_ci95": [
+              -0.053,
+              0.101
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.409,
+            "deltaV": 0.203,
+            "deltaV_ci95": [
+              0.149,
+              0.285
+            ]
+          },
+          "confinan:race": {
+            "V_human": 0.022,
+            "V_model": 0.082,
+            "deltaV": 0.06,
+            "deltaV_ci95": [
+              0.004,
+              0.179
+            ]
+          },
+          "confinan:degree": {
+            "V_human": 0.034,
+            "V_model": 0.165,
+            "deltaV": 0.131,
+            "deltaV_ci95": [
+              0.06,
+              0.276
+            ]
+          },
+          "confinan:region": {
+            "V_human": 0.038,
+            "V_model": 0.0,
+            "deltaV": -0.038,
+            "deltaV_ci95": [
+              -0.038,
+              0.134
+            ]
+          },
+          "confinan:polviews": {
+            "V_human": 0.11,
+            "V_model": 0.275,
+            "deltaV": 0.165,
+            "deltaV_ci95": [
+              0.099,
+              0.297
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": 0.068,
+        "n_pairs": 28,
+        "n_pairs_positive": 17,
+        "n_pairs_ci_excludes_0": 6,
+        "by_pair": {
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.0,
+            "deltaV": -0.082,
+            "deltaV_ci95": [
+              -0.082,
+              0.259
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.087,
+            "deltaV": 0.069,
+            "deltaV_ci95": [
+              -0.017,
+              0.351
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.488,
+            "deltaV": 0.423,
+            "deltaV_ci95": [
+              -0.065,
+              0.554
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.0,
+            "deltaV": -0.218,
+            "deltaV_ci95": [
+              -0.218,
+              -0.023
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.0,
+            "deltaV": -0.068,
+            "deltaV_ci95": [
+              -0.068,
+              0.208
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.161,
+            "deltaV": 0.067,
+            "deltaV_ci95": [
+              -0.094,
+              0.246
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.201,
+            "deltaV": 0.025,
+            "deltaV_ci95": [
+              -0.124,
+              0.227
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.128,
+            "deltaV": 0.07,
+            "deltaV_ci95": [
+              -0.058,
+              0.265
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.319,
+            "deltaV": 0.242,
+            "deltaV_ci95": [
+              0.035,
+              0.447
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.0,
+            "deltaV": -0.079,
+            "deltaV_ci95": [
+              -0.079,
+              0.158
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.0,
+            "deltaV": -0.137,
+            "deltaV_ci95": [
+              -0.137,
+              0.166
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.15,
+            "deltaV": 0.112,
+            "deltaV_ci95": [
+              -0.038,
+              0.259
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.362,
+            "deltaV": 0.312,
+            "deltaV_ci95": [
+              0.247,
+              0.492
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.0,
+            "deltaV": -0.165,
+            "deltaV_ci95": [
+              -0.165,
+              0.183
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.201,
+            "deltaV": 0.147,
+            "deltaV_ci95": [
+              -0.054,
+              0.395
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.473,
+            "deltaV": 0.166,
+            "deltaV_ci95": [
+              -0.097,
+              0.423
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.0,
+            "deltaV": -0.099,
+            "deltaV_ci95": [
+              -0.099,
+              0.244
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.394,
+            "deltaV": 0.35,
+            "deltaV_ci95": [
+              0.007,
+              0.583
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.228,
+            "deltaV": 0.22,
+            "deltaV_ci95": [
+              0.136,
+              0.313
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.1,
+            "deltaV": -0.072,
+            "deltaV_ci95": [
+              -0.172,
+              0.201
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.119,
+            "deltaV": -0.004,
+            "deltaV_ci95": [
+              -0.124,
+              0.233
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.744,
+            "deltaV": 0.342,
+            "deltaV_ci95": [
+              -0.166,
+              0.506
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.279,
+            "deltaV": 0.197,
+            "deltaV_ci95": [
+              -0.082,
+              0.391
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.471,
+            "deltaV": 0.2,
+            "deltaV_ci95": [
+              -0.102,
+              0.431
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.0,
+            "deltaV": -0.059,
+            "deltaV_ci95": [
+              -0.059,
+              0.255
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.173,
+            "deltaV": 0.021,
+            "deltaV_ci95": [
+              -0.152,
+              0.226
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.0,
+            "deltaV": -0.053,
+            "deltaV_ci95": [
+              -0.053,
+              0.22
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.32,
+            "deltaV": 0.113,
+            "deltaV_ci95": [
+              0.06,
+              0.339
+            ]
+          }
+        }
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "median_deltaV": 0.07,
+        "n_pairs": 40,
+        "n_pairs_positive": 25,
+        "n_pairs_ci_excludes_0": 20,
+        "by_pair": {
+          "happy:race": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              -0.043
+            ]
+          },
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.0,
+            "deltaV": -0.082,
+            "deltaV_ci95": [
+              -0.082,
+              -0.082
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.0,
+            "deltaV": -0.017,
+            "deltaV_ci95": [
+              -0.017,
+              -0.017
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.0,
+            "deltaV": -0.065,
+            "deltaV_ci95": [
+              -0.065,
+              -0.065
+            ]
+          },
+          "trust:race": {
+            "V_human": 0.129,
+            "V_model": 0.167,
+            "deltaV": 0.039,
+            "deltaV_ci95": [
+              -0.022,
+              0.189
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.203,
+            "deltaV": -0.015,
+            "deltaV_ci95": [
+              -0.106,
+              0.153
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.212,
+            "deltaV": 0.145,
+            "deltaV_ci95": [
+              0.081,
+              0.269
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.445,
+            "deltaV": 0.351,
+            "deltaV_ci95": [
+              0.244,
+              0.442
+            ]
+          },
+          "fair:race": {
+            "V_human": 0.146,
+            "V_model": 0.032,
+            "deltaV": -0.114,
+            "deltaV_ci95": [
+              -0.146,
+              0.031
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.154,
+            "deltaV": -0.022,
+            "deltaV_ci95": [
+              -0.128,
+              0.088
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.107,
+            "deltaV": 0.049,
+            "deltaV_ci95": [
+              -0.058,
+              0.144
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.592,
+            "deltaV": 0.515,
+            "deltaV_ci95": [
+              0.056,
+              0.581
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.0,
+            "deltaV": -0.079,
+            "deltaV_ci95": [
+              -0.079,
+              0.093
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.239,
+            "deltaV": 0.102,
+            "deltaV_ci95": [
+              0.042,
+              0.213
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.143,
+            "deltaV": 0.105,
+            "deltaV_ci95": [
+              0.024,
+              0.245
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.802,
+            "deltaV": 0.751,
+            "deltaV_ci95": [
+              0.688,
+              0.809
+            ]
+          },
+          "cappun:race": {
+            "V_human": 0.148,
+            "V_model": 0.0,
+            "deltaV": -0.148,
+            "deltaV_ci95": [
+              -0.148,
+              0.076
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.091,
+            "deltaV": -0.074,
+            "deltaV_ci95": [
+              -0.165,
+              0.109
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.296,
+            "deltaV": 0.242,
+            "deltaV_ci95": [
+              0.12,
+              0.391
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.707,
+            "deltaV": 0.4,
+            "deltaV_ci95": [
+              0.264,
+              0.492
+            ]
+          },
+          "grass:race": {
+            "V_human": 0.061,
+            "V_model": 0.15,
+            "deltaV": 0.089,
+            "deltaV_ci95": [
+              -0.061,
+              0.239
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.0,
+            "deltaV": -0.099,
+            "deltaV_ci95": [
+              -0.099,
+              0.163
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.303,
+            "deltaV": 0.26,
+            "deltaV_ci95": [
+              0.134,
+              0.408
+            ]
+          },
+          "grass:polviews": {
+            "V_human": 0.251,
+            "V_model": 0.724,
+            "deltaV": 0.473,
+            "deltaV_ci95": [
+              0.413,
+              0.54
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.17,
+            "deltaV": 0.162,
+            "deltaV_ci95": [
+              0.098,
+              0.251
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.098,
+            "deltaV": -0.074,
+            "deltaV_ci95": [
+              -0.172,
+              0.082
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.175,
+            "deltaV": 0.051,
+            "deltaV_ci95": [
+              -0.1,
+              0.188
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.904,
+            "deltaV": 0.502,
+            "deltaV_ci95": [
+              0.462,
+              0.548
+            ]
+          },
+          "gunlaw:race": {
+            "V_human": 0.081,
+            "V_model": 0.181,
+            "deltaV": 0.099,
+            "deltaV_ci95": [
+              -0.039,
+              0.207
+            ]
+          },
+          "gunlaw:degree": {
+            "V_human": 0.116,
+            "V_model": 0.099,
+            "deltaV": -0.017,
+            "deltaV_ci95": [
+              -0.116,
+              0.18
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.204,
+            "deltaV": 0.122,
+            "deltaV_ci95": [
+              -0.066,
+              0.29
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.882,
+            "deltaV": 0.611,
+            "deltaV_ci95": [
+              0.547,
+              0.683
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.218,
+            "deltaV": 0.159,
+            "deltaV_ci95": [
+              0.079,
+              0.269
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.201,
+            "deltaV": 0.049,
+            "deltaV_ci95": [
+              -0.004,
+              0.167
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.0,
+            "deltaV": -0.053,
+            "deltaV_ci95": [
+              -0.053,
+              0.14
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.703,
+            "deltaV": 0.497,
+            "deltaV_ci95": [
+              0.442,
+              0.559
+            ]
+          },
+          "confinan:race": {
+            "V_human": 0.022,
+            "V_model": 0.124,
+            "deltaV": 0.102,
+            "deltaV_ci95": [
+              -0.022,
+              0.254
+            ]
+          },
+          "confinan:degree": {
+            "V_human": 0.034,
+            "V_model": 0.074,
+            "deltaV": 0.04,
+            "deltaV_ci95": [
+              -0.034,
+              0.235
+            ]
+          },
+          "confinan:region": {
+            "V_human": 0.038,
+            "V_model": 0.021,
+            "deltaV": -0.016,
+            "deltaV_ci95": [
+              -0.038,
+              0.164
+            ]
+          },
+          "confinan:polviews": {
+            "V_human": 0.11,
+            "V_model": 0.541,
+            "deltaV": 0.432,
+            "deltaV_ci95": [
+              0.135,
+              0.512
+            ]
+          }
+        }
+      },
+      "C": {
+        "median_deltaV": 0.033,
+        "n_pairs": 40,
+        "n_pairs_positive": 22,
+        "n_pairs_ci_excludes_0": 17,
+        "by_pair": {
+          "happy:race": {
+            "V_human": 0.043,
+            "V_model": 0.0,
+            "deltaV": -0.043,
+            "deltaV_ci95": [
+              -0.043,
+              -0.043
+            ]
+          },
+          "happy:degree": {
+            "V_human": 0.082,
+            "V_model": 0.0,
+            "deltaV": -0.082,
+            "deltaV_ci95": [
+              -0.082,
+              -0.082
+            ]
+          },
+          "happy:region": {
+            "V_human": 0.017,
+            "V_model": 0.0,
+            "deltaV": -0.017,
+            "deltaV_ci95": [
+              -0.017,
+              -0.017
+            ]
+          },
+          "happy:polviews": {
+            "V_human": 0.065,
+            "V_model": 0.0,
+            "deltaV": -0.065,
+            "deltaV_ci95": [
+              -0.065,
+              -0.065
+            ]
+          },
+          "trust:race": {
+            "V_human": 0.129,
+            "V_model": 0.031,
+            "deltaV": -0.097,
+            "deltaV_ci95": [
+              -0.129,
+              0.053
+            ]
+          },
+          "trust:degree": {
+            "V_human": 0.218,
+            "V_model": 0.127,
+            "deltaV": -0.091,
+            "deltaV_ci95": [
+              -0.218,
+              0.044
+            ]
+          },
+          "trust:region": {
+            "V_human": 0.068,
+            "V_model": 0.105,
+            "deltaV": 0.037,
+            "deltaV_ci95": [
+              -0.068,
+              0.158
+            ]
+          },
+          "trust:polviews": {
+            "V_human": 0.094,
+            "V_model": 0.0,
+            "deltaV": -0.094,
+            "deltaV_ci95": [
+              -0.094,
+              0.077
+            ]
+          },
+          "fair:race": {
+            "V_human": 0.146,
+            "V_model": 0.079,
+            "deltaV": -0.067,
+            "deltaV_ci95": [
+              -0.146,
+              0.097
+            ]
+          },
+          "fair:degree": {
+            "V_human": 0.176,
+            "V_model": 0.204,
+            "deltaV": 0.028,
+            "deltaV_ci95": [
+              -0.176,
+              0.189
+            ]
+          },
+          "fair:region": {
+            "V_human": 0.058,
+            "V_model": 0.0,
+            "deltaV": -0.058,
+            "deltaV_ci95": [
+              -0.058,
+              0.123
+            ]
+          },
+          "fair:polviews": {
+            "V_human": 0.077,
+            "V_model": 0.6,
+            "deltaV": 0.523,
+            "deltaV_ci95": [
+              -0.077,
+              0.591
+            ]
+          },
+          "helpful:race": {
+            "V_human": 0.079,
+            "V_model": 0.063,
+            "deltaV": -0.016,
+            "deltaV_ci95": [
+              -0.079,
+              0.158
+            ]
+          },
+          "helpful:degree": {
+            "V_human": 0.137,
+            "V_model": 0.0,
+            "deltaV": -0.137,
+            "deltaV_ci95": [
+              -0.137,
+              0.035
+            ]
+          },
+          "helpful:region": {
+            "V_human": 0.038,
+            "V_model": 0.0,
+            "deltaV": -0.038,
+            "deltaV_ci95": [
+              -0.038,
+              0.104
+            ]
+          },
+          "helpful:polviews": {
+            "V_human": 0.05,
+            "V_model": 0.583,
+            "deltaV": 0.532,
+            "deltaV_ci95": [
+              0.001,
+              0.614
+            ]
+          },
+          "cappun:race": {
+            "V_human": 0.148,
+            "V_model": 0.0,
+            "deltaV": -0.148,
+            "deltaV_ci95": [
+              -0.148,
+              0.078
+            ]
+          },
+          "cappun:degree": {
+            "V_human": 0.165,
+            "V_model": 0.042,
+            "deltaV": -0.122,
+            "deltaV_ci95": [
+              -0.165,
+              0.094
+            ]
+          },
+          "cappun:region": {
+            "V_human": 0.054,
+            "V_model": 0.281,
+            "deltaV": 0.227,
+            "deltaV_ci95": [
+              0.101,
+              0.378
+            ]
+          },
+          "cappun:polviews": {
+            "V_human": 0.307,
+            "V_model": 0.726,
+            "deltaV": 0.419,
+            "deltaV_ci95": [
+              0.276,
+              0.498
+            ]
+          },
+          "grass:race": {
+            "V_human": 0.061,
+            "V_model": 0.167,
+            "deltaV": 0.106,
+            "deltaV_ci95": [
+              -0.061,
+              0.255
+            ]
+          },
+          "grass:degree": {
+            "V_human": 0.099,
+            "V_model": 0.203,
+            "deltaV": 0.104,
+            "deltaV_ci95": [
+              -0.025,
+              0.268
+            ]
+          },
+          "grass:region": {
+            "V_human": 0.043,
+            "V_model": 0.351,
+            "deltaV": 0.307,
+            "deltaV_ci95": [
+              0.196,
+              0.449
+            ]
+          },
+          "grass:polviews": {
+            "V_human": 0.251,
+            "V_model": 0.697,
+            "deltaV": 0.446,
+            "deltaV_ci95": [
+              0.384,
+              0.502
+            ]
+          },
+          "abany:race": {
+            "V_human": 0.008,
+            "V_model": 0.159,
+            "deltaV": 0.151,
+            "deltaV_ci95": [
+              0.088,
+              0.245
+            ]
+          },
+          "abany:degree": {
+            "V_human": 0.172,
+            "V_model": 0.09,
+            "deltaV": -0.082,
+            "deltaV_ci95": [
+              -0.172,
+              0.097
+            ]
+          },
+          "abany:region": {
+            "V_human": 0.124,
+            "V_model": 0.181,
+            "deltaV": 0.057,
+            "deltaV_ci95": [
+              -0.121,
+              0.212
+            ]
+          },
+          "abany:polviews": {
+            "V_human": 0.402,
+            "V_model": 0.828,
+            "deltaV": 0.426,
+            "deltaV_ci95": [
+              0.341,
+              0.504
+            ]
+          },
+          "gunlaw:race": {
+            "V_human": 0.081,
+            "V_model": 0.168,
+            "deltaV": 0.087,
+            "deltaV_ci95": [
+              -0.074,
+              0.196
+            ]
+          },
+          "gunlaw:degree": {
+            "V_human": 0.116,
+            "V_model": 0.133,
+            "deltaV": 0.017,
+            "deltaV_ci95": [
+              -0.116,
+              0.225
+            ]
+          },
+          "gunlaw:region": {
+            "V_human": 0.082,
+            "V_model": 0.23,
+            "deltaV": 0.148,
+            "deltaV_ci95": [
+              0.007,
+              0.317
+            ]
+          },
+          "gunlaw:polviews": {
+            "V_human": 0.271,
+            "V_model": 0.781,
+            "deltaV": 0.51,
+            "deltaV_ci95": [
+              0.427,
+              0.623
+            ]
+          },
+          "fefam:race": {
+            "V_human": 0.059,
+            "V_model": 0.153,
+            "deltaV": 0.094,
+            "deltaV_ci95": [
+              0.016,
+              0.201
+            ]
+          },
+          "fefam:degree": {
+            "V_human": 0.152,
+            "V_model": 0.222,
+            "deltaV": 0.07,
+            "deltaV_ci95": [
+              0.02,
+              0.174
+            ]
+          },
+          "fefam:region": {
+            "V_human": 0.053,
+            "V_model": 0.0,
+            "deltaV": -0.053,
+            "deltaV_ci95": [
+              -0.053,
+              0.136
+            ]
+          },
+          "fefam:polviews": {
+            "V_human": 0.206,
+            "V_model": 0.659,
+            "deltaV": 0.453,
+            "deltaV_ci95": [
+              0.398,
+              0.517
+            ]
+          },
+          "confinan:race": {
+            "V_human": 0.022,
+            "V_model": 0.084,
+            "deltaV": 0.062,
+            "deltaV_ci95": [
+              -0.022,
+              0.21
+            ]
+          },
+          "confinan:degree": {
+            "V_human": 0.034,
+            "V_model": 0.0,
+            "deltaV": -0.034,
+            "deltaV_ci95": [
+              -0.034,
+              0.176
+            ]
+          },
+          "confinan:region": {
+            "V_human": 0.038,
+            "V_model": 0.017,
+            "deltaV": -0.021,
+            "deltaV_ci95": [
+              -0.038,
+              0.155
+            ]
+          },
+          "confinan:polviews": {
+            "V_human": 0.11,
+            "V_model": 0.616,
+            "deltaV": 0.506,
+            "deltaV_ci95": [
+              0.452,
+              0.551
+            ]
+          }
+        }
+      }
+    }
+  },
+  "delta_base_ci": {
+    "claude-haiku-4.5": {
+      "A": {
+        "n": 1986,
+        "delta_base": -0.0025,
+        "delta_base_ci95": [
+          -0.0254,
+          0.0174
+        ]
+      },
+      "C": {
+        "n": 1986,
+        "delta_base": -0.0065,
+        "delta_base_ci95": [
+          -0.0277,
+          0.0156
+        ]
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "n": 1986,
+        "delta_base": -0.0262,
+        "delta_base_ci95": [
+          -0.0493,
+          -0.0012
+        ]
+      },
+      "C": {
+        "n": 1986,
+        "delta_base": -0.0005,
+        "delta_base_ci95": [
+          -0.0275,
+          0.0222
+        ]
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "n": 1986,
+        "delta_base": -0.0932,
+        "delta_base_ci95": [
+          -0.1196,
+          -0.067
+        ]
+      },
+      "C": {
+        "n": 847,
+        "delta_base": -0.0767,
+        "delta_base_ci95": [
+          -0.1192,
+          -0.0301
+        ]
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "n": 1986,
+        "delta_base": -0.0206,
+        "delta_base_ci95": [
+          -0.0448,
+          0.0028
+        ]
+      },
+      "C": {
+        "n": 1986,
+        "delta_base": -0.0076,
+        "delta_base_ci95": [
+          -0.0287,
+          0.0151
+        ]
+      }
+    }
+  },
+  "reweighted_js": {
+    "claude-haiku-4.5": {
+      "A": {
+        "raw_js": 0.0895,
+        "pop_reweighted_js": 0.0882
+      },
+      "C": {
+        "raw_js": 0.0108,
+        "pop_reweighted_js": 0.0109
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "raw_js": 0.082,
+        "pop_reweighted_js": 0.0812
+      },
+      "C": {
+        "raw_js": 0.0173,
+        "pop_reweighted_js": 0.0173
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "raw_js": 0.0555,
+        "pop_reweighted_js": 0.0545
+      },
+      "C": {
+        "raw_js": 0.0229,
+        "pop_reweighted_js": 0.0229
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "raw_js": 0.0724,
+        "pop_reweighted_js": 0.0721
+      },
+      "C": {
+        "raw_js": 0.016,
+        "pop_reweighted_js": 0.016
+      }
+    }
+  }
+}

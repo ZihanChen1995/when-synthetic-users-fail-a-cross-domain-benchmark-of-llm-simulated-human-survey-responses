@@ -1,0 +1,105 @@
+{
+  "scope": {
+    "dataset": "WVS Wave 7 inverted v6.0",
+    "n_countries": 63
+  },
+  "rows_raw": 97220,
+  "rows_with_full_demographics": 91774,
+  "examples_total": 1426473,
+  "questions": {
+    "Q48": {
+      "topic": "wellbeing",
+      "n_options": 10,
+      "n_examples": 91053
+    },
+    "Q106": {
+      "topic": "economic_values",
+      "n_options": 10,
+      "n_examples": 90639
+    },
+    "Q107": {
+      "topic": "economic_values",
+      "n_options": 10,
+      "n_examples": 88753
+    },
+    "Q108": {
+      "topic": "economic_values",
+      "n_options": 10,
+      "n_examples": 90831
+    },
+    "Q112": {
+      "topic": "institutions",
+      "n_options": 10,
+      "n_examples": 90408
+    },
+    "Q113": {
+      "topic": "institutions",
+      "n_options": 4,
+      "n_examples": 85732
+    },
+    "Q114": {
+      "topic": "institutions",
+      "n_options": 4,
+      "n_examples": 84971
+    },
+    "Q121": {
+      "topic": "immigration",
+      "n_options": 5,
+      "n_examples": 89715
+    },
+    "Q122": {
+      "topic": "immigration",
+      "n_options": 3,
+      "n_examples": 89504
+    },
+    "Q123": {
+      "topic": "immigration",
+      "n_options": 3,
+      "n_examples": 89078
+    },
+    "Q158": {
+      "topic": "science",
+      "n_options": 10,
+      "n_examples": 89485
+    },
+    "Q159": {
+      "topic": "science",
+      "n_options": 10,
+      "n_examples": 89261
+    },
+    "Q160": {
+      "topic": "science",
+      "n_options": 10,
+      "n_examples": 88367
+    },
+    "Q164": {
+      "topic": "religion",
+      "n_options": 10,
+      "n_examples": 89753
+    },
+    "Q177": {
+      "topic": "moral_justifiability",
+      "n_options": 10,
+      "n_examples": 90426
+    },
+    "Q178": {
+      "topic": "moral_justifiability",
+      "n_options": 10,
+      "n_examples": 88497
+    }
+  },
+  "demographic_vars": [
+    "agecat",
+    "sex",
+    "education",
+    "urbrural",
+    "country"
+  ],
+  "subgroup_vars": [
+    "country",
+    "education",
+    "agecat",
+    "sex"
+  ],
+  "min_cell_humans": 100
+}

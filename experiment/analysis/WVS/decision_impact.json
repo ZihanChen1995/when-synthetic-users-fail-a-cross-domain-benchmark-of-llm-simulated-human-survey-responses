@@ -1,0 +1,4103 @@
+{
+  "dataset": "WVS",
+  "params": {
+    "NEG_GAP": 0.1,
+    "BIG_GAP": 0.25,
+    "MIN_CELL_MODEL": 10,
+    "MIN_CELL_HUMAN": 20,
+    "n_boot": 500,
+    "ci": "95%"
+  },
+  "models": {
+    "claude-haiku-4.5": {
+      "A": {
+        "n_pairs": 32,
+        "median_gap_inflation": 4.11,
+        "median_gap_excess": 0.184,
+        "target_mismatch_rate": 0.562,
+        "n_target_mismatch": 18,
+        "median_targeting_cost_when_wrong": 0.022,
+        "max_targeting_cost": 0.11,
+        "spurious_split_rate": 0.406,
+        "n_spurious_split": 13,
+        "by_pair": [
+          {
+            "question": "Q48",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.126,
+            "gap_model": 0.72,
+            "gap_model_ci95": [
+              0.57,
+              0.889
+            ],
+            "gap_inflation": 5.73,
+            "gap_excess": 0.595,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q48",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.022,
+            "gap_model": 0.286,
+            "gap_model_ci95": [
+              0.152,
+              0.562
+            ],
+            "gap_inflation": 13.24,
+            "gap_excess": 0.264,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.003,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q106",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.095,
+            "gap_model": 0.169,
+            "gap_model_ci95": [
+              0.072,
+              0.415
+            ],
+            "gap_inflation": 1.78,
+            "gap_excess": 0.074,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.044,
+            "gap_model": 0.336,
+            "gap_model_ci95": [
+              0.183,
+              0.588
+            ],
+            "gap_inflation": 7.55,
+            "gap_excess": 0.291,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q107",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.096,
+            "gap_model": 0.261,
+            "gap_model_ci95": [
+              0.125,
+              0.448
+            ],
+            "gap_inflation": 2.71,
+            "gap_excess": 0.165,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q107",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.047,
+            "gap_model": 0.268,
+            "gap_model_ci95": [
+              0.157,
+              0.512
+            ],
+            "gap_inflation": 5.74,
+            "gap_excess": 0.221,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.013,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q108",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.046,
+            "gap_model": 0.339,
+            "gap_model_ci95": [
+              0.193,
+              0.584
+            ],
+            "gap_inflation": 7.36,
+            "gap_excess": 0.293,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q108",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.016,
+            "gap_model": 0.339,
+            "gap_model_ci95": [
+              0.2,
+              0.627
+            ],
+            "gap_inflation": 21.15,
+            "gap_excess": 0.323,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.05,
+            "gap_model": 0.389,
+            "gap_model_ci95": [
+              0.25,
+              0.565
+            ],
+            "gap_inflation": 7.71,
+            "gap_excess": 0.338,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.076,
+            "gap_model": 0.529,
+            "gap_model_ci95": [
+              0.109,
+              0.771
+            ],
+            "gap_inflation": 6.93,
+            "gap_excess": 0.452,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.023,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.068,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.068,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.068,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q113",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.148,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.148,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.043,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.043,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.108,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.108,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.127,
+            "gap_model": 0.741,
+            "gap_model_ci95": [
+              0.601,
+              0.895
+            ],
+            "gap_inflation": 5.83,
+            "gap_excess": 0.614,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.045,
+            "gap_model": 0.45,
+            "gap_model_ci95": [
+              0.309,
+              0.652
+            ],
+            "gap_inflation": 10.0,
+            "gap_excess": 0.405,
+            "human_argmax": 6,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.077,
+            "gap_model": 0.062,
+            "gap_model_ci95": [
+              0.0,
+              0.218
+            ],
+            "gap_inflation": 0.81,
+            "gap_excess": -0.014,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.077,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.05,
+            "gap_model": 0.15,
+            "gap_model_ci95": [
+              0.0,
+              0.333
+            ],
+            "gap_inflation": 2.99,
+            "gap_excess": 0.1,
+            "human_argmax": 6,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.049,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.571,
+            "gap_model_ci95": [
+              0.419,
+              0.714
+            ],
+            "gap_inflation": 5.21,
+            "gap_excess": 0.462,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.11,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.033,
+            "gap_model": 0.423,
+            "gap_model_ci95": [
+              0.354,
+              0.63
+            ],
+            "gap_inflation": 12.88,
+            "gap_excess": 0.39,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q158",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.066,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.066,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.011,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.011,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.006,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.04,
+            "gap_model": 0.038,
+            "gap_model_ci95": [
+              0.0,
+              0.13
+            ],
+            "gap_inflation": 0.97,
+            "gap_excess": -0.001,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.019,
+            "gap_model": 0.062,
+            "gap_model_ci95": [
+              0.0,
+              0.2
+            ],
+            "gap_inflation": 3.22,
+            "gap_excess": 0.043,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q160",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.042,
+            "gap_model": 0.809,
+            "gap_model_ci95": [
+              0.679,
+              0.919
+            ],
+            "gap_inflation": 19.31,
+            "gap_excess": 0.767,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q160",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.031,
+            "gap_model": 0.454,
+            "gap_model_ci95": [
+              0.271,
+              0.724
+            ],
+            "gap_inflation": 14.55,
+            "gap_excess": 0.423,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.021,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q164",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.216,
+            "gap_model": 0.421,
+            "gap_model_ci95": [
+              0.249,
+              0.612
+            ],
+            "gap_inflation": 1.95,
+            "gap_excess": 0.204,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.094,
+            "gap_model": 0.472,
+            "gap_model_ci95": [
+              0.312,
+              0.703
+            ],
+            "gap_inflation": 5.0,
+            "gap_excess": 0.378,
+            "human_argmax": 1,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.094,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q177",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.041,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.041,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.098,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.098,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.018,
+            "gap_model": 0.091,
+            "gap_model_ci95": [
+              0.036,
+              0.225
+            ],
+            "gap_inflation": 5.11,
+            "gap_excess": 0.073,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.11,
+            "gap_model": 0.154,
+            "gap_model_ci95": [
+              0.047,
+              0.294
+            ],
+            "gap_inflation": 1.4,
+            "gap_excess": 0.044,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 28,
+        "median_gap_inflation": 2.15,
+        "median_gap_excess": 0.058,
+        "target_mismatch_rate": 0.571,
+        "n_target_mismatch": 16,
+        "median_targeting_cost_when_wrong": 0.021,
+        "max_targeting_cost": 0.11,
+        "spurious_split_rate": 0.179,
+        "n_spurious_split": 5,
+        "by_pair": [
+          {
+            "question": "Q48",
+            "axis": "agecat",
+            "n_segments": 4,
+            "gap_human": 0.021,
+            "gap_model": 0.2,
+            "gap_model_ci95": [
+              0.0,
+              0.417
+            ],
+            "gap_inflation": 9.67,
+            "gap_excess": 0.179,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.021,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.095,
+            "gap_model": 0.118,
+            "gap_model_ci95": [
+              0.061,
+              0.234
+            ],
+            "gap_inflation": 1.24,
+            "gap_excess": 0.023,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.018,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "agecat",
+            "n_segments": 5,
+            "gap_human": 0.044,
+            "gap_model": 0.154,
+            "gap_model_ci95": [
+              0.091,
+              0.386
+            ],
+            "gap_inflation": 3.46,
+            "gap_excess": 0.109,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.005,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.096,
+            "gap_model": 0.154,
+            "gap_model_ci95": [
+              0.042,
+              0.306
+            ],
+            "gap_inflation": 1.59,
+            "gap_excess": 0.057,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.096,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "agecat",
+            "n_segments": 5,
+            "gap_human": 0.046,
+            "gap_model": 0.154,
+            "gap_model_ci95": [
+              0.0,
+              0.361
+            ],
+            "gap_inflation": 3.36,
+            "gap_excess": 0.108,
+            "human_argmax": 5,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.008,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q108",
+            "axis": "agecat",
+            "n_segments": 4,
+            "gap_human": 0.015,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.069,
+              0.5
+            ],
+            "gap_inflation": 16.22,
+            "gap_excess": 0.235,
+            "human_argmax": 5,
+            "model_argmax": 5,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "education",
+            "n_segments": 3,
+            "gap_human": 0.05,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.05,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.01,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q112",
+            "axis": "agecat",
+            "n_segments": 4,
+            "gap_human": 0.025,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.025,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.025,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q113",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.068,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.068,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.068,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q113",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.148,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.148,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.043,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.043,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.108,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.108,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.127,
+            "gap_model": 0.481,
+            "gap_model_ci95": [
+              0.313,
+              0.646
+            ],
+            "gap_inflation": 3.79,
+            "gap_excess": 0.354,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.045,
+            "gap_model": 0.173,
+            "gap_model_ci95": [
+              0.116,
+              0.397
+            ],
+            "gap_inflation": 3.85,
+            "gap_excess": 0.128,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.077,
+            "gap_model": 0.817,
+            "gap_model_ci95": [
+              0.703,
+              0.918
+            ],
+            "gap_inflation": 10.62,
+            "gap_excess": 0.74,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q122",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.05,
+            "gap_model": 0.686,
+            "gap_model_ci95": [
+              0.537,
+              0.848
+            ],
+            "gap_inflation": 13.68,
+            "gap_excess": 0.636,
+            "human_argmax": 6,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.05,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q123",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.321,
+            "gap_model_ci95": [
+              0.143,
+              0.546
+            ],
+            "gap_inflation": 2.93,
+            "gap_excess": 0.212,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.11,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.033,
+            "gap_model": 0.471,
+            "gap_model_ci95": [
+              0.344,
+              0.719
+            ],
+            "gap_inflation": 14.35,
+            "gap_excess": 0.438,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q158",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.066,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.066,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.011,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.011,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.006,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.04,
+            "gap_model": 0.1,
+            "gap_model_ci95": [
+              0.0,
+              0.308
+            ],
+            "gap_inflation": 2.52,
+            "gap_excess": 0.06,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "agecat",
+            "n_segments": 4,
+            "gap_human": 0.016,
+            "gap_model": 0.056,
+            "gap_model_ci95": [
+              0.0,
+              0.2
+            ],
+            "gap_inflation": 3.58,
+            "gap_excess": 0.04,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q160",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.042,
+            "gap_model": 0.384,
+            "gap_model_ci95": [
+              0.151,
+              0.665
+            ],
+            "gap_inflation": 9.16,
+            "gap_excess": 0.342,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q160",
+            "axis": "agecat",
+            "n_segments": 5,
+            "gap_human": 0.031,
+            "gap_model": 0.215,
+            "gap_model_ci95": [
+              0.112,
+              0.627
+            ],
+            "gap_inflation": 6.88,
+            "gap_excess": 0.184,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "education",
+            "n_segments": 3,
+            "gap_human": 0.216,
+            "gap_model": 0.15,
+            "gap_model_ci95": [
+              0.048,
+              0.391
+            ],
+            "gap_inflation": 0.69,
+            "gap_excess": -0.066,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "agecat",
+            "n_segments": 5,
+            "gap_human": 0.094,
+            "gap_model": 0.168,
+            "gap_model_ci95": [
+              0.087,
+              0.502
+            ],
+            "gap_inflation": 1.78,
+            "gap_excess": 0.074,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.053,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.041,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.041,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "agecat",
+            "n_segments": 5,
+            "gap_human": 0.069,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.069,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.014,
+            "spurious_split": 0
+          }
+        ]
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "n_pairs": 32,
+        "median_gap_inflation": 2.54,
+        "median_gap_excess": 0.09,
+        "target_mismatch_rate": 0.719,
+        "n_target_mismatch": 23,
+        "median_targeting_cost_when_wrong": 0.021,
+        "max_targeting_cost": 0.088,
+        "spurious_split_rate": 0.281,
+        "n_spurious_split": 9,
+        "by_pair": [
+          {
+            "question": "Q48",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.126,
+            "gap_model": 0.447,
+            "gap_model_ci95": [
+              0.271,
+              0.677
+            ],
+            "gap_inflation": 3.56,
+            "gap_excess": 0.322,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.058,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q48",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.022,
+            "gap_model": 0.061,
+            "gap_model_ci95": [
+              0.077,
+              0.318
+            ],
+            "gap_inflation": 2.85,
+            "gap_excess": 0.04,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.006,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.095,
+            "gap_model": 0.333,
+            "gap_model_ci95": [
+              0.125,
+              0.586
+            ],
+            "gap_inflation": 3.52,
+            "gap_excess": 0.239,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q106",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.044,
+            "gap_model": 0.231,
+            "gap_model_ci95": [
+              0.091,
+              0.411
+            ],
+            "gap_inflation": 5.19,
+            "gap_excess": 0.186,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.096,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.174,
+              0.422
+            ],
+            "gap_inflation": 2.83,
+            "gap_excess": 0.176,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q107",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.047,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.185,
+              0.477
+            ],
+            "gap_inflation": 5.36,
+            "gap_excess": 0.203,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.013,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q108",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.046,
+            "gap_model": 0.738,
+            "gap_model_ci95": [
+              0.599,
+              0.862
+            ],
+            "gap_inflation": 16.0,
+            "gap_excess": 0.691,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q108",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.016,
+            "gap_model": 0.234,
+            "gap_model_ci95": [
+              0.184,
+              0.535
+            ],
+            "gap_inflation": 14.61,
+            "gap_excess": 0.218,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.012,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q112",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.05,
+            "gap_model": 0.188,
+            "gap_model_ci95": [
+              0.117,
+              0.348
+            ],
+            "gap_inflation": 3.72,
+            "gap_excess": 0.137,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q112",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.076,
+            "gap_model": 0.364,
+            "gap_model_ci95": [
+              0.2,
+              0.58
+            ],
+            "gap_inflation": 4.77,
+            "gap_excess": 0.287,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.023,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.068,
+            "gap_model": 0.029,
+            "gap_model_ci95": [
+              0.0,
+              0.079
+            ],
+            "gap_inflation": 0.43,
+            "gap_excess": -0.038,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.068,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q113",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.148,
+            "gap_model": 0.045,
+            "gap_model_ci95": [
+              0.0,
+              0.122
+            ],
+            "gap_inflation": 0.31,
+            "gap_excess": -0.103,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.043,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.043,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.108,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.108,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.127,
+            "gap_model": 0.593,
+            "gap_model_ci95": [
+              0.442,
+              0.769
+            ],
+            "gap_inflation": 4.66,
+            "gap_excess": 0.466,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.045,
+            "gap_model": 0.5,
+            "gap_model_ci95": [
+              0.282,
+              0.673
+            ],
+            "gap_inflation": 11.11,
+            "gap_excess": 0.455,
+            "human_argmax": 6,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.077,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.077,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.077,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.05,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.05,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.476,
+            "gap_model_ci95": [
+              0.324,
+              0.623
+            ],
+            "gap_inflation": 4.35,
+            "gap_excess": 0.367,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.088,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.033,
+            "gap_model": 0.385,
+            "gap_model_ci95": [
+              0.243,
+              0.571
+            ],
+            "gap_inflation": 11.71,
+            "gap_excess": 0.352,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q158",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.066,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.066,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.011,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.011,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.001,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.04,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.04,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.019,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.019,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q160",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.042,
+            "gap_model": 0.689,
+            "gap_model_ci95": [
+              0.532,
+              0.844
+            ],
+            "gap_inflation": 16.43,
+            "gap_excess": 0.647,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q160",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.031,
+            "gap_model": 0.383,
+            "gap_model_ci95": [
+              0.208,
+              0.674
+            ],
+            "gap_inflation": 12.27,
+            "gap_excess": 0.352,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.021,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q164",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.216,
+            "gap_model": 0.488,
+            "gap_model_ci95": [
+              0.326,
+              0.7
+            ],
+            "gap_inflation": 2.26,
+            "gap_excess": 0.272,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.094,
+            "gap_model": 0.137,
+            "gap_model_ci95": [
+              0.104,
+              0.451
+            ],
+            "gap_inflation": 1.45,
+            "gap_excess": 0.042,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.023,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.041,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.041,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.098,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.098,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.018,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.018,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.005,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.11,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.11,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.054,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 32,
+        "median_gap_inflation": 1.96,
+        "median_gap_excess": 0.065,
+        "target_mismatch_rate": 0.75,
+        "n_target_mismatch": 24,
+        "median_targeting_cost_when_wrong": 0.021,
+        "max_targeting_cost": 0.11,
+        "spurious_split_rate": 0.312,
+        "n_spurious_split": 10,
+        "by_pair": [
+          {
+            "question": "Q48",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.126,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.067,
+              0.425
+            ],
+            "gap_inflation": 1.99,
+            "gap_excess": 0.124,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.058,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q48",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.022,
+            "gap_model": 0.071,
+            "gap_model_ci95": [
+              0.032,
+              0.173
+            ],
+            "gap_inflation": 3.31,
+            "gap_excess": 0.05,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.006,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.095,
+            "gap_model": 0.323,
+            "gap_model_ci95": [
+              0.153,
+              0.57
+            ],
+            "gap_inflation": 3.41,
+            "gap_excess": 0.228,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q106",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.044,
+            "gap_model": 0.45,
+            "gap_model_ci95": [
+              0.178,
+              0.713
+            ],
+            "gap_inflation": 10.12,
+            "gap_excess": 0.406,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.005,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q107",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.096,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.096,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.04,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.047,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.047,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.013,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q108",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.046,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.134,
+              0.371
+            ],
+            "gap_inflation": 5.42,
+            "gap_excess": 0.204,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q108",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.016,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.154,
+              0.4
+            ],
+            "gap_inflation": 15.59,
+            "gap_excess": 0.234,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.001,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.05,
+            "gap_model": 0.256,
+            "gap_model_ci95": [
+              0.116,
+              0.439
+            ],
+            "gap_inflation": 5.08,
+            "gap_excess": 0.206,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.076,
+            "gap_model": 0.729,
+            "gap_model_ci95": [
+              0.219,
+              0.926
+            ],
+            "gap_inflation": 9.55,
+            "gap_excess": 0.652,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.023,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.068,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.068,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q113",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.148,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.148,
+            "human_argmax": 2,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.092,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.043,
+            "gap_model": 0.083,
+            "gap_model_ci95": [
+              0.02,
+              0.176
+            ],
+            "gap_inflation": 1.93,
+            "gap_excess": 0.04,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.108,
+            "gap_model": 0.083,
+            "gap_model_ci95": [
+              0.02,
+              0.225
+            ],
+            "gap_inflation": 0.77,
+            "gap_excess": -0.025,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.127,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.061,
+              0.309
+            ],
+            "gap_inflation": 1.07,
+            "gap_excess": 0.009,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.039,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.045,
+            "gap_model": 0.208,
+            "gap_model_ci95": [
+              0.099,
+              0.373
+            ],
+            "gap_inflation": 4.63,
+            "gap_excess": 0.163,
+            "human_argmax": 6,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.077,
+            "gap_model": 0.429,
+            "gap_model_ci95": [
+              0.28,
+              0.676
+            ],
+            "gap_inflation": 5.57,
+            "gap_excess": 0.352,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q122",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.05,
+            "gap_model": 0.537,
+            "gap_model_ci95": [
+              0.325,
+              0.739
+            ],
+            "gap_inflation": 10.73,
+            "gap_excess": 0.487,
+            "human_argmax": 6,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.024,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q123",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.738,
+            "gap_model_ci95": [
+              0.641,
+              0.868
+            ],
+            "gap_inflation": 6.74,
+            "gap_excess": 0.629,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.11,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.033,
+            "gap_model": 0.532,
+            "gap_model_ci95": [
+              0.39,
+              0.775
+            ],
+            "gap_inflation": 16.22,
+            "gap_excess": 0.5,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q158",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.066,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.066,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.011,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.011,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.001,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.04,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.04,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.019,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.019,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q160",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.042,
+            "gap_model": 0.402,
+            "gap_model_ci95": [
+              0.251,
+              0.601
+            ],
+            "gap_inflation": 9.6,
+            "gap_excess": 0.36,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q160",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.031,
+            "gap_model": 0.111,
+            "gap_model_ci95": [
+              0.109,
+              0.435
+            ],
+            "gap_inflation": 3.56,
+            "gap_excess": 0.08,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.005,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.216,
+            "gap_model": 0.371,
+            "gap_model_ci95": [
+              0.219,
+              0.598
+            ],
+            "gap_inflation": 1.71,
+            "gap_excess": 0.154,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.094,
+            "gap_model": 0.233,
+            "gap_model_ci95": [
+              0.12,
+              0.504
+            ],
+            "gap_inflation": 2.47,
+            "gap_excess": 0.139,
+            "human_argmax": 1,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.094,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.041,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.041,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.098,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.098,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.018,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.018,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.005,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.11,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.11,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          }
+        ]
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "n_pairs": 32,
+        "median_gap_inflation": 4.12,
+        "median_gap_excess": 0.163,
+        "target_mismatch_rate": 0.719,
+        "n_target_mismatch": 23,
+        "median_targeting_cost_when_wrong": 0.029,
+        "max_targeting_cost": 0.11,
+        "spurious_split_rate": 0.312,
+        "n_spurious_split": 10,
+        "by_pair": [
+          {
+            "question": "Q48",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.126,
+            "gap_model": 0.685,
+            "gap_model_ci95": [
+              0.512,
+              0.863
+            ],
+            "gap_inflation": 5.46,
+            "gap_excess": 0.56,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q48",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.022,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.103,
+              0.421
+            ],
+            "gap_inflation": 6.29,
+            "gap_excess": 0.114,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.021,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.095,
+            "gap_model": 0.196,
+            "gap_model_ci95": [
+              0.077,
+              0.469
+            ],
+            "gap_inflation": 2.07,
+            "gap_excess": 0.101,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.044,
+            "gap_model": 0.275,
+            "gap_model_ci95": [
+              0.128,
+              0.594
+            ],
+            "gap_inflation": 6.19,
+            "gap_excess": 0.231,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.005,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q107",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.096,
+            "gap_model": 0.114,
+            "gap_model_ci95": [
+              0.064,
+              0.373
+            ],
+            "gap_inflation": 1.18,
+            "gap_excess": 0.017,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.047,
+            "gap_model": 0.202,
+            "gap_model_ci95": [
+              0.148,
+              0.539
+            ],
+            "gap_inflation": 4.34,
+            "gap_excess": 0.156,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.013,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q108",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.046,
+            "gap_model": 0.146,
+            "gap_model_ci95": [
+              0.077,
+              0.426
+            ],
+            "gap_inflation": 3.17,
+            "gap_excess": 0.1,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.022,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q108",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.016,
+            "gap_model": 0.299,
+            "gap_model_ci95": [
+              0.146,
+              0.647
+            ],
+            "gap_inflation": 18.62,
+            "gap_excess": 0.283,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.05,
+            "gap_model": 0.245,
+            "gap_model_ci95": [
+              0.087,
+              0.473
+            ],
+            "gap_inflation": 4.86,
+            "gap_excess": 0.195,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q112",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.076,
+            "gap_model": 0.529,
+            "gap_model_ci95": [
+              0.251,
+              0.741
+            ],
+            "gap_inflation": 6.93,
+            "gap_excess": 0.452,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.023,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.068,
+            "gap_model": 0.09,
+            "gap_model_ci95": [
+              0.054,
+              0.342
+            ],
+            "gap_inflation": 1.34,
+            "gap_excess": 0.023,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.006,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q113",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.148,
+            "gap_model": 0.219,
+            "gap_model_ci95": [
+              0.131,
+              0.497
+            ],
+            "gap_inflation": 1.48,
+            "gap_excess": 0.071,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.055,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.043,
+            "gap_model": 0.254,
+            "gap_model_ci95": [
+              0.108,
+              0.498
+            ],
+            "gap_inflation": 5.89,
+            "gap_excess": 0.211,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q114",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.108,
+            "gap_model": 0.29,
+            "gap_model_ci95": [
+              0.217,
+              0.585
+            ],
+            "gap_inflation": 2.67,
+            "gap_excess": 0.181,
+            "human_argmax": 2,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.071,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.127,
+            "gap_model": 0.222,
+            "gap_model_ci95": [
+              0.104,
+              0.371
+            ],
+            "gap_inflation": 1.75,
+            "gap_excess": 0.095,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.045,
+            "gap_model": 0.175,
+            "gap_model_ci95": [
+              0.085,
+              0.315
+            ],
+            "gap_inflation": 3.89,
+            "gap_excess": 0.13,
+            "human_argmax": 6,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.077,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.077,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.077,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.05,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.05,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.11,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.088,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.033,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.033,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.066,
+            "gap_model": 0.476,
+            "gap_model_ci95": [
+              0.321,
+              0.647
+            ],
+            "gap_inflation": 7.23,
+            "gap_excess": 0.41,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q158",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.011,
+            "gap_model": 0.167,
+            "gap_model_ci95": [
+              0.102,
+              0.423
+            ],
+            "gap_inflation": 15.33,
+            "gap_excess": 0.156,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.001,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.04,
+            "gap_model": 0.438,
+            "gap_model_ci95": [
+              0.281,
+              0.649
+            ],
+            "gap_inflation": 11.04,
+            "gap_excess": 0.398,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q159",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.019,
+            "gap_model": 0.191,
+            "gap_model_ci95": [
+              0.115,
+              0.421
+            ],
+            "gap_inflation": 9.86,
+            "gap_excess": 0.172,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q160",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.042,
+            "gap_model": 0.377,
+            "gap_model_ci95": [
+              0.235,
+              0.552
+            ],
+            "gap_inflation": 9.0,
+            "gap_excess": 0.335,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q160",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.031,
+            "gap_model": 0.679,
+            "gap_model_ci95": [
+              0.509,
+              0.864
+            ],
+            "gap_inflation": 21.74,
+            "gap_excess": 0.647,
+            "human_argmax": 1,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.031,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q164",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.216,
+            "gap_model": 0.312,
+            "gap_model_ci95": [
+              0.165,
+              0.526
+            ],
+            "gap_inflation": 1.44,
+            "gap_excess": 0.096,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.094,
+            "gap_model": 0.275,
+            "gap_model_ci95": [
+              0.148,
+              0.571
+            ],
+            "gap_inflation": 2.91,
+            "gap_excess": 0.181,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.078,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q177",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.041,
+            "gap_model": 0.211,
+            "gap_model_ci95": [
+              0.11,
+              0.425
+            ],
+            "gap_inflation": 5.14,
+            "gap_excess": 0.17,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.098,
+            "gap_model": 0.159,
+            "gap_model_ci95": [
+              0.141,
+              0.442
+            ],
+            "gap_inflation": 1.63,
+            "gap_excess": 0.061,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.074,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.018,
+            "gap_model": 0.297,
+            "gap_model_ci95": [
+              0.11,
+              0.541
+            ],
+            "gap_inflation": 16.69,
+            "gap_excess": 0.279,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q178",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.11,
+            "gap_model": 0.322,
+            "gap_model_ci95": [
+              0.216,
+              0.617
+            ],
+            "gap_inflation": 2.94,
+            "gap_excess": 0.213,
+            "human_argmax": 1,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.11,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 1,
+        "median_gap_inflation": 10.26,
+        "median_gap_excess": 0.713,
+        "target_mismatch_rate": 1.0,
+        "n_target_mismatch": 1,
+        "median_targeting_cost_when_wrong": 0.043,
+        "max_targeting_cost": 0.043,
+        "spurious_split_rate": 1.0,
+        "n_spurious_split": 1,
+        "by_pair": [
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 3,
+            "gap_human": 0.077,
+            "gap_model": 0.789,
+            "gap_model_ci95": [
+              0.683,
+              1.0
+            ],
+            "gap_inflation": 10.26,
+            "gap_excess": 0.713,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 1
+          }
+        ]
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "n_pairs": 32,
+        "median_gap_inflation": 3.19,
+        "median_gap_excess": 0.218,
+        "target_mismatch_rate": 0.688,
+        "n_target_mismatch": 22,
+        "median_targeting_cost_when_wrong": 0.019,
+        "max_targeting_cost": 0.094,
+        "spurious_split_rate": 0.406,
+        "n_spurious_split": 13,
+        "by_pair": [
+          {
+            "question": "Q48",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.126,
+            "gap_model": 0.542,
+            "gap_model_ci95": [
+              0.368,
+              0.732
+            ],
+            "gap_inflation": 4.31,
+            "gap_excess": 0.416,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.058,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q48",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.022,
+            "gap_model": 0.2,
+            "gap_model_ci95": [
+              0.132,
+              0.364
+            ],
+            "gap_inflation": 9.27,
+            "gap_excess": 0.178,
+            "human_argmax": 2,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q106",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.095,
+            "gap_model": 0.304,
+            "gap_model_ci95": [
+              0.192,
+              0.571
+            ],
+            "gap_inflation": 3.21,
+            "gap_excess": 0.21,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q106",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.044,
+            "gap_model": 0.213,
+            "gap_model_ci95": [
+              0.107,
+              0.439
+            ],
+            "gap_inflation": 4.78,
+            "gap_excess": 0.168,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.096,
+            "gap_model": 0.75,
+            "gap_model_ci95": [
+              0.649,
+              0.857
+            ],
+            "gap_inflation": 7.77,
+            "gap_excess": 0.654,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q107",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.047,
+            "gap_model": 0.535,
+            "gap_model_ci95": [
+              0.395,
+              0.705
+            ],
+            "gap_inflation": 11.47,
+            "gap_excess": 0.488,
+            "human_argmax": 1,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.047,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q108",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.046,
+            "gap_model": 0.619,
+            "gap_model_ci95": [
+              0.453,
+              0.784
+            ],
+            "gap_inflation": 13.42,
+            "gap_excess": 0.573,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q108",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.016,
+            "gap_model": 0.399,
+            "gap_model_ci95": [
+              0.303,
+              0.629
+            ],
+            "gap_inflation": 24.88,
+            "gap_excess": 0.383,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.012,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.05,
+            "gap_model": 0.389,
+            "gap_model_ci95": [
+              0.25,
+              0.548
+            ],
+            "gap_inflation": 7.71,
+            "gap_excess": 0.338,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.076,
+            "gap_model": 0.47,
+            "gap_model_ci95": [
+              0.127,
+              0.749
+            ],
+            "gap_inflation": 6.15,
+            "gap_excess": 0.393,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.002,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.068,
+            "gap_model": 0.323,
+            "gap_model_ci95": [
+              0.165,
+              0.527
+            ],
+            "gap_inflation": 4.77,
+            "gap_excess": 0.255,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.148,
+            "gap_model": 0.375,
+            "gap_model_ci95": [
+              0.26,
+              0.67
+            ],
+            "gap_inflation": 2.53,
+            "gap_excess": 0.227,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.043,
+            "gap_model": 0.358,
+            "gap_model_ci95": [
+              0.222,
+              0.523
+            ],
+            "gap_inflation": 8.31,
+            "gap_excess": 0.315,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q114",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.108,
+            "gap_model": 0.31,
+            "gap_model_ci95": [
+              0.209,
+              0.536
+            ],
+            "gap_inflation": 2.86,
+            "gap_excess": 0.202,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.127,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.12,
+              0.407
+            ],
+            "gap_inflation": 1.97,
+            "gap_excess": 0.123,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.045,
+            "gap_model": 0.125,
+            "gap_model_ci95": [
+              0.067,
+              0.248
+            ],
+            "gap_inflation": 2.78,
+            "gap_excess": 0.08,
+            "human_argmax": 6,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.077,
+            "gap_model": 0.109,
+            "gap_model_ci95": [
+              0.043,
+              0.233
+            ],
+            "gap_inflation": 1.41,
+            "gap_excess": 0.032,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.05,
+            "gap_model": 0.15,
+            "gap_model_ci95": [
+              0.048,
+              0.31
+            ],
+            "gap_inflation": 2.99,
+            "gap_excess": 0.1,
+            "human_argmax": 6,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.038,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.11,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.057,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.033,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.033,
+            "human_argmax": 6,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.018,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.066,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.066,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.011,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.011,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.001,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.04,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.04,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.019,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.019,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q160",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.042,
+            "gap_model": 0.864,
+            "gap_model_ci95": [
+              0.761,
+              0.955
+            ],
+            "gap_inflation": 20.61,
+            "gap_excess": 0.822,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q160",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.031,
+            "gap_model": 0.786,
+            "gap_model_ci95": [
+              0.692,
+              0.961
+            ],
+            "gap_inflation": 25.17,
+            "gap_excess": 0.754,
+            "human_argmax": 1,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.031,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q164",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.216,
+            "gap_model": 0.471,
+            "gap_model_ci95": [
+              0.29,
+              0.635
+            ],
+            "gap_inflation": 2.18,
+            "gap_excess": 0.254,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.094,
+            "gap_model": 0.372,
+            "gap_model_ci95": [
+              0.254,
+              0.628
+            ],
+            "gap_inflation": 3.94,
+            "gap_excess": 0.278,
+            "human_argmax": 1,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.094,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q177",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.041,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.041,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.098,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.098,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.018,
+            "gap_model": 0.263,
+            "gap_model_ci95": [
+              0.147,
+              0.418
+            ],
+            "gap_inflation": 14.8,
+            "gap_excess": 0.245,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.008,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q178",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.11,
+            "gap_model": 0.346,
+            "gap_model_ci95": [
+              0.182,
+              0.54
+            ],
+            "gap_inflation": 3.16,
+            "gap_excess": 0.237,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 32,
+        "median_gap_inflation": 4.65,
+        "median_gap_excess": 0.124,
+        "target_mismatch_rate": 0.75,
+        "n_target_mismatch": 24,
+        "median_targeting_cost_when_wrong": 0.021,
+        "max_targeting_cost": 0.11,
+        "spurious_split_rate": 0.344,
+        "n_spurious_split": 11,
+        "by_pair": [
+          {
+            "question": "Q48",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.126,
+            "gap_model": 0.926,
+            "gap_model_ci95": [
+              0.827,
+              1.0
+            ],
+            "gap_inflation": 7.37,
+            "gap_excess": 0.8,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q48",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.022,
+            "gap_model": 0.286,
+            "gap_model_ci95": [
+              0.134,
+              0.581
+            ],
+            "gap_inflation": 13.24,
+            "gap_excess": 0.264,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.003,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q106",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.095,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.087,
+              0.424
+            ],
+            "gap_inflation": 2.64,
+            "gap_excess": 0.155,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.095,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q106",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.044,
+            "gap_model": 0.115,
+            "gap_model_ci95": [
+              0.066,
+              0.269
+            ],
+            "gap_inflation": 2.6,
+            "gap_excess": 0.071,
+            "human_argmax": 3,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.044,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.096,
+            "gap_model": 0.088,
+            "gap_model_ci95": [
+              0.045,
+              0.265
+            ],
+            "gap_inflation": 0.91,
+            "gap_excess": -0.009,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.096,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q107",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.047,
+            "gap_model": 0.208,
+            "gap_model_ci95": [
+              0.113,
+              0.441
+            ],
+            "gap_inflation": 4.47,
+            "gap_excess": 0.162,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.013,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q108",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.046,
+            "gap_model": 0.038,
+            "gap_model_ci95": [
+              0.018,
+              0.111
+            ],
+            "gap_inflation": 0.83,
+            "gap_excess": -0.008,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q108",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.016,
+            "gap_model": 0.091,
+            "gap_model_ci95": [
+              0.034,
+              0.227
+            ],
+            "gap_inflation": 5.67,
+            "gap_excess": 0.075,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q112",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.05,
+            "gap_model": 0.368,
+            "gap_model_ci95": [
+              0.204,
+              0.558
+            ],
+            "gap_inflation": 7.28,
+            "gap_excess": 0.317,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q112",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.076,
+            "gap_model": 0.729,
+            "gap_model_ci95": [
+              0.235,
+              0.929
+            ],
+            "gap_inflation": 9.55,
+            "gap_excess": 0.652,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.023,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.068,
+            "gap_model": 0.459,
+            "gap_model_ci95": [
+              0.305,
+              0.607
+            ],
+            "gap_inflation": 6.78,
+            "gap_excess": 0.391,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q113",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.148,
+            "gap_model": 0.159,
+            "gap_model_ci95": [
+              0.119,
+              0.469
+            ],
+            "gap_inflation": 1.07,
+            "gap_excess": 0.011,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.043,
+            "gap_model": 0.208,
+            "gap_model_ci95": [
+              0.094,
+              0.378
+            ],
+            "gap_inflation": 4.83,
+            "gap_excess": 0.165,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q114",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.108,
+            "gap_model": 0.383,
+            "gap_model_ci95": [
+              0.202,
+              0.578
+            ],
+            "gap_inflation": 3.54,
+            "gap_excess": 0.275,
+            "human_argmax": 2,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.108,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.127,
+            "gap_model": 0.194,
+            "gap_model_ci95": [
+              0.091,
+              0.333
+            ],
+            "gap_inflation": 1.53,
+            "gap_excess": 0.067,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q121",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.045,
+            "gap_model": 0.083,
+            "gap_model_ci95": [
+              0.053,
+              0.231
+            ],
+            "gap_inflation": 1.85,
+            "gap_excess": 0.038,
+            "human_argmax": 6,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q122",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.077,
+            "gap_model": 0.592,
+            "gap_model_ci95": [
+              0.46,
+              0.745
+            ],
+            "gap_inflation": 7.69,
+            "gap_excess": 0.515,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q122",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.05,
+            "gap_model": 0.688,
+            "gap_model_ci95": [
+              0.463,
+              0.903
+            ],
+            "gap_inflation": 13.72,
+            "gap_excess": 0.637,
+            "human_argmax": 6,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.024,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q123",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.81,
+            "gap_model_ci95": [
+              0.75,
+              0.923
+            ],
+            "gap_inflation": 7.39,
+            "gap_excess": 0.7,
+            "human_argmax": 3,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.11,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q123",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.033,
+            "gap_model": 0.542,
+            "gap_model_ci95": [
+              0.389,
+              0.766
+            ],
+            "gap_inflation": 16.51,
+            "gap_excess": 0.509,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q158",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.066,
+            "gap_model": 0.095,
+            "gap_model_ci95": [
+              0.01,
+              0.2
+            ],
+            "gap_inflation": 1.45,
+            "gap_excess": 0.029,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.046,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q158",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.011,
+            "gap_model": 0.083,
+            "gap_model_ci95": [
+              0.01,
+              0.22
+            ],
+            "gap_inflation": 7.66,
+            "gap_excess": 0.072,
+            "human_argmax": 3,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.011,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q159",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.04,
+            "gap_model": 0.286,
+            "gap_model_ci95": [
+              0.159,
+              0.484
+            ],
+            "gap_inflation": 7.2,
+            "gap_excess": 0.246,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q159",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.019,
+            "gap_model": 0.113,
+            "gap_model_ci95": [
+              0.071,
+              0.253
+            ],
+            "gap_inflation": 5.85,
+            "gap_excess": 0.094,
+            "human_argmax": 1,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q160",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.042,
+            "gap_model": 0.409,
+            "gap_model_ci95": [
+              0.297,
+              0.554
+            ],
+            "gap_inflation": 9.76,
+            "gap_excess": 0.367,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.042,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q160",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.031,
+            "gap_model": 0.286,
+            "gap_model_ci95": [
+              0.153,
+              0.559
+            ],
+            "gap_inflation": 9.15,
+            "gap_excess": 0.254,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "Q164",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.216,
+            "gap_model": 0.296,
+            "gap_model_ci95": [
+              0.136,
+              0.569
+            ],
+            "gap_inflation": 1.37,
+            "gap_excess": 0.079,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q164",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.094,
+            "gap_model": 0.167,
+            "gap_model_ci95": [
+              0.133,
+              0.464
+            ],
+            "gap_inflation": 1.76,
+            "gap_excess": 0.072,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.053,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.041,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.041,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.02,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q177",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.098,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.098,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.043,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "education",
+            "n_segments": 4,
+            "gap_human": 0.018,
+            "gap_model": 0.012,
+            "gap_model_ci95": [
+              0.0,
+              0.041
+            ],
+            "gap_inflation": 0.69,
+            "gap_excess": -0.006,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.005,
+            "spurious_split": 0
+          },
+          {
+            "question": "Q178",
+            "axis": "agecat",
+            "n_segments": 6,
+            "gap_human": 0.11,
+            "gap_model": 0.038,
+            "gap_model_ci95": [
+              0.0,
+              0.125
+            ],
+            "gap_inflation": 0.35,
+            "gap_excess": -0.071,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          }
+        ]
+      }
+    }
+  }
+}

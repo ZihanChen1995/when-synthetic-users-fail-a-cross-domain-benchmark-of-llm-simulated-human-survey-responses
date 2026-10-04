@@ -1,0 +1,296 @@
+{
+  "A": {
+    "median_stereotyping_index": 0.026,
+    "n_question_axis_pairs": 12,
+    "n_pairs_ci_excludes_0": 7,
+    "n_pairs_stereotyping": 9,
+    "n_pairs_flattening": 3,
+    "by_question": {
+      "happy": {
+        "race": {
+          "n_model_preds": 196,
+          "eta2_human": 0.003,
+          "eta2_model": 0.03,
+          "stereotyping_index": 0.027,
+          "eta2_model_ci95": [
+            0.004,
+            0.108
+          ],
+          "index_ci95": [
+            0.001,
+            0.105
+          ]
+        },
+        "degree": {
+          "n_model_preds": 196,
+          "eta2_human": 0.009,
+          "eta2_model": 0.001,
+          "stereotyping_index": -0.008,
+          "eta2_model_ci95": [
+            0.002,
+            0.049
+          ],
+          "index_ci95": [
+            -0.007,
+            0.04
+          ]
+        },
+        "region": {
+          "n_model_preds": 196,
+          "eta2_human": 0.001,
+          "eta2_model": 0.04,
+          "stereotyping_index": 0.039,
+          "eta2_model_ci95": [
+            0.008,
+            0.118
+          ],
+          "index_ci95": [
+            0.007,
+            0.117
+          ]
+        },
+        "polviews": {
+          "n_model_preds": 196,
+          "eta2_human": 0.003,
+          "eta2_model": 0.026,
+          "stereotyping_index": 0.024,
+          "eta2_model_ci95": [
+            0.013,
+            0.126
+          ],
+          "index_ci95": [
+            0.01,
+            0.123
+          ]
+        }
+      },
+      "fefam": {
+        "race": {
+          "n_model_preds": 200,
+          "eta2_human": 0.007,
+          "eta2_model": 0.039,
+          "stereotyping_index": 0.031,
+          "eta2_model_ci95": [
+            0.008,
+            0.103
+          ],
+          "index_ci95": [
+            0.001,
+            0.096
+          ]
+        },
+        "degree": {
+          "n_model_preds": 200,
+          "eta2_human": 0.063,
+          "eta2_model": 0.046,
+          "stereotyping_index": -0.017,
+          "eta2_model_ci95": [
+            0.014,
+            0.134
+          ],
+          "index_ci95": [
+            -0.049,
+            0.071
+          ]
+        },
+        "region": {
+          "n_model_preds": 200,
+          "eta2_human": 0.009,
+          "eta2_model": 0.004,
+          "stereotyping_index": -0.004,
+          "eta2_model_ci95": [
+            0.002,
+            0.051
+          ],
+          "index_ci95": [
+            -0.007,
+            0.042
+          ]
+        },
+        "polviews": {
+          "n_model_preds": 200,
+          "eta2_human": 0.098,
+          "eta2_model": 0.392,
+          "stereotyping_index": 0.294,
+          "eta2_model_ci95": [
+            0.272,
+            0.514
+          ],
+          "index_ci95": [
+            0.174,
+            0.416
+          ]
+        }
+      },
+      "confinan": {
+        "race": {
+          "n_model_preds": 198,
+          "eta2_human": 0.0,
+          "eta2_model": 0.027,
+          "stereotyping_index": 0.027,
+          "eta2_model_ci95": [
+            0.004,
+            0.088
+          ],
+          "index_ci95": [
+            0.004,
+            0.088
+          ]
+        },
+        "degree": {
+          "n_model_preds": 198,
+          "eta2_human": 0.002,
+          "eta2_model": 0.068,
+          "stereotyping_index": 0.066,
+          "eta2_model_ci95": [
+            0.03,
+            0.16
+          ],
+          "index_ci95": [
+            0.028,
+            0.158
+          ]
+        },
+        "region": {
+          "n_model_preds": 198,
+          "eta2_human": 0.003,
+          "eta2_model": 0.008,
+          "stereotyping_index": 0.005,
+          "eta2_model_ci95": [
+            0.003,
+            0.061
+          ],
+          "index_ci95": [
+            0.0,
+            0.058
+          ]
+        },
+        "polviews": {
+          "n_model_preds": 198,
+          "eta2_human": 0.015,
+          "eta2_model": 0.031,
+          "stereotyping_index": 0.016,
+          "eta2_model_ci95": [
+            0.014,
+            0.129
+          ],
+          "index_ci95": [
+            -0.001,
+            0.114
+          ]
+        }
+      }
+    }
+  },
+  "C": {
+    "median_stereotyping_index": 0.026,
+    "n_question_axis_pairs": 7,
+    "n_pairs_ci_excludes_0": 3,
+    "n_pairs_stereotyping": 6,
+    "n_pairs_flattening": 1,
+    "by_question": {
+      "happy": {
+        "degree": {
+          "n_model_preds": 67,
+          "eta2_human": 0.009,
+          "eta2_model": 0.05,
+          "stereotyping_index": 0.041,
+          "eta2_model_ci95": [
+            0.005,
+            0.224
+          ],
+          "index_ci95": [
+            -0.004,
+            0.215
+          ]
+        },
+        "region": {
+          "n_model_preds": 67,
+          "eta2_human": 0.001,
+          "eta2_model": 0.009,
+          "stereotyping_index": 0.009,
+          "eta2_model_ci95": [
+            0.003,
+            0.141
+          ],
+          "index_ci95": [
+            0.002,
+            0.14
+          ]
+        },
+        "polviews": {
+          "n_model_preds": 67,
+          "eta2_human": 0.003,
+          "eta2_model": 0.277,
+          "stereotyping_index": 0.275,
+          "eta2_model_ci95": [
+            0.007,
+            0.543
+          ],
+          "index_ci95": [
+            0.004,
+            0.54
+          ]
+        }
+      },
+      "fefam": {
+        "race": {
+          "n_model_preds": 100,
+          "eta2_human": 0.007,
+          "eta2_model": 0.034,
+          "stereotyping_index": 0.026,
+          "eta2_model_ci95": [
+            0.002,
+            0.152
+          ],
+          "index_ci95": [
+            -0.005,
+            0.145
+          ]
+        },
+        "degree": {
+          "n_model_preds": 100,
+          "eta2_human": 0.063,
+          "eta2_model": 0.084,
+          "stereotyping_index": 0.022,
+          "eta2_model_ci95": [
+            0.017,
+            0.242
+          ],
+          "index_ci95": [
+            -0.046,
+            0.179
+          ]
+        },
+        "region": {
+          "n_model_preds": 100,
+          "eta2_human": 0.009,
+          "eta2_model": 0.002,
+          "stereotyping_index": -0.006,
+          "eta2_model_ci95": [
+            0.001,
+            0.103
+          ],
+          "index_ci95": [
+            -0.008,
+            0.094
+          ]
+        },
+        "polviews": {
+          "n_model_preds": 100,
+          "eta2_human": 0.098,
+          "eta2_model": 0.317,
+          "stereotyping_index": 0.219,
+          "eta2_model_ci95": [
+            0.195,
+            0.586
+          ],
+          "index_ci95": [
+            0.097,
+            0.488
+          ]
+        }
+      }
+    }
+  }
+}

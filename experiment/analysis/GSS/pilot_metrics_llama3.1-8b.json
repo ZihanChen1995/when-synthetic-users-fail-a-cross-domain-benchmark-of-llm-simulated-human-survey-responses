@@ -1,0 +1,42 @@
+{
+  "A": {
+    "n_predictions": 1986,
+    "invalid_rate": 0.0,
+    "individual_accuracy": 0.496,
+    "baseline_accuracy": 0.5891,
+    "acc_minus_baseline": -0.0932,
+    "js_divergence_by_question": {
+      "happy": 0.0293,
+      "trust": 0.0314,
+      "fair": 0.1859,
+      "helpful": 0.0312,
+      "cappun": 0.0395,
+      "grass": 0.0014,
+      "abany": 0.0878,
+      "gunlaw": 0.1142,
+      "fefam": 0.0287,
+      "confinan": 0.0052
+    },
+    "mean_js_divergence": 0.0555
+  },
+  "C": {
+    "n_predictions": 847,
+    "invalid_rate": 0.5735,
+    "individual_accuracy": 0.5089,
+    "baseline_accuracy": 0.5856,
+    "acc_minus_baseline": -0.0767,
+    "js_divergence_by_question": {
+      "happy": 0.0077,
+      "trust": 0.0237,
+      "fair": 0.0355,
+      "helpful": 0.0131,
+      "cappun": 0.007,
+      "grass": 0.0101,
+      "abany": 0.0383,
+      "gunlaw": 0.0433,
+      "fefam": 0.0268,
+      "confinan": 0.0235
+    },
+    "mean_js_divergence": 0.0229
+  }
+}

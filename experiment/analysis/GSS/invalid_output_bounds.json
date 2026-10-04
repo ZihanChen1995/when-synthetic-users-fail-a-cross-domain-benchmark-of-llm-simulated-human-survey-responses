@@ -1,0 +1,95 @@
+{
+  "dataset": "GSS",
+  "claude-haiku-4.5": {
+    "dist_emd_styleC": {
+      "n": 594,
+      "model": 0.7759,
+      "baseline": 0.7282
+    },
+    "invalid_sensitivity": {
+      "A": {
+        "n_all": 1986,
+        "n_valid": 1986,
+        "invalid_rate": 0.0,
+        "acc_conditional_on_valid": 0.5866,
+        "acc_invalid_as_failure": 0.5866
+      },
+      "C": {
+        "n_all": 1986,
+        "n_valid": 1986,
+        "invalid_rate": 0.0,
+        "acc_conditional_on_valid": 0.5826,
+        "acc_invalid_as_failure": 0.5826
+      }
+    }
+  },
+  "claude-sonnet-4.6": {
+    "dist_emd_styleC": {
+      "n": 594,
+      "model": 0.7826,
+      "baseline": 0.7282
+    },
+    "invalid_sensitivity": {
+      "A": {
+        "n_all": 1986,
+        "n_valid": 1986,
+        "invalid_rate": 0.0,
+        "acc_conditional_on_valid": 0.5629,
+        "acc_invalid_as_failure": 0.5629
+      },
+      "C": {
+        "n_all": 1986,
+        "n_valid": 1986,
+        "invalid_rate": 0.0,
+        "acc_conditional_on_valid": 0.5886,
+        "acc_invalid_as_failure": 0.5886
+      }
+    }
+  },
+  "llama3.1-8b": {
+    "dist_emd_styleC": {
+      "n": 218,
+      "model": 0.8322,
+      "baseline": 0.735
+    },
+    "invalid_sensitivity": {
+      "A": {
+        "n_all": 1986,
+        "n_valid": 1986,
+        "invalid_rate": 0.0,
+        "acc_conditional_on_valid": 0.496,
+        "acc_invalid_as_failure": 0.496
+      },
+      "C": {
+        "n_all": 1986,
+        "n_valid": 847,
+        "invalid_rate": 0.5735,
+        "acc_conditional_on_valid": 0.5089,
+        "acc_invalid_as_failure": 0.217
+      }
+    }
+  },
+  "llama3.3-70b": {
+    "dist_emd_styleC": {
+      "n": 594,
+      "model": 0.7591,
+      "baseline": 0.7282
+    },
+    "invalid_sensitivity": {
+      "A": {
+        "n_all": 1986,
+        "n_valid": 1986,
+        "invalid_rate": 0.0,
+        "acc_conditional_on_valid": 0.5685,
+        "acc_invalid_as_failure": 0.5685
+      },
+      "C": {
+        "n_all": 1986,
+        "n_valid": 1986,
+        "invalid_rate": 0.0,
+        "acc_conditional_on_valid": 0.5816,
+        "acc_invalid_as_failure": 0.5816
+      }
+    }
+  }
+}

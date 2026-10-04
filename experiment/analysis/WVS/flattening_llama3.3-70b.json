@@ -1,0 +1,950 @@
+{
+  "A": {
+    "median_stereotyping_index": 0.136,
+    "n_question_axis_pairs": 32,
+    "n_pairs_ci_excludes_0": 31,
+    "n_pairs_stereotyping": 32,
+    "n_pairs_flattening": 0,
+    "by_question": {
+      "Q48": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.004,
+          "eta2_model": 0.604,
+          "stereotyping_index": 0.6,
+          "eta2_model_ci95": [
+            0.518,
+            0.697
+          ],
+          "index_ci95": [
+            0.514,
+            0.693
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.028,
+          "stereotyping_index": 0.027,
+          "eta2_model_ci95": [
+            0.011,
+            0.124
+          ],
+          "index_ci95": [
+            0.011,
+            0.124
+          ]
+        }
+      },
+      "Q106": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.005,
+          "eta2_model": 0.007,
+          "stereotyping_index": 0.002,
+          "eta2_model_ci95": [
+            0.001,
+            0.089
+          ],
+          "index_ci95": [
+            -0.004,
+            0.084
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.001,
+          "eta2_model": 0.039,
+          "stereotyping_index": 0.038,
+          "eta2_model_ci95": [
+            0.011,
+            0.152
+          ],
+          "index_ci95": [
+            0.01,
+            0.151
+          ]
+        }
+      },
+      "Q107": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.004,
+          "eta2_model": 0.561,
+          "stereotyping_index": 0.557,
+          "eta2_model_ci95": [
+            0.466,
+            0.667
+          ],
+          "index_ci95": [
+            0.462,
+            0.663
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.131,
+          "stereotyping_index": 0.131,
+          "eta2_model_ci95": [
+            0.071,
+            0.267
+          ],
+          "index_ci95": [
+            0.071,
+            0.267
+          ]
+        }
+      },
+      "Q108": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.002,
+          "eta2_model": 0.26,
+          "stereotyping_index": 0.258,
+          "eta2_model_ci95": [
+            0.128,
+            0.423
+          ],
+          "index_ci95": [
+            0.126,
+            0.421
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.174,
+          "stereotyping_index": 0.174,
+          "eta2_model_ci95": [
+            0.102,
+            0.313
+          ],
+          "index_ci95": [
+            0.102,
+            0.313
+          ]
+        }
+      },
+      "Q112": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.006,
+          "eta2_model": 0.084,
+          "stereotyping_index": 0.078,
+          "eta2_model_ci95": [
+            0.039,
+            0.176
+          ],
+          "index_ci95": [
+            0.033,
+            0.17
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.007,
+          "eta2_model": 0.1,
+          "stereotyping_index": 0.094,
+          "eta2_model_ci95": [
+            0.017,
+            0.232
+          ],
+          "index_ci95": [
+            0.01,
+            0.225
+          ]
+        }
+      },
+      "Q113": {
+        "education": {
+          "n_model_preds": 184,
+          "eta2_human": 0.002,
+          "eta2_model": 0.051,
+          "stereotyping_index": 0.049,
+          "eta2_model_ci95": [
+            0.014,
+            0.137
+          ],
+          "index_ci95": [
+            0.012,
+            0.135
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 184,
+          "eta2_human": 0.008,
+          "eta2_model": 0.085,
+          "stereotyping_index": 0.078,
+          "eta2_model_ci95": [
+            0.04,
+            0.197
+          ],
+          "index_ci95": [
+            0.032,
+            0.189
+          ]
+        }
+      },
+      "Q114": {
+        "education": {
+          "n_model_preds": 186,
+          "eta2_human": 0.001,
+          "eta2_model": 0.142,
+          "stereotyping_index": 0.141,
+          "eta2_model_ci95": [
+            0.064,
+            0.261
+          ],
+          "index_ci95": [
+            0.063,
+            0.26
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 186,
+          "eta2_human": 0.003,
+          "eta2_model": 0.048,
+          "stereotyping_index": 0.045,
+          "eta2_model_ci95": [
+            0.022,
+            0.153
+          ],
+          "index_ci95": [
+            0.019,
+            0.15
+          ]
+        }
+      },
+      "Q121": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.009,
+          "eta2_model": 0.342,
+          "stereotyping_index": 0.333,
+          "eta2_model_ci95": [
+            0.25,
+            0.458
+          ],
+          "index_ci95": [
+            0.241,
+            0.449
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.001,
+          "eta2_model": 0.034,
+          "stereotyping_index": 0.033,
+          "eta2_model_ci95": [
+            0.013,
+            0.131
+          ],
+          "index_ci95": [
+            0.012,
+            0.13
+          ]
+        }
+      },
+      "Q122": {
+        "education": {
+          "n_model_preds": 184,
+          "eta2_human": 0.004,
+          "eta2_model": 0.449,
+          "stereotyping_index": 0.445,
+          "eta2_model_ci95": [
+            0.364,
+            0.548
+          ],
+          "index_ci95": [
+            0.36,
+            0.544
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 184,
+          "eta2_human": 0.001,
+          "eta2_model": 0.175,
+          "stereotyping_index": 0.174,
+          "eta2_model_ci95": [
+            0.099,
+            0.296
+          ],
+          "index_ci95": [
+            0.098,
+            0.295
+          ]
+        }
+      },
+      "Q123": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.012,
+          "eta2_model": 0.252,
+          "stereotyping_index": 0.24,
+          "eta2_model_ci95": [
+            0.099,
+            0.462
+          ],
+          "index_ci95": [
+            0.087,
+            0.45
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.064,
+          "stereotyping_index": 0.064,
+          "eta2_model_ci95": [
+            0.037,
+            0.164
+          ],
+          "index_ci95": [
+            0.037,
+            0.164
+          ]
+        }
+      },
+      "Q158": {
+        "education": {
+          "n_model_preds": 180,
+          "eta2_human": 0.002,
+          "eta2_model": 0.645,
+          "stereotyping_index": 0.644,
+          "eta2_model_ci95": [
+            0.495,
+            0.782
+          ],
+          "index_ci95": [
+            0.493,
+            0.78
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 180,
+          "eta2_human": 0.0,
+          "eta2_model": 0.261,
+          "stereotyping_index": 0.26,
+          "eta2_model_ci95": [
+            0.142,
+            0.429
+          ],
+          "index_ci95": [
+            0.142,
+            0.429
+          ]
+        }
+      },
+      "Q159": {
+        "education": {
+          "n_model_preds": 180,
+          "eta2_human": 0.0,
+          "eta2_model": 0.575,
+          "stereotyping_index": 0.575,
+          "eta2_model_ci95": [
+            0.426,
+            0.724
+          ],
+          "index_ci95": [
+            0.426,
+            0.724
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 180,
+          "eta2_human": 0.001,
+          "eta2_model": 0.103,
+          "stereotyping_index": 0.102,
+          "eta2_model_ci95": [
+            0.064,
+            0.212
+          ],
+          "index_ci95": [
+            0.063,
+            0.211
+          ]
+        }
+      },
+      "Q160": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.003,
+          "eta2_model": 0.469,
+          "stereotyping_index": 0.466,
+          "eta2_model_ci95": [
+            0.376,
+            0.589
+          ],
+          "index_ci95": [
+            0.373,
+            0.586
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.236,
+          "stereotyping_index": 0.235,
+          "eta2_model_ci95": [
+            0.154,
+            0.366
+          ],
+          "index_ci95": [
+            0.154,
+            0.366
+          ]
+        }
+      },
+      "Q164": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.034,
+          "eta2_model": 0.259,
+          "stereotyping_index": 0.225,
+          "eta2_model_ci95": [
+            0.181,
+            0.358
+          ],
+          "index_ci95": [
+            0.147,
+            0.324
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.008,
+          "eta2_model": 0.061,
+          "stereotyping_index": 0.053,
+          "eta2_model_ci95": [
+            0.028,
+            0.181
+          ],
+          "index_ci95": [
+            0.02,
+            0.173
+          ]
+        }
+      },
+      "Q177": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.002,
+          "eta2_model": 0.037,
+          "stereotyping_index": 0.035,
+          "eta2_model_ci95": [
+            0.008,
+            0.164
+          ],
+          "index_ci95": [
+            0.006,
+            0.162
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.013,
+          "eta2_model": 0.041,
+          "stereotyping_index": 0.028,
+          "eta2_model_ci95": [
+            0.017,
+            0.111
+          ],
+          "index_ci95": [
+            0.004,
+            0.098
+          ]
+        }
+      },
+      "Q178": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.121,
+          "stereotyping_index": 0.121,
+          "eta2_model_ci95": [
+            0.051,
+            0.251
+          ],
+          "index_ci95": [
+            0.051,
+            0.251
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.014,
+          "eta2_model": 0.292,
+          "stereotyping_index": 0.278,
+          "eta2_model_ci95": [
+            0.2,
+            0.456
+          ],
+          "index_ci95": [
+            0.186,
+            0.442
+          ]
+        }
+      }
+    }
+  },
+  "C": {
+    "median_stereotyping_index": 0.054,
+    "n_question_axis_pairs": 30,
+    "n_pairs_ci_excludes_0": 27,
+    "n_pairs_stereotyping": 29,
+    "n_pairs_flattening": 1,
+    "by_question": {
+      "Q48": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.004,
+          "eta2_model": 0.437,
+          "stereotyping_index": 0.433,
+          "eta2_model_ci95": [
+            0.352,
+            0.534
+          ],
+          "index_ci95": [
+            0.348,
+            0.53
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.024,
+          "stereotyping_index": 0.024,
+          "eta2_model_ci95": [
+            0.01,
+            0.113
+          ],
+          "index_ci95": [
+            0.01,
+            0.113
+          ]
+        }
+      },
+      "Q106": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.005,
+          "eta2_model": 0.045,
+          "stereotyping_index": 0.04,
+          "eta2_model_ci95": [
+            0.011,
+            0.19
+          ],
+          "index_ci95": [
+            0.006,
+            0.185
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.001,
+          "eta2_model": 0.046,
+          "stereotyping_index": 0.045,
+          "eta2_model_ci95": [
+            0.016,
+            0.151
+          ],
+          "index_ci95": [
+            0.015,
+            0.15
+          ]
+        }
+      },
+      "Q107": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.004,
+          "eta2_model": 0.001,
+          "stereotyping_index": -0.003,
+          "eta2_model_ci95": [
+            0.001,
+            0.052
+          ],
+          "index_ci95": [
+            -0.003,
+            0.048
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.029,
+          "stereotyping_index": 0.028,
+          "eta2_model_ci95": [
+            0.012,
+            0.123
+          ],
+          "index_ci95": [
+            0.012,
+            0.123
+          ]
+        }
+      },
+      "Q108": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.002,
+          "eta2_model": 0.169,
+          "stereotyping_index": 0.167,
+          "eta2_model_ci95": [
+            0.074,
+            0.283
+          ],
+          "index_ci95": [
+            0.072,
+            0.281
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.106,
+          "stereotyping_index": 0.105,
+          "eta2_model_ci95": [
+            0.062,
+            0.219
+          ],
+          "index_ci95": [
+            0.062,
+            0.219
+          ]
+        }
+      },
+      "Q112": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.006,
+          "eta2_model": 0.054,
+          "stereotyping_index": 0.048,
+          "eta2_model_ci95": [
+            0.013,
+            0.146
+          ],
+          "index_ci95": [
+            0.007,
+            0.14
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.007,
+          "eta2_model": 0.115,
+          "stereotyping_index": 0.108,
+          "eta2_model_ci95": [
+            0.04,
+            0.233
+          ],
+          "index_ci95": [
+            0.033,
+            0.226
+          ]
+        }
+      },
+      "Q113": {
+        "education": {
+          "n_model_preds": 184,
+          "eta2_human": 0.002,
+          "eta2_model": 0.07,
+          "stereotyping_index": 0.068,
+          "eta2_model_ci95": [
+            0.019,
+            0.17
+          ],
+          "index_ci95": [
+            0.017,
+            0.168
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 184,
+          "eta2_human": 0.008,
+          "eta2_model": 0.016,
+          "stereotyping_index": 0.009,
+          "eta2_model_ci95": [
+            0.009,
+            0.099
+          ],
+          "index_ci95": [
+            0.001,
+            0.091
+          ]
+        }
+      },
+      "Q114": {
+        "education": {
+          "n_model_preds": 186,
+          "eta2_human": 0.001,
+          "eta2_model": 0.035,
+          "stereotyping_index": 0.034,
+          "eta2_model_ci95": [
+            0.009,
+            0.112
+          ],
+          "index_ci95": [
+            0.008,
+            0.111
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 186,
+          "eta2_human": 0.003,
+          "eta2_model": 0.063,
+          "stereotyping_index": 0.06,
+          "eta2_model_ci95": [
+            0.026,
+            0.181
+          ],
+          "index_ci95": [
+            0.023,
+            0.178
+          ]
+        }
+      },
+      "Q121": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.009,
+          "eta2_model": 0.327,
+          "stereotyping_index": 0.318,
+          "eta2_model_ci95": [
+            0.249,
+            0.442
+          ],
+          "index_ci95": [
+            0.24,
+            0.433
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.001,
+          "eta2_model": 0.08,
+          "stereotyping_index": 0.078,
+          "eta2_model_ci95": [
+            0.037,
+            0.187
+          ],
+          "index_ci95": [
+            0.036,
+            0.186
+          ]
+        }
+      },
+      "Q122": {
+        "education": {
+          "n_model_preds": 184,
+          "eta2_human": 0.004,
+          "eta2_model": 0.353,
+          "stereotyping_index": 0.349,
+          "eta2_model_ci95": [
+            0.226,
+            0.521
+          ],
+          "index_ci95": [
+            0.222,
+            0.517
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 184,
+          "eta2_human": 0.001,
+          "eta2_model": 0.202,
+          "stereotyping_index": 0.201,
+          "eta2_model_ci95": [
+            0.097,
+            0.365
+          ],
+          "index_ci95": [
+            0.096,
+            0.364
+          ]
+        }
+      },
+      "Q123": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.012,
+          "eta2_model": 0.548,
+          "stereotyping_index": 0.535,
+          "eta2_model_ci95": [
+            0.448,
+            0.697
+          ],
+          "index_ci95": [
+            0.436,
+            0.685
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.162,
+          "stereotyping_index": 0.162,
+          "eta2_model_ci95": [
+            0.093,
+            0.289
+          ],
+          "index_ci95": [
+            0.093,
+            0.289
+          ]
+        }
+      },
+      "Q158": {
+        "education": {
+          "n_model_preds": 180,
+          "eta2_human": 0.002,
+          "eta2_model": 0.4,
+          "stereotyping_index": 0.399,
+          "eta2_model_ci95": [
+            0.299,
+            0.524
+          ],
+          "index_ci95": [
+            0.297,
+            0.522
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 180,
+          "eta2_human": 0.0,
+          "eta2_model": 0.067,
+          "stereotyping_index": 0.067,
+          "eta2_model_ci95": [
+            0.033,
+            0.19
+          ],
+          "index_ci95": [
+            0.033,
+            0.19
+          ]
+        }
+      },
+      "Q159": {
+        "education": {
+          "n_model_preds": 180,
+          "eta2_human": 0.0,
+          "eta2_model": 0.311,
+          "stereotyping_index": 0.311,
+          "eta2_model_ci95": [
+            0.201,
+            0.47
+          ],
+          "index_ci95": [
+            0.201,
+            0.47
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 180,
+          "eta2_human": 0.001,
+          "eta2_model": 0.044,
+          "stereotyping_index": 0.044,
+          "eta2_model_ci95": [
+            0.02,
+            0.13
+          ],
+          "index_ci95": [
+            0.019,
+            0.129
+          ]
+        }
+      },
+      "Q160": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.003,
+          "eta2_model": 0.031,
+          "stereotyping_index": 0.029,
+          "eta2_model_ci95": [
+            0.016,
+            0.108
+          ],
+          "index_ci95": [
+            0.013,
+            0.105
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.011,
+          "stereotyping_index": 0.011,
+          "eta2_model_ci95": [
+            0.006,
+            0.105
+          ],
+          "index_ci95": [
+            0.006,
+            0.105
+          ]
+        }
+      },
+      "Q164": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.034,
+          "eta2_model": 0.071,
+          "stereotyping_index": 0.036,
+          "eta2_model_ci95": [
+            0.025,
+            0.166
+          ],
+          "index_ci95": [
+            -0.009,
+            0.132
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.008,
+          "eta2_model": 0.018,
+          "stereotyping_index": 0.01,
+          "eta2_model_ci95": [
+            0.008,
+            0.109
+          ],
+          "index_ci95": [
+            0.0,
+            0.101
+          ]
+        }
+      },
+      "Q178": {
+        "education": {
+          "n_model_preds": 182,
+          "eta2_human": 0.0,
+          "eta2_model": 0.005,
+          "stereotyping_index": 0.005,
+          "eta2_model_ci95": [
+            0.004,
+            0.058
+          ],
+          "index_ci95": [
+            0.004,
+            0.058
+          ]
+        },
+        "agecat": {
+          "n_model_preds": 182,
+          "eta2_human": 0.014,
+          "eta2_model": 0.029,
+          "stereotyping_index": 0.014,
+          "eta2_model_ci95": [
+            0.017,
+            0.108
+          ],
+          "index_ci95": [
+            0.003,
+            0.094
+          ]
+        }
+      }
+    }
+  }
+}

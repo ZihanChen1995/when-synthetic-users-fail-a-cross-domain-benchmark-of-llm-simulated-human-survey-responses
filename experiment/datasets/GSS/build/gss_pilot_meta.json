@@ -1,0 +1,127 @@
+{
+  "scope": {
+    "dataset": "GSS 7224 R3",
+    "year_min": 2016,
+    "year_max": 2024
+  },
+  "rows_raw": 75699,
+  "rows_in_years": 16100,
+  "rows_with_full_demographics": 14704,
+  "examples_total": 85898,
+  "questions": {
+    "happy": {
+      "topic": "wellbeing",
+      "ordinal": true,
+      "options": {
+        "1": "very happy",
+        "2": "pretty happy",
+        "3": "not too happy"
+      },
+      "n_examples": 14651
+    },
+    "trust": {
+      "topic": "social_trust",
+      "ordinal": false,
+      "options": {
+        "1": "most people can be trusted",
+        "2": "can't be too careful",
+        "3": "depends"
+      },
+      "n_examples": 5191
+    },
+    "fair": {
+      "topic": "social_trust",
+      "ordinal": false,
+      "options": {
+        "1": "would take advantage of you",
+        "2": "would try to be fair",
+        "3": "depends"
+      },
+      "n_examples": 5177
+    },
+    "helpful": {
+      "topic": "social_trust",
+      "ordinal": false,
+      "options": {
+        "1": "try to be helpful",
+        "2": "looking out for themselves",
+        "3": "depends"
+      },
+      "n_examples": 5186
+    },
+    "cappun": {
+      "topic": "moral_policy",
+      "ordinal": false,
+      "options": {
+        "1": "favor",
+        "2": "oppose"
+      },
+      "n_examples": 13118
+    },
+    "grass": {
+      "topic": "moral_policy",
+      "ordinal": false,
+      "options": {
+        "1": "should be legal",
+        "2": "should not be legal"
+      },
+      "n_examples": 4861
+    },
+    "abany": {
+      "topic": "moral_policy",
+      "ordinal": false,
+      "options": {
+        "1": "yes",
+        "2": "no"
+      },
+      "n_examples": 7368
+    },
+    "gunlaw": {
+      "topic": "moral_policy",
+      "ordinal": false,
+      "options": {
+        "1": "favor",
+        "2": "oppose"
+      },
+      "n_examples": 10864
+    },
+    "fefam": {
+      "topic": "gender_roles",
+      "ordinal": true,
+      "options": {
+        "1": "strongly agree",
+        "2": "agree",
+        "3": "disagree",
+        "4": "strongly disagree"
+      },
+      "n_examples": 9715
+    },
+    "confinan": {
+      "topic": "institutions",
+      "ordinal": true,
+      "options": {
+        "1": "a great deal",
+        "2": "only some",
+        "3": "hardly any"
+      },
+      "n_examples": 9767
+    }
+  },
+  "demographic_vars": [
+    "age",
+    "sex",
+    "race",
+    "degree",
+    "region",
+    "polviews",
+    "partyid"
+  ],
+  "subgroup_vars": [
+    "sex",
+    "race",
+    "degree",
+    "region",
+    "polviews"
+  ],
+  "min_cell_humans": 100
+}

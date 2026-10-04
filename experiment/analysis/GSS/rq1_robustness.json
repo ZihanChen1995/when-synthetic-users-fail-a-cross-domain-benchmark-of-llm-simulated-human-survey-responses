@@ -1,0 +1,191 @@
+{
+  "dataset": "GSS",
+  "distance": {
+    "claude-haiku-4.5": {
+      "A": {
+        "n": 594,
+        "model_mae": 0.5741,
+        "baseline_mae": 0.5421,
+        "model_emd_steps": 0.5741,
+        "baseline_emd_steps": 0.5421
+      },
+      "C": {
+        "n": 594,
+        "model_mae": 0.5707,
+        "baseline_mae": 0.5421,
+        "model_emd_steps": 0.5707,
+        "baseline_emd_steps": 0.5421
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "n": 594,
+        "model_mae": 0.601,
+        "baseline_mae": 0.5421,
+        "model_emd_steps": 0.601,
+        "baseline_emd_steps": 0.5421
+      },
+      "C": {
+        "n": 594,
+        "model_mae": 0.5606,
+        "baseline_mae": 0.5421,
+        "model_emd_steps": 0.5606,
+        "baseline_emd_steps": 0.5421
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "n": 594,
+        "model_mae": 0.6751,
+        "baseline_mae": 0.5421,
+        "model_emd_steps": 0.6751,
+        "baseline_emd_steps": 0.5421
+      },
+      "C": {
+        "n": 218,
+        "model_mae": 0.7156,
+        "baseline_mae": 0.5596,
+        "model_emd_steps": 0.7156,
+        "baseline_emd_steps": 0.5596
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "n": 594,
+        "model_mae": 0.5892,
+        "baseline_mae": 0.5421,
+        "model_emd_steps": 0.5892,
+        "baseline_emd_steps": 0.5421
+      },
+      "C": {
+        "n": 594,
+        "model_mae": 0.5892,
+        "baseline_mae": 0.5421,
+        "model_emd_steps": 0.5892,
+        "baseline_emd_steps": 0.5421
+      }
+    }
+  },
+  "proper_scoring": {
+    "claude-haiku-4.5": {
+      "n": 1986,
+      "model_nll": 0.8437,
+      "baseline_nll": 0.8075,
+      "model_brier": 0.5241,
+      "baseline_brier": 0.5035
+    },
+    "claude-sonnet-4.6": {
+      "n": 1986,
+      "model_nll": 0.8416,
+      "baseline_nll": 0.8075,
+      "model_brier": 0.5185,
+      "baseline_brier": 0.5035
+    },
+    "llama3.1-8b": {
+      "n": 847,
+      "model_nll": 1.0326,
+      "baseline_nll": 0.797,
+      "model_brier": 0.6218,
+      "baseline_brier": 0.4961
+    },
+    "llama3.3-70b": {
+      "n": 1986,
+      "model_nll": 0.8631,
+      "baseline_nll": 0.8075,
+      "model_brier": 0.5345,
+      "baseline_brier": 0.5035
+    }
+  },
+  "learned_baselines": {
+    "pooled_accuracy": {
+      "logistic": 0.6224,
+      "random_forest": 0.5831
+    },
+    "by_question": {
+      "logistic": {
+        "happy": {
+          "n": 98,
+          "acc": 0.5714
+        },
+        "trust": {
+          "n": 99,
+          "acc": 0.697
+        },
+        "fair": {
+          "n": 99,
+          "acc": 0.6061
+        },
+        "helpful": {
+          "n": 99,
+          "acc": 0.5859
+        },
+        "cappun": {
+          "n": 100,
+          "acc": 0.69
+        },
+        "grass": {
+          "n": 100,
+          "acc": 0.71
+        },
+        "abany": {
+          "n": 99,
+          "acc": 0.7576
+        },
+        "gunlaw": {
+          "n": 100,
+          "acc": 0.67
+        },
+        "fefam": {
+          "n": 100,
+          "acc": 0.39
+        },
+        "confinan": {
+          "n": 99,
+          "acc": 0.5455
+        }
+      },
+      "random_forest": {
+        "happy": {
+          "n": 98,
+          "acc": 0.5408
+        },
+        "trust": {
+          "n": 99,
+          "acc": 0.6162
+        },
+        "fair": {
+          "n": 99,
+          "acc": 0.5556
+        },
+        "helpful": {
+          "n": 99,
+          "acc": 0.5556
+        },
+        "cappun": {
+          "n": 100,
+          "acc": 0.68
+        },
+        "grass": {
+          "n": 100,
+          "acc": 0.66
+        },
+        "abany": {
+          "n": 99,
+          "acc": 0.697
+        },
+        "gunlaw": {
+          "n": 100,
+          "acc": 0.69
+        },
+        "fefam": {
+          "n": 100,
+          "acc": 0.39
+        },
+        "confinan": {
+          "n": 99,
+          "acc": 0.4444
+        }
+      }
+    }
+  }
+}

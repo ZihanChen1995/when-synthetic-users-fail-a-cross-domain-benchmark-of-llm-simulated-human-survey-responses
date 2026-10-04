@@ -1,0 +1,5669 @@
+{
+  "dataset": "GSS",
+  "params": {
+    "NEG_GAP": 0.1,
+    "BIG_GAP": 0.25,
+    "MIN_CELL_MODEL": 10,
+    "MIN_CELL_HUMAN": 20,
+    "n_boot": 500,
+    "ci": "95%"
+  },
+  "models": {
+    "claude-haiku-4.5": {
+      "A": {
+        "n_pairs": 40,
+        "median_gap_inflation": 1.31,
+        "median_gap_excess": 0.057,
+        "target_mismatch_rate": 0.575,
+        "n_target_mismatch": 23,
+        "median_targeting_cost_when_wrong": 0.073,
+        "max_targeting_cost": 0.155,
+        "spurious_split_rate": 0.075,
+        "n_spurious_split": 3,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.053,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.053,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.033,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.061,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.061,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.037,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.145,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.145,
+            "human_argmax": 3,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.193,
+            "gap_model": 0.126,
+            "gap_model_ci95": [
+              0.023,
+              0.323
+            ],
+            "gap_inflation": 0.65,
+            "gap_excess": -0.067,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.451,
+            "gap_model": 0.364,
+            "gap_model_ci95": [
+              0.161,
+              0.562
+            ],
+            "gap_inflation": 0.81,
+            "gap_excess": -0.087,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.2,
+            "gap_model_ci95": [
+              0.1,
+              0.368
+            ],
+            "gap_inflation": 2.02,
+            "gap_excess": 0.101,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.081,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.23,
+            "gap_model": 0.318,
+            "gap_model_ci95": [
+              0.136,
+              0.526
+            ],
+            "gap_inflation": 1.38,
+            "gap_excess": 0.088,
+            "human_argmax": 7,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.136,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.244,
+            "gap_model": 0.278,
+            "gap_model_ci95": [
+              0.162,
+              0.419
+            ],
+            "gap_inflation": 1.14,
+            "gap_excess": 0.034,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.154,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.418,
+            "gap_model": 0.24,
+            "gap_model_ci95": [
+              0.175,
+              0.375
+            ],
+            "gap_inflation": 0.57,
+            "gap_excess": -0.178,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.183,
+            "gap_model_ci95": [
+              0.085,
+              0.312
+            ],
+            "gap_inflation": 1.74,
+            "gap_excess": 0.078,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.149,
+            "gap_model": 0.857,
+            "gap_model_ci95": [
+              0.297,
+              1.0
+            ],
+            "gap_inflation": 5.77,
+            "gap_excess": 0.709,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.149,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.021,
+            "gap_model_ci95": [
+              0.0,
+              0.047
+            ],
+            "gap_inflation": 0.17,
+            "gap_excess": -0.106,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.317,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.0,
+              0.296
+            ],
+            "gap_inflation": 0.43,
+            "gap_excess": -0.181,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.079,
+            "gap_model_ci95": [
+              0.0,
+              0.181
+            ],
+            "gap_inflation": 1.14,
+            "gap_excess": 0.01,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.046,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.108,
+            "gap_model": 0.125,
+            "gap_model_ci95": [
+              0.0,
+              0.268
+            ],
+            "gap_inflation": 1.15,
+            "gap_excess": 0.017,
+            "human_argmax": 4,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.045,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.206,
+            "gap_model": 0.207,
+            "gap_model_ci95": [
+              0.085,
+              0.425
+            ],
+            "gap_inflation": 1.0,
+            "gap_excess": 0.0,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.236,
+            "gap_model": 0.356,
+            "gap_model_ci95": [
+              0.188,
+              0.593
+            ],
+            "gap_inflation": 1.51,
+            "gap_excess": 0.12,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.079,
+            "gap_model": 0.4,
+            "gap_model_ci95": [
+              0.271,
+              0.604
+            ],
+            "gap_inflation": 5.03,
+            "gap_excess": 0.32,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.511,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.843,
+              1.0
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.489,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.118,
+            "gap_model": 0.384,
+            "gap_model_ci95": [
+              0.252,
+              0.51
+            ],
+            "gap_inflation": 3.27,
+            "gap_excess": 0.267,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.079,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.177,
+            "gap_model": 0.545,
+            "gap_model_ci95": [
+              0.326,
+              0.763
+            ],
+            "gap_inflation": 3.09,
+            "gap_excess": 0.369,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.247,
+            "gap_model_ci95": [
+              0.155,
+              0.435
+            ],
+            "gap_inflation": 4.05,
+            "gap_excess": 0.186,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.362,
+            "gap_model": 0.938,
+            "gap_model_ci95": [
+              0.844,
+              1.0
+            ],
+            "gap_inflation": 2.59,
+            "gap_excess": 0.575,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.267,
+            "gap_model_ci95": [
+              0.127,
+              0.496
+            ],
+            "gap_inflation": 7.3,
+            "gap_excess": 0.23,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 1
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.322,
+            "gap_model": 0.398,
+            "gap_model_ci95": [
+              0.291,
+              0.649
+            ],
+            "gap_inflation": 1.24,
+            "gap_excess": 0.076,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.14,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.458,
+            "gap_model_ci95": [
+              0.331,
+              0.632
+            ],
+            "gap_inflation": 2.83,
+            "gap_excess": 0.296,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 1.7,
+            "gap_excess": 0.41,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.155,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.102,
+            "gap_model": 0.155,
+            "gap_model_ci95": [
+              0.086,
+              0.273
+            ],
+            "gap_inflation": 1.52,
+            "gap_excess": 0.053,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.146,
+            "gap_model": 0.207,
+            "gap_model_ci95": [
+              0.111,
+              0.434
+            ],
+            "gap_inflation": 1.42,
+            "gap_excess": 0.061,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.083,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.297,
+            "gap_model_ci95": [
+              0.16,
+              0.471
+            ],
+            "gap_inflation": 2.59,
+            "gap_excess": 0.183,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.36,
+            "gap_model": 0.706,
+            "gap_model_ci95": [
+              0.53,
+              0.857
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.345,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.308,
+            "gap_model_ci95": [
+              0.171,
+              0.438
+            ],
+            "gap_inflation": 4.18,
+            "gap_excess": 0.234,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.074,
+            "spurious_split": 1
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.321,
+            "gap_model": 0.332,
+            "gap_model_ci95": [
+              0.218,
+              0.527
+            ],
+            "gap_inflation": 1.03,
+            "gap_excess": 0.01,
+            "human_argmax": 4,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.119,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.088,
+            "gap_model_ci95": [
+              0.047,
+              0.319
+            ],
+            "gap_inflation": 0.91,
+            "gap_excess": -0.009,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.049,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.44,
+            "gap_model": 0.875,
+            "gap_model_ci95": [
+              0.789,
+              1.0
+            ],
+            "gap_inflation": 1.99,
+            "gap_excess": 0.435,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.027,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.027,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.073,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.073,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.03,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.03,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.111,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.111,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.048,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 40,
+        "median_gap_inflation": 1.77,
+        "median_gap_excess": 0.114,
+        "target_mismatch_rate": 0.475,
+        "n_target_mismatch": 19,
+        "median_targeting_cost_when_wrong": 0.079,
+        "max_targeting_cost": 0.193,
+        "spurious_split_rate": 0.1,
+        "n_spurious_split": 4,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.053,
+            "gap_model": 0.021,
+            "gap_model_ci95": [
+              0.0,
+              0.048
+            ],
+            "gap_inflation": 0.39,
+            "gap_excess": -0.032,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.061,
+            "gap_model": 0.107,
+            "gap_model_ci95": [
+              0.0,
+              0.233
+            ],
+            "gap_inflation": 1.75,
+            "gap_excess": 0.046,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.04,
+            "gap_model_ci95": [
+              0.0,
+              0.105
+            ],
+            "gap_inflation": 1.07,
+            "gap_excess": 0.003,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.145,
+            "gap_model": 0.1,
+            "gap_model_ci95": [
+              0.0,
+              0.273
+            ],
+            "gap_inflation": 0.69,
+            "gap_excess": -0.045,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.022,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.193,
+            "gap_model": 0.132,
+            "gap_model_ci95": [
+              0.028,
+              0.318
+            ],
+            "gap_inflation": 0.68,
+            "gap_excess": -0.061,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.193,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.451,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.145,
+              0.457
+            ],
+            "gap_inflation": 0.6,
+            "gap_excess": -0.178,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.2,
+            "gap_model_ci95": [
+              0.095,
+              0.373
+            ],
+            "gap_inflation": 2.02,
+            "gap_excess": 0.101,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.081,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.23,
+            "gap_model": 0.318,
+            "gap_model_ci95": [
+              0.129,
+              0.528
+            ],
+            "gap_inflation": 1.38,
+            "gap_excess": 0.088,
+            "human_argmax": 7,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.136,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.244,
+            "gap_model": 0.242,
+            "gap_model_ci95": [
+              0.063,
+              0.441
+            ],
+            "gap_inflation": 0.99,
+            "gap_excess": -0.001,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.154,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.418,
+            "gap_model": 0.591,
+            "gap_model_ci95": [
+              0.4,
+              0.786
+            ],
+            "gap_inflation": 1.41,
+            "gap_excess": 0.172,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.359,
+            "gap_model_ci95": [
+              0.221,
+              0.503
+            ],
+            "gap_inflation": 3.41,
+            "gap_excess": 0.254,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.149,
+            "gap_model": 0.857,
+            "gap_model_ci95": [
+              0.508,
+              1.0
+            ],
+            "gap_inflation": 5.77,
+            "gap_excess": 0.709,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.091,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.229,
+            "gap_model_ci95": [
+              0.175,
+              0.385
+            ],
+            "gap_inflation": 1.79,
+            "gap_excess": 0.101,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.317,
+            "gap_model": 0.591,
+            "gap_model_ci95": [
+              0.383,
+              0.797
+            ],
+            "gap_inflation": 1.86,
+            "gap_excess": 0.274,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.156,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.429,
+            "gap_model_ci95": [
+              0.262,
+              0.622
+            ],
+            "gap_inflation": 6.21,
+            "gap_excess": 0.36,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.108,
+            "gap_model": 0.625,
+            "gap_model_ci95": [
+              0.447,
+              0.818
+            ],
+            "gap_inflation": 5.76,
+            "gap_excess": 0.517,
+            "human_argmax": 4,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.045,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.206,
+            "gap_model": 0.225,
+            "gap_model_ci95": [
+              0.095,
+              0.441
+            ],
+            "gap_inflation": 1.09,
+            "gap_excess": 0.018,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.236,
+            "gap_model": 0.367,
+            "gap_model_ci95": [
+              0.196,
+              0.65
+            ],
+            "gap_inflation": 1.56,
+            "gap_excess": 0.131,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.079,
+            "gap_model": 0.416,
+            "gap_model_ci95": [
+              0.273,
+              0.599
+            ],
+            "gap_inflation": 5.23,
+            "gap_excess": 0.336,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.511,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.489,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.082,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.118,
+            "gap_model": 0.284,
+            "gap_model_ci95": [
+              0.125,
+              0.488
+            ],
+            "gap_inflation": 2.41,
+            "gap_excess": 0.166,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.079,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.177,
+            "gap_model": 0.636,
+            "gap_model_ci95": [
+              0.415,
+              0.87
+            ],
+            "gap_inflation": 3.6,
+            "gap_excess": 0.46,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.364,
+            "gap_model_ci95": [
+              0.216,
+              0.533
+            ],
+            "gap_inflation": 5.96,
+            "gap_excess": 0.303,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "grass",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.362,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 2.76,
+            "gap_excess": 0.638,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.337,
+            "gap_model_ci95": [
+              0.212,
+              0.508
+            ],
+            "gap_inflation": 9.21,
+            "gap_excess": 0.3,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 1
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.322,
+            "gap_model": 0.282,
+            "gap_model_ci95": [
+              0.195,
+              0.514
+            ],
+            "gap_inflation": 0.87,
+            "gap_excess": -0.04,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.14,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.321,
+            "gap_model_ci95": [
+              0.18,
+              0.48
+            ],
+            "gap_inflation": 1.98,
+            "gap_excess": 0.159,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 0.929,
+            "gap_model_ci95": [
+              0.841,
+              1.0
+            ],
+            "gap_inflation": 1.57,
+            "gap_excess": 0.339,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.102,
+            "gap_model": 0.249,
+            "gap_model_ci95": [
+              0.17,
+              0.366
+            ],
+            "gap_inflation": 2.44,
+            "gap_excess": 0.147,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.146,
+            "gap_model": 0.23,
+            "gap_model_ci95": [
+              0.118,
+              0.449
+            ],
+            "gap_inflation": 1.58,
+            "gap_excess": 0.084,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.083,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.242,
+            "gap_model_ci95": [
+              0.153,
+              0.437
+            ],
+            "gap_inflation": 2.11,
+            "gap_excess": 0.127,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.36,
+            "gap_model": 0.765,
+            "gap_model_ci95": [
+              0.623,
+              0.905
+            ],
+            "gap_inflation": 2.12,
+            "gap_excess": 0.404,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.144,
+            "gap_model_ci95": [
+              0.052,
+              0.294
+            ],
+            "gap_inflation": 1.95,
+            "gap_excess": 0.07,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.058,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.321,
+            "gap_model": 0.409,
+            "gap_model_ci95": [
+              0.273,
+              0.64
+            ],
+            "gap_inflation": 1.27,
+            "gap_excess": 0.087,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.133,
+            "gap_model_ci95": [
+              0.054,
+              0.322
+            ],
+            "gap_inflation": 1.37,
+            "gap_excess": 0.036,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.44,
+            "gap_model": 0.786,
+            "gap_model_ci95": [
+              0.588,
+              1.0
+            ],
+            "gap_inflation": 1.79,
+            "gap_excess": 0.346,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.027,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.027,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.073,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.073,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.03,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.03,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.111,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.111,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.048,
+            "spurious_split": 0
+          }
+        ]
+      }
+    },
+    "claude-sonnet-4.6": {
+      "A": {
+        "n_pairs": 40,
+        "median_gap_inflation": 2.27,
+        "median_gap_excess": 0.147,
+        "target_mismatch_rate": 0.5,
+        "n_target_mismatch": 20,
+        "median_targeting_cost_when_wrong": 0.049,
+        "max_targeting_cost": 0.179,
+        "spurious_split_rate": 0.075,
+        "n_spurious_split": 3,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.053,
+            "gap_model": 0.062,
+            "gap_model_ci95": [
+              0.024,
+              0.102
+            ],
+            "gap_inflation": 1.17,
+            "gap_excess": 0.009,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.061,
+            "gap_model": 0.143,
+            "gap_model_ci95": [
+              0.067,
+              0.328
+            ],
+            "gap_inflation": 2.34,
+            "gap_excess": 0.082,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.064,
+            "gap_model_ci95": [
+              0.032,
+              0.135
+            ],
+            "gap_inflation": 1.71,
+            "gap_excess": 0.027,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.145,
+            "gap_model": 0.35,
+            "gap_model_ci95": [
+              0.133,
+              0.568
+            ],
+            "gap_inflation": 2.42,
+            "gap_excess": 0.205,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.022,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.193,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.091,
+              0.238
+            ],
+            "gap_inflation": 0.7,
+            "gap_excess": -0.057,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.451,
+            "gap_model": 0.409,
+            "gap_model_ci95": [
+              0.265,
+              0.622
+            ],
+            "gap_inflation": 0.91,
+            "gap_excess": -0.042,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.21,
+            "gap_model_ci95": [
+              0.133,
+              0.404
+            ],
+            "gap_inflation": 2.12,
+            "gap_excess": 0.111,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.23,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.133,
+              0.481
+            ],
+            "gap_inflation": 1.18,
+            "gap_excess": 0.042,
+            "human_argmax": 7,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.179,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.244,
+            "gap_model": 0.833,
+            "gap_model_ci95": [
+              0.687,
+              0.949
+            ],
+            "gap_inflation": 3.42,
+            "gap_excess": 0.59,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.154,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.418,
+            "gap_model": 0.636,
+            "gap_model_ci95": [
+              0.453,
+              0.819
+            ],
+            "gap_inflation": 1.52,
+            "gap_excess": 0.218,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.414,
+            "gap_model_ci95": [
+              0.287,
+              0.57
+            ],
+            "gap_inflation": 3.94,
+            "gap_excess": 0.308,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.052,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.149,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.644,
+              1.0
+            ],
+            "gap_inflation": 6.73,
+            "gap_excess": 0.851,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.091,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.071,
+            "gap_model_ci95": [
+              0.03,
+              0.115
+            ],
+            "gap_inflation": 0.56,
+            "gap_excess": -0.056,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.317,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.106,
+              0.469
+            ],
+            "gap_inflation": 0.86,
+            "gap_excess": -0.044,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.158,
+            "gap_model_ci95": [
+              0.074,
+              0.288
+            ],
+            "gap_inflation": 2.29,
+            "gap_excess": 0.089,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.108,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.104,
+              0.432
+            ],
+            "gap_inflation": 2.3,
+            "gap_excess": 0.142,
+            "human_argmax": 4,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.045,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.206,
+            "gap_model": 0.201,
+            "gap_model_ci95": [
+              0.052,
+              0.449
+            ],
+            "gap_inflation": 0.97,
+            "gap_excess": -0.005,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.139,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.236,
+            "gap_model": 0.289,
+            "gap_model_ci95": [
+              0.123,
+              0.536
+            ],
+            "gap_inflation": 1.23,
+            "gap_excess": 0.053,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.079,
+            "gap_model": 0.446,
+            "gap_model_ci95": [
+              0.272,
+              0.633
+            ],
+            "gap_inflation": 5.62,
+            "gap_excess": 0.367,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.511,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.724,
+              1.0
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.489,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.118,
+            "gap_model": 0.22,
+            "gap_model_ci95": [
+              0.083,
+              0.443
+            ],
+            "gap_inflation": 1.87,
+            "gap_excess": 0.103,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.079,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.177,
+            "gap_model": 0.545,
+            "gap_model_ci95": [
+              0.323,
+              0.808
+            ],
+            "gap_inflation": 3.09,
+            "gap_excess": 0.369,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.318,
+            "gap_model_ci95": [
+              0.23,
+              0.525
+            ],
+            "gap_inflation": 5.21,
+            "gap_excess": 0.257,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "grass",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.362,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 2.76,
+            "gap_excess": 0.638,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.386,
+            "gap_model_ci95": [
+              0.149,
+              0.635
+            ],
+            "gap_inflation": 10.55,
+            "gap_excess": 0.349,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 1
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.322,
+            "gap_model": 0.474,
+            "gap_model_ci95": [
+              0.303,
+              0.693
+            ],
+            "gap_inflation": 1.47,
+            "gap_excess": 0.152,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.14,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.53,
+            "gap_model_ci95": [
+              0.412,
+              0.704
+            ],
+            "gap_inflation": 3.27,
+            "gap_excess": 0.368,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 1.7,
+            "gap_excess": 0.41,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.155,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.102,
+            "gap_model": 0.329,
+            "gap_model_ci95": [
+              0.238,
+              0.46
+            ],
+            "gap_inflation": 3.23,
+            "gap_excess": 0.227,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.146,
+            "gap_model": 0.333,
+            "gap_model_ci95": [
+              0.135,
+              0.626
+            ],
+            "gap_inflation": 2.28,
+            "gap_excess": 0.187,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.015,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.359,
+            "gap_model_ci95": [
+              0.204,
+              0.55
+            ],
+            "gap_inflation": 3.13,
+            "gap_excess": 0.245,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.36,
+            "gap_model": 0.882,
+            "gap_model_ci95": [
+              0.766,
+              1.0
+            ],
+            "gap_inflation": 2.45,
+            "gap_excess": 0.522,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.194,
+            "gap_model_ci95": [
+              0.066,
+              0.406
+            ],
+            "gap_inflation": 2.63,
+            "gap_excess": 0.12,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.058,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.321,
+            "gap_model": 0.746,
+            "gap_model_ci95": [
+              0.529,
+              0.922
+            ],
+            "gap_inflation": 2.32,
+            "gap_excess": 0.425,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.227,
+            "gap_model_ci95": [
+              0.082,
+              0.493
+            ],
+            "gap_inflation": 2.33,
+            "gap_excess": 0.129,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.44,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 2.27,
+            "gap_excess": 0.56,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.027,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.027,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.073,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.073,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.03,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.03,
+            "human_argmax": 4,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.111,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.111,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 40,
+        "median_gap_inflation": 1.55,
+        "median_gap_excess": 0.092,
+        "target_mismatch_rate": 0.575,
+        "n_target_mismatch": 23,
+        "median_targeting_cost_when_wrong": 0.073,
+        "max_targeting_cost": 0.155,
+        "spurious_split_rate": 0.125,
+        "n_spurious_split": 5,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.053,
+            "gap_model": 0.062,
+            "gap_model_ci95": [
+              0.028,
+              0.101
+            ],
+            "gap_inflation": 1.17,
+            "gap_excess": 0.009,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.061,
+            "gap_model": 0.125,
+            "gap_model_ci95": [
+              0.071,
+              0.304
+            ],
+            "gap_inflation": 2.05,
+            "gap_excess": 0.064,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.051,
+            "gap_model_ci95": [
+              0.025,
+              0.192
+            ],
+            "gap_inflation": 1.37,
+            "gap_excess": 0.014,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.145,
+            "gap_model": 0.3,
+            "gap_model_ci95": [
+              0.118,
+              0.531
+            ],
+            "gap_inflation": 2.07,
+            "gap_excess": 0.155,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.022,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.193,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.092,
+              0.22
+            ],
+            "gap_inflation": 0.7,
+            "gap_excess": -0.057,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.451,
+            "gap_model": 0.5,
+            "gap_model_ci95": [
+              0.308,
+              0.694
+            ],
+            "gap_inflation": 1.11,
+            "gap_excess": 0.049,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.15,
+              0.403
+            ],
+            "gap_inflation": 2.52,
+            "gap_excess": 0.151,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.081,
+            "spurious_split": 1
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.23,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.147,
+              0.477
+            ],
+            "gap_inflation": 1.18,
+            "gap_excess": 0.042,
+            "human_argmax": 7,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.136,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.244,
+            "gap_model": 0.722,
+            "gap_model_ci95": [
+              0.577,
+              0.88
+            ],
+            "gap_inflation": 2.96,
+            "gap_excess": 0.479,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.154,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.418,
+            "gap_model": 0.455,
+            "gap_model_ci95": [
+              0.318,
+              0.654
+            ],
+            "gap_inflation": 1.09,
+            "gap_excess": 0.036,
+            "human_argmax": 4,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.117,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.39,
+            "gap_model_ci95": [
+              0.273,
+              0.537
+            ],
+            "gap_inflation": 3.71,
+            "gap_excess": 0.285,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.052,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.149,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.371,
+              1.0
+            ],
+            "gap_inflation": 6.73,
+            "gap_excess": 0.851,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.091,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.128,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.128,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.317,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.317,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.069,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.046,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.108,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.108,
+            "human_argmax": 4,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.045,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.206,
+            "gap_model": 0.26,
+            "gap_model_ci95": [
+              0.132,
+              0.48
+            ],
+            "gap_inflation": 1.26,
+            "gap_excess": 0.054,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.236,
+            "gap_model": 0.289,
+            "gap_model_ci95": [
+              0.168,
+              0.529
+            ],
+            "gap_inflation": 1.23,
+            "gap_excess": 0.053,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.079,
+            "gap_model": 0.337,
+            "gap_model_ci95": [
+              0.201,
+              0.522
+            ],
+            "gap_inflation": 4.24,
+            "gap_excess": 0.258,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.511,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.837,
+              1.0
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.489,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.118,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.04,
+              0.383
+            ],
+            "gap_inflation": 1.16,
+            "gap_excess": 0.019,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.079,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.177,
+            "gap_model": 0.364,
+            "gap_model_ci95": [
+              0.207,
+              0.69
+            ],
+            "gap_inflation": 2.06,
+            "gap_excess": 0.187,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.341,
+            "gap_model_ci95": [
+              0.229,
+              0.53
+            ],
+            "gap_inflation": 5.59,
+            "gap_excess": 0.28,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "grass",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.362,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 2.76,
+            "gap_excess": 0.638,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.386,
+            "gap_model_ci95": [
+              0.128,
+              0.629
+            ],
+            "gap_inflation": 10.55,
+            "gap_excess": 0.349,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 1
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.322,
+            "gap_model": 0.452,
+            "gap_model_ci95": [
+              0.312,
+              0.66
+            ],
+            "gap_inflation": 1.4,
+            "gap_excess": 0.13,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.14,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.467,
+            "gap_model_ci95": [
+              0.352,
+              0.659
+            ],
+            "gap_inflation": 2.88,
+            "gap_excess": 0.305,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 1.7,
+            "gap_excess": 0.41,
+            "human_argmax": 6,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.155,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.102,
+            "gap_model": 0.222,
+            "gap_model_ci95": [
+              0.125,
+              0.351
+            ],
+            "gap_inflation": 2.18,
+            "gap_excess": 0.12,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.146,
+            "gap_model": 0.164,
+            "gap_model_ci95": [
+              0.1,
+              0.424
+            ],
+            "gap_inflation": 1.12,
+            "gap_excess": 0.017,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.083,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.359,
+            "gap_model_ci95": [
+              0.212,
+              0.562
+            ],
+            "gap_inflation": 3.13,
+            "gap_excess": 0.245,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.36,
+            "gap_model": 0.882,
+            "gap_model_ci95": [
+              0.768,
+              0.975
+            ],
+            "gap_inflation": 2.45,
+            "gap_excess": 0.522,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.275,
+            "gap_model_ci95": [
+              0.133,
+              0.475
+            ],
+            "gap_inflation": 3.73,
+            "gap_excess": 0.201,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.074,
+            "spurious_split": 1
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.321,
+            "gap_model": 0.615,
+            "gap_model_ci95": [
+              0.435,
+              0.826
+            ],
+            "gap_inflation": 1.91,
+            "gap_excess": 0.294,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.13,
+            "gap_model_ci95": [
+              0.064,
+              0.384
+            ],
+            "gap_inflation": 1.33,
+            "gap_excess": 0.033,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.049,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.44,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.947,
+              1.0
+            ],
+            "gap_inflation": 2.27,
+            "gap_excess": 0.56,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.027,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.027,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.073,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.073,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.03,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.03,
+            "human_argmax": 4,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.111,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.111,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 0
+          }
+        ]
+      }
+    },
+    "llama3.1-8b": {
+      "A": {
+        "n_pairs": 40,
+        "median_gap_inflation": 1.6,
+        "median_gap_excess": 0.06,
+        "target_mismatch_rate": 0.65,
+        "n_target_mismatch": 26,
+        "median_targeting_cost_when_wrong": 0.056,
+        "max_targeting_cost": 0.36,
+        "spurious_split_rate": 0.025,
+        "n_spurious_split": 1,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.053,
+            "gap_model": 0.092,
+            "gap_model_ci95": [
+              0.027,
+              0.213
+            ],
+            "gap_inflation": 1.73,
+            "gap_excess": 0.039,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.053,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.061,
+            "gap_model": 0.098,
+            "gap_model_ci95": [
+              0.075,
+              0.282
+            ],
+            "gap_inflation": 1.61,
+            "gap_excess": 0.037,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.053,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.11,
+            "gap_model_ci95": [
+              0.045,
+              0.283
+            ],
+            "gap_inflation": 2.95,
+            "gap_excess": 0.073,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.145,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.132,
+              0.5
+            ],
+            "gap_inflation": 1.73,
+            "gap_excess": 0.105,
+            "human_argmax": 3,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.042,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.193,
+            "gap_model": 0.28,
+            "gap_model_ci95": [
+              0.085,
+              0.491
+            ],
+            "gap_inflation": 1.45,
+            "gap_excess": 0.087,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.451,
+            "gap_model": 0.129,
+            "gap_model_ci95": [
+              0.08,
+              0.478
+            ],
+            "gap_inflation": 0.29,
+            "gap_excess": -0.322,
+            "human_argmax": 0,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.344,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.18,
+            "gap_model_ci95": [
+              0.08,
+              0.379
+            ],
+            "gap_inflation": 1.81,
+            "gap_excess": 0.081,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.086,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.23,
+            "gap_model": 0.364,
+            "gap_model_ci95": [
+              0.204,
+              0.574
+            ],
+            "gap_inflation": 1.58,
+            "gap_excess": 0.134,
+            "human_argmax": 7,
+            "model_argmax": 7,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.244,
+            "gap_model": 0.043,
+            "gap_model_ci95": [
+              0.016,
+              0.103
+            ],
+            "gap_inflation": 0.18,
+            "gap_excess": -0.201,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.154,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.418,
+            "gap_model": 0.091,
+            "gap_model_ci95": [
+              0.031,
+              0.229
+            ],
+            "gap_inflation": 0.22,
+            "gap_excess": -0.328,
+            "human_argmax": 4,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.251,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.025,
+            "gap_model_ci95": [
+              0.017,
+              0.122
+            ],
+            "gap_inflation": 0.24,
+            "gap_excess": -0.08,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.149,
+            "gap_model": 0.286,
+            "gap_model_ci95": [
+              0.037,
+              0.5
+            ],
+            "gap_inflation": 1.92,
+            "gap_excess": 0.137,
+            "human_argmax": 2,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.149,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.186,
+            "gap_model_ci95": [
+              0.065,
+              0.394
+            ],
+            "gap_inflation": 1.45,
+            "gap_excess": 0.058,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.317,
+            "gap_model": 0.203,
+            "gap_model_ci95": [
+              0.13,
+              0.44
+            ],
+            "gap_inflation": 0.64,
+            "gap_excess": -0.114,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.104,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.104,
+            "gap_model_ci95": [
+              0.057,
+              0.336
+            ],
+            "gap_inflation": 1.51,
+            "gap_excess": 0.035,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.046,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.108,
+            "gap_model": 0.443,
+            "gap_model_ci95": [
+              0.335,
+              0.768
+            ],
+            "gap_inflation": 4.08,
+            "gap_excess": 0.334,
+            "human_argmax": 4,
+            "model_argmax": 7,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.004,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.206,
+            "gap_model": 0.094,
+            "gap_model_ci95": [
+              0.032,
+              0.366
+            ],
+            "gap_inflation": 0.46,
+            "gap_excess": -0.112,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.236,
+            "gap_model": 0.257,
+            "gap_model_ci95": [
+              0.126,
+              0.576
+            ],
+            "gap_inflation": 1.09,
+            "gap_excess": 0.021,
+            "human_argmax": 4,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.236,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.079,
+            "gap_model": 0.344,
+            "gap_model_ci95": [
+              0.196,
+              0.506
+            ],
+            "gap_inflation": 4.33,
+            "gap_excess": 0.264,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.511,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.649,
+              1.0
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.489,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.118,
+            "gap_model": 0.268,
+            "gap_model_ci95": [
+              0.135,
+              0.397
+            ],
+            "gap_inflation": 2.28,
+            "gap_excess": 0.151,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.079,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.177,
+            "gap_model": 0.239,
+            "gap_model_ci95": [
+              0.124,
+              0.557
+            ],
+            "gap_inflation": 1.35,
+            "gap_excess": 0.062,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.177,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.24,
+            "gap_model_ci95": [
+              0.128,
+              0.394
+            ],
+            "gap_inflation": 3.93,
+            "gap_excess": 0.179,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.362,
+            "gap_model": 0.906,
+            "gap_model_ci95": [
+              0.788,
+              1.0
+            ],
+            "gap_inflation": 2.5,
+            "gap_excess": 0.544,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.16,
+            "gap_model_ci95": [
+              0.116,
+              0.291
+            ],
+            "gap_inflation": 4.38,
+            "gap_excess": 0.123,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.322,
+            "gap_model": 0.25,
+            "gap_model_ci95": [
+              0.137,
+              0.438
+            ],
+            "gap_inflation": 0.78,
+            "gap_excess": -0.072,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.158,
+            "gap_model_ci95": [
+              0.086,
+              0.283
+            ],
+            "gap_inflation": 0.98,
+            "gap_excess": -0.004,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 0.571,
+            "gap_model_ci95": [
+              0.4,
+              0.774
+            ],
+            "gap_inflation": 0.97,
+            "gap_excess": -0.018,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.102,
+            "gap_model": 0.093,
+            "gap_model_ci95": [
+              0.03,
+              0.336
+            ],
+            "gap_inflation": 0.91,
+            "gap_excess": -0.009,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.102,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.146,
+            "gap_model": 0.278,
+            "gap_model_ci95": [
+              0.102,
+              0.577
+            ],
+            "gap_inflation": 1.9,
+            "gap_excess": 0.132,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.017,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.126,
+            "gap_model_ci95": [
+              0.066,
+              0.306
+            ],
+            "gap_inflation": 1.1,
+            "gap_excess": 0.011,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.024,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.36,
+            "gap_model": 0.407,
+            "gap_model_ci95": [
+              0.226,
+              0.64
+            ],
+            "gap_inflation": 1.13,
+            "gap_excess": 0.047,
+            "human_argmax": 6,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.36,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.213,
+            "gap_model_ci95": [
+              0.086,
+              0.396
+            ],
+            "gap_inflation": 2.9,
+            "gap_excess": 0.14,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.058,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.321,
+            "gap_model": 0.297,
+            "gap_model_ci95": [
+              0.197,
+              0.565
+            ],
+            "gap_inflation": 0.92,
+            "gap_excess": -0.025,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.127,
+            "gap_model_ci95": [
+              0.056,
+              0.388
+            ],
+            "gap_inflation": 1.3,
+            "gap_excess": 0.029,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.44,
+            "gap_model": 0.875,
+            "gap_model_ci95": [
+              0.656,
+              1.0
+            ],
+            "gap_inflation": 1.99,
+            "gap_excess": 0.435,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.027,
+            "gap_model": 0.155,
+            "gap_model_ci95": [
+              0.102,
+              0.24
+            ],
+            "gap_inflation": 5.66,
+            "gap_excess": 0.128,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.073,
+            "gap_model": 0.23,
+            "gap_model_ci95": [
+              0.139,
+              0.475
+            ],
+            "gap_inflation": 3.14,
+            "gap_excess": 0.157,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.03,
+            "gap_model": 0.076,
+            "gap_model_ci95": [
+              0.047,
+              0.217
+            ],
+            "gap_inflation": 2.54,
+            "gap_excess": 0.046,
+            "human_argmax": 4,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.111,
+            "gap_model": 0.318,
+            "gap_model_ci95": [
+              0.227,
+              0.533
+            ],
+            "gap_inflation": 2.85,
+            "gap_excess": 0.207,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 28,
+        "median_gap_inflation": 1.85,
+        "median_gap_excess": 0.157,
+        "target_mismatch_rate": 0.536,
+        "n_target_mismatch": 15,
+        "median_targeting_cost_when_wrong": 0.086,
+        "max_targeting_cost": 0.219,
+        "spurious_split_rate": 0.143,
+        "n_spurious_split": 4,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 3,
+            "gap_human": 0.061,
+            "gap_model": 0.23,
+            "gap_model_ci95": [
+              0.051,
+              0.531
+            ],
+            "gap_inflation": 3.77,
+            "gap_excess": 0.169,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.271,
+            "gap_model_ci95": [
+              0.102,
+              0.5
+            ],
+            "gap_inflation": 7.24,
+            "gap_excess": 0.233,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 1
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 3,
+            "gap_human": 0.145,
+            "gap_model": 0.14,
+            "gap_model_ci95": [
+              0.05,
+              0.397
+            ],
+            "gap_inflation": 0.97,
+            "gap_excess": -0.005,
+            "human_argmax": 3,
+            "model_argmax": 7,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.145,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 3,
+            "gap_human": 0.344,
+            "gap_model": 0.125,
+            "gap_model_ci95": [
+              0.048,
+              0.388
+            ],
+            "gap_inflation": 0.36,
+            "gap_excess": -0.219,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.173,
+            "gap_model_ci95": [
+              0.048,
+              0.412
+            ],
+            "gap_inflation": 1.74,
+            "gap_excess": 0.073,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.086,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 4,
+            "gap_human": 0.11,
+            "gap_model": 0.37,
+            "gap_model_ci95": [
+              0.172,
+              0.56
+            ],
+            "gap_inflation": 3.36,
+            "gap_excess": 0.26,
+            "human_argmax": 4,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.067,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 3,
+            "gap_human": 0.302,
+            "gap_model": 0.434,
+            "gap_model_ci95": [
+              0.167,
+              0.712
+            ],
+            "gap_inflation": 1.44,
+            "gap_excess": 0.132,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.187,
+            "gap_model_ci95": [
+              0.093,
+              0.459
+            ],
+            "gap_inflation": 1.78,
+            "gap_excess": 0.082,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.149,
+            "gap_model": 0.665,
+            "gap_model_ci95": [
+              0.158,
+              0.908
+            ],
+            "gap_inflation": 4.47,
+            "gap_excess": 0.516,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.064,
+            "gap_model_ci95": [
+              0.031,
+              0.392
+            ],
+            "gap_inflation": 0.5,
+            "gap_excess": -0.064,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.128,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 4,
+            "gap_human": 0.317,
+            "gap_model": 0.226,
+            "gap_model_ci95": [
+              0.065,
+              0.532
+            ],
+            "gap_inflation": 0.71,
+            "gap_excess": -0.091,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.382,
+            "gap_model_ci95": [
+              0.194,
+              0.573
+            ],
+            "gap_inflation": 5.53,
+            "gap_excess": 0.313,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.108,
+            "gap_model": 0.562,
+            "gap_model_ci95": [
+              0.434,
+              0.81
+            ],
+            "gap_inflation": 5.18,
+            "gap_excess": 0.454,
+            "human_argmax": 4,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.081,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 3,
+            "gap_human": 0.218,
+            "gap_model": 0.134,
+            "gap_model_ci95": [
+              0.046,
+              0.519
+            ],
+            "gap_inflation": 0.61,
+            "gap_excess": -0.084,
+            "human_argmax": 4,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.099,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 3,
+            "gap_human": 0.023,
+            "gap_model": 0.325,
+            "gap_model_ci95": [
+              0.088,
+              0.587
+            ],
+            "gap_inflation": 14.33,
+            "gap_excess": 0.303,
+            "human_argmax": 4,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.018,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 3,
+            "gap_human": 0.34,
+            "gap_model": 0.75,
+            "gap_model_ci95": [
+              0.459,
+              0.95
+            ],
+            "gap_inflation": 2.21,
+            "gap_excess": 0.41,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 3,
+            "gap_human": 0.16,
+            "gap_model": 0.184,
+            "gap_model_ci95": [
+              0.048,
+              0.535
+            ],
+            "gap_inflation": 1.15,
+            "gap_excess": 0.024,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.543,
+            "gap_model_ci95": [
+              0.205,
+              0.75
+            ],
+            "gap_inflation": 8.89,
+            "gap_excess": 0.482,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.225,
+            "gap_model_ci95": [
+              0.129,
+              0.324
+            ],
+            "gap_inflation": 6.17,
+            "gap_excess": 0.189,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 3,
+            "gap_human": 0.182,
+            "gap_model": 0.206,
+            "gap_model_ci95": [
+              0.046,
+              0.499
+            ],
+            "gap_inflation": 1.13,
+            "gap_excess": 0.024,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.182,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.2,
+            "gap_model_ci95": [
+              0.096,
+              0.4
+            ],
+            "gap_inflation": 1.24,
+            "gap_excess": 0.038,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 0.733,
+            "gap_model_ci95": [
+              0.1,
+              0.923
+            ],
+            "gap_inflation": 1.24,
+            "gap_excess": 0.144,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.633,
+            "gap_model_ci95": [
+              0.124,
+              0.857
+            ],
+            "gap_inflation": 5.52,
+            "gap_excess": 0.519,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.115,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 3,
+            "gap_human": 0.315,
+            "gap_model": 0.555,
+            "gap_model_ci95": [
+              0.381,
+              0.842
+            ],
+            "gap_inflation": 1.76,
+            "gap_excess": 0.24,
+            "human_argmax": 6,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.219,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.239,
+            "gap_model_ci95": [
+              0.091,
+              0.47
+            ],
+            "gap_inflation": 3.25,
+            "gap_excess": 0.165,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.074,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 3,
+            "gap_human": 0.161,
+            "gap_model": 0.311,
+            "gap_model_ci95": [
+              0.181,
+              0.572
+            ],
+            "gap_inflation": 1.93,
+            "gap_excess": 0.149,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.124,
+            "gap_model_ci95": [
+              0.062,
+              0.458
+            ],
+            "gap_inflation": 1.27,
+            "gap_excess": 0.027,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.097,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.29,
+            "gap_model": 0.681,
+            "gap_model_ci95": [
+              0.521,
+              0.909
+            ],
+            "gap_inflation": 2.35,
+            "gap_excess": 0.391,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          }
+        ]
+      }
+    },
+    "llama3.3-70b": {
+      "A": {
+        "n_pairs": 40,
+        "median_gap_inflation": 1.48,
+        "median_gap_excess": 0.081,
+        "target_mismatch_rate": 0.575,
+        "n_target_mismatch": 23,
+        "median_targeting_cost_when_wrong": 0.073,
+        "max_targeting_cost": 0.251,
+        "spurious_split_rate": 0.1,
+        "n_spurious_split": 4,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.053,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.053,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.033,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.061,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.061,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.037,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.145,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.145,
+            "human_argmax": 3,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.193,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.175,
+              0.475
+            ],
+            "gap_inflation": 1.41,
+            "gap_excess": 0.08,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.451,
+            "gap_model": 0.234,
+            "gap_model_ci95": [
+              0.115,
+              0.437
+            ],
+            "gap_inflation": 0.52,
+            "gap_excess": -0.217,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.223,
+            "gap_model_ci95": [
+              0.146,
+              0.425
+            ],
+            "gap_inflation": 2.24,
+            "gap_excess": 0.123,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.23,
+            "gap_model": 0.818,
+            "gap_model_ci95": [
+              0.6,
+              0.957
+            ],
+            "gap_inflation": 3.55,
+            "gap_excess": 0.588,
+            "human_argmax": 7,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.136,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.244,
+            "gap_model": 0.167,
+            "gap_model_ci95": [
+              0.079,
+              0.293
+            ],
+            "gap_inflation": 0.68,
+            "gap_excess": -0.077,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.154,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.418,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.126,
+              0.452
+            ],
+            "gap_inflation": 0.65,
+            "gap_excess": -0.146,
+            "human_argmax": 4,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.251,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.171,
+            "gap_model_ci95": [
+              0.105,
+              0.275
+            ],
+            "gap_inflation": 1.63,
+            "gap_excess": 0.066,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.149,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.102,
+              1.0
+            ],
+            "gap_inflation": 6.73,
+            "gap_excess": 0.851,
+            "human_argmax": 2,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.078,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.056,
+            "gap_model_ci95": [
+              0.022,
+              0.323
+            ],
+            "gap_inflation": 0.44,
+            "gap_excess": -0.072,
+            "human_argmax": 3,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.007,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.317,
+            "gap_model": 0.487,
+            "gap_model_ci95": [
+              0.317,
+              0.794
+            ],
+            "gap_inflation": 1.54,
+            "gap_excess": 0.17,
+            "human_argmax": 0,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.156,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.201,
+            "gap_model_ci95": [
+              0.088,
+              0.435
+            ],
+            "gap_inflation": 2.92,
+            "gap_excess": 0.132,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.108,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.859,
+              1.0
+            ],
+            "gap_inflation": 9.22,
+            "gap_excess": 0.892,
+            "human_argmax": 4,
+            "model_argmax": 7,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.004,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.206,
+            "gap_model": 0.084,
+            "gap_model_ci95": [
+              0.036,
+              0.364
+            ],
+            "gap_inflation": 0.41,
+            "gap_excess": -0.123,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.139,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.236,
+            "gap_model": 0.289,
+            "gap_model_ci95": [
+              0.156,
+              0.522
+            ],
+            "gap_inflation": 1.23,
+            "gap_excess": 0.053,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.079,
+            "gap_model": 0.36,
+            "gap_model_ci95": [
+              0.233,
+              0.558
+            ],
+            "gap_inflation": 4.54,
+            "gap_excess": 0.281,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.511,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.731,
+              1.0
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.489,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.118,
+            "gap_model": 0.199,
+            "gap_model_ci95": [
+              0.096,
+              0.406
+            ],
+            "gap_inflation": 1.69,
+            "gap_excess": 0.082,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.079,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.177,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.121,
+              0.576
+            ],
+            "gap_inflation": 1.54,
+            "gap_excess": 0.096,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.369,
+            "gap_model_ci95": [
+              0.263,
+              0.564
+            ],
+            "gap_inflation": 6.05,
+            "gap_excess": 0.308,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "grass",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.362,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 2.76,
+            "gap_excess": 0.638,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.253,
+            "gap_model_ci95": [
+              0.19,
+              0.328
+            ],
+            "gap_inflation": 6.93,
+            "gap_excess": 0.217,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 1
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.322,
+            "gap_model": 0.261,
+            "gap_model_ci95": [
+              0.162,
+              0.409
+            ],
+            "gap_inflation": 0.81,
+            "gap_excess": -0.061,
+            "human_argmax": 0,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.14,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.217,
+            "gap_model_ci95": [
+              0.127,
+              0.341
+            ],
+            "gap_inflation": 1.34,
+            "gap_excess": 0.055,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 1.7,
+            "gap_excess": 0.41,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.102,
+            "gap_model": 0.209,
+            "gap_model_ci95": [
+              0.125,
+              0.334
+            ],
+            "gap_inflation": 2.05,
+            "gap_excess": 0.107,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.146,
+            "gap_model": 0.186,
+            "gap_model_ci95": [
+              0.109,
+              0.421
+            ],
+            "gap_inflation": 1.27,
+            "gap_excess": 0.04,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.083,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.301,
+            "gap_model_ci95": [
+              0.14,
+              0.493
+            ],
+            "gap_inflation": 2.62,
+            "gap_excess": 0.186,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.36,
+            "gap_model": 0.941,
+            "gap_model_ci95": [
+              0.847,
+              1.0
+            ],
+            "gap_inflation": 2.61,
+            "gap_excess": 0.581,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.359,
+            "gap_model_ci95": [
+              0.206,
+              0.529
+            ],
+            "gap_inflation": 4.88,
+            "gap_excess": 0.285,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.074,
+            "spurious_split": 1
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.321,
+            "gap_model": 0.416,
+            "gap_model_ci95": [
+              0.296,
+              0.61
+            ],
+            "gap_inflation": 1.29,
+            "gap_excess": 0.095,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.096,
+            "gap_model_ci95": [
+              0.048,
+              0.335
+            ],
+            "gap_inflation": 0.99,
+            "gap_excess": -0.001,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.049,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.44,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.93,
+              1.0
+            ],
+            "gap_inflation": 2.27,
+            "gap_excess": 0.56,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.027,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.027,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.073,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.073,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.03,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.03,
+            "human_argmax": 4,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.111,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.111,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 0
+          }
+        ]
+      },
+      "C": {
+        "n_pairs": 40,
+        "median_gap_inflation": 1.06,
+        "median_gap_excess": 0.011,
+        "target_mismatch_rate": 0.55,
+        "n_target_mismatch": 22,
+        "median_targeting_cost_when_wrong": 0.061,
+        "max_targeting_cost": 0.251,
+        "spurious_split_rate": 0.05,
+        "n_spurious_split": 2,
+        "by_pair": [
+          {
+            "question": "happy",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.053,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.053,
+            "human_argmax": 2,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.033,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.061,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.061,
+            "human_argmax": 1,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.037,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.037,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.037,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.029,
+            "spurious_split": 0
+          },
+          {
+            "question": "happy",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.145,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.145,
+            "human_argmax": 3,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.193,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.051,
+              0.288
+            ],
+            "gap_inflation": 0.71,
+            "gap_excess": -0.056,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.451,
+            "gap_model": 0.175,
+            "gap_model_ci95": [
+              0.095,
+              0.333
+            ],
+            "gap_inflation": 0.39,
+            "gap_excess": -0.276,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.099,
+            "gap_model": 0.123,
+            "gap_model_ci95": [
+              0.077,
+              0.259
+            ],
+            "gap_inflation": 1.24,
+            "gap_excess": 0.024,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "trust",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.23,
+            "gap_model": 0.136,
+            "gap_model_ci95": [
+              0.077,
+              0.294
+            ],
+            "gap_inflation": 0.59,
+            "gap_excess": -0.094,
+            "human_argmax": 7,
+            "model_argmax": 6,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.136,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.244,
+            "gap_model": 0.139,
+            "gap_model_ci95": [
+              0.049,
+              0.261
+            ],
+            "gap_inflation": 0.57,
+            "gap_excess": -0.105,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.154,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.418,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.095,
+              0.5
+            ],
+            "gap_inflation": 0.65,
+            "gap_excess": -0.146,
+            "human_argmax": 4,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.251,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.105,
+            "gap_model": 0.111,
+            "gap_model_ci95": [
+              0.055,
+              0.219
+            ],
+            "gap_inflation": 1.06,
+            "gap_excess": 0.006,
+            "human_argmax": 1,
+            "model_argmax": 2,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "fair",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.149,
+            "gap_model": 0.786,
+            "gap_model_ci95": [
+              0.0,
+              0.944
+            ],
+            "gap_inflation": 5.29,
+            "gap_excess": 0.637,
+            "human_argmax": 2,
+            "model_argmax": 5,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.078,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.128,
+            "gap_model": 0.118,
+            "gap_model_ci95": [
+              0.041,
+              0.309
+            ],
+            "gap_inflation": 0.92,
+            "gap_excess": -0.01,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.317,
+            "gap_model": 0.182,
+            "gap_model_ci95": [
+              0.1,
+              0.357
+            ],
+            "gap_inflation": 0.57,
+            "gap_excess": -0.135,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.069,
+            "gap_model": 0.092,
+            "gap_model_ci95": [
+              0.042,
+              0.221
+            ],
+            "gap_inflation": 1.33,
+            "gap_excess": 0.023,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.035,
+            "spurious_split": 0
+          },
+          {
+            "question": "helpful",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.108,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.086,
+              1.0
+            ],
+            "gap_inflation": 9.22,
+            "gap_excess": 0.892,
+            "human_argmax": 4,
+            "model_argmax": 7,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.004,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.206,
+            "gap_model": 0.097,
+            "gap_model_ci95": [
+              0.035,
+              0.336
+            ],
+            "gap_inflation": 0.47,
+            "gap_excess": -0.109,
+            "human_argmax": 2,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.139,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.236,
+            "gap_model": 0.253,
+            "gap_model_ci95": [
+              0.127,
+              0.483
+            ],
+            "gap_inflation": 1.07,
+            "gap_excess": 0.017,
+            "human_argmax": 4,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.099,
+            "spurious_split": 0
+          },
+          {
+            "question": "cappun",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.079,
+            "gap_model": 0.36,
+            "gap_model_ci95": [
+              0.213,
+              0.585
+            ],
+            "gap_inflation": 4.54,
+            "gap_excess": 0.281,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "cappun",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.511,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              0.736,
+              1.0
+            ],
+            "gap_inflation": 1.96,
+            "gap_excess": 0.489,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.118,
+            "gap_model": 0.248,
+            "gap_model_ci95": [
+              0.111,
+              0.46
+            ],
+            "gap_inflation": 2.11,
+            "gap_excess": 0.131,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.079,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.177,
+            "gap_model": 0.5,
+            "gap_model_ci95": [
+              0.288,
+              0.726
+            ],
+            "gap_inflation": 2.83,
+            "gap_excess": 0.323,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "grass",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.061,
+            "gap_model": 0.438,
+            "gap_model_ci95": [
+              0.328,
+              0.608
+            ],
+            "gap_inflation": 7.17,
+            "gap_excess": 0.376,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 1
+          },
+          {
+            "question": "grass",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.362,
+            "gap_model": 1.0,
+            "gap_model_ci95": [
+              1.0,
+              1.0
+            ],
+            "gap_inflation": 2.76,
+            "gap_excess": 0.638,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.037,
+            "gap_model": 0.24,
+            "gap_model_ci95": [
+              0.184,
+              0.321
+            ],
+            "gap_inflation": 6.57,
+            "gap_excess": 0.203,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.019,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.322,
+            "gap_model": 0.3,
+            "gap_model_ci95": [
+              0.167,
+              0.511
+            ],
+            "gap_inflation": 0.93,
+            "gap_excess": -0.022,
+            "human_argmax": 0,
+            "model_argmax": 0,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.162,
+            "gap_model": 0.217,
+            "gap_model_ci95": [
+              0.117,
+              0.349
+            ],
+            "gap_inflation": 1.34,
+            "gap_excess": 0.055,
+            "human_argmax": 3,
+            "model_argmax": 3,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "abany",
+            "axis": "polviews",
+            "n_segments": 5,
+            "gap_human": 0.59,
+            "gap_model": 0.929,
+            "gap_model_ci95": [
+              0.814,
+              1.0
+            ],
+            "gap_inflation": 1.57,
+            "gap_excess": 0.339,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.102,
+            "gap_model": 0.195,
+            "gap_model_ci95": [
+              0.112,
+              0.315
+            ],
+            "gap_inflation": 1.92,
+            "gap_excess": 0.093,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.146,
+            "gap_model": 0.253,
+            "gap_model_ci95": [
+              0.131,
+              0.472
+            ],
+            "gap_inflation": 1.73,
+            "gap_excess": 0.106,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.083,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.115,
+            "gap_model": 0.301,
+            "gap_model_ci95": [
+              0.16,
+              0.515
+            ],
+            "gap_inflation": 2.62,
+            "gap_excess": 0.186,
+            "human_argmax": 3,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.041,
+            "spurious_split": 0
+          },
+          {
+            "question": "gunlaw",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.36,
+            "gap_model": 0.824,
+            "gap_model_ci95": [
+              0.677,
+              0.928
+            ],
+            "gap_inflation": 2.29,
+            "gap_excess": 0.463,
+            "human_argmax": 6,
+            "model_argmax": 6,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.074,
+            "gap_model": 0.24,
+            "gap_model_ci95": [
+              0.124,
+              0.371
+            ],
+            "gap_inflation": 3.27,
+            "gap_excess": 0.167,
+            "human_argmax": 1,
+            "model_argmax": 3,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.074,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.321,
+            "gap_model": 0.273,
+            "gap_model_ci95": [
+              0.192,
+              0.5
+            ],
+            "gap_inflation": 0.85,
+            "gap_excess": -0.048,
+            "human_argmax": 4,
+            "model_argmax": 4,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.097,
+            "gap_model": 0.07,
+            "gap_model_ci95": [
+              0.043,
+              0.292
+            ],
+            "gap_inflation": 0.72,
+            "gap_excess": -0.027,
+            "human_argmax": 1,
+            "model_argmax": 4,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.049,
+            "spurious_split": 0
+          },
+          {
+            "question": "fefam",
+            "axis": "polviews",
+            "n_segments": 6,
+            "gap_human": 0.44,
+            "gap_model": 0.929,
+            "gap_model_ci95": [
+              0.816,
+              1.0
+            ],
+            "gap_inflation": 2.11,
+            "gap_excess": 0.489,
+            "human_argmax": 2,
+            "model_argmax": 2,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "race",
+            "n_segments": 3,
+            "gap_human": 0.027,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.027,
+            "human_argmax": 1,
+            "model_argmax": 1,
+            "target_mismatch": 0,
+            "targeting_cost_human_share": 0.0,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "degree",
+            "n_segments": 5,
+            "gap_human": 0.073,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.073,
+            "human_argmax": 2,
+            "model_argmax": 0,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.073,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "region",
+            "n_segments": 4,
+            "gap_human": 0.03,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.03,
+            "human_argmax": 4,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.03,
+            "spurious_split": 0
+          },
+          {
+            "question": "confinan",
+            "axis": "polviews",
+            "n_segments": 7,
+            "gap_human": 0.111,
+            "gap_model": 0.0,
+            "gap_model_ci95": [
+              0.0,
+              0.0
+            ],
+            "gap_inflation": 0.0,
+            "gap_excess": -0.111,
+            "human_argmax": 3,
+            "model_argmax": 1,
+            "target_mismatch": 1,
+            "targeting_cost_human_share": 0.016,
+            "spurious_split": 0
+          }
+        ]
+      }
+    }
+  }
+}

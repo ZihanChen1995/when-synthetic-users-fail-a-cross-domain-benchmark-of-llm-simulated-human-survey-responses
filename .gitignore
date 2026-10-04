@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------- raw survey data
+# NEVER commit these. GSS is 571 MB, WVS is 182 MB, and both are
+# redistribution-restricted. See docs/RAW_DATA.md to obtain them.
+experiment/datasets/GSS/*.dta
+experiment/datasets/GSS/*.zip
+experiment/datasets/WVS_raw/
+*.dta
+*.sav
+*.por
+
+# Rebuilt WVS microdata. NOT redistributed: the WVSA usage agreement restricts it.
+# Users rebuild this themselves after their own WVS download (docs/RAW_DATA.md).
+# The schema-identical demonstration sample (wvs_pilot_long_SAMPLE.parquet) IS tracked.
+experiment/datasets/WVS/build/wvs_pilot_long.parquet
+
+# ---------------------------------------------------------------- inference run logs
+experiment/code/logs/
+
+# ---------------------------------------------------------------- python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---------------------------------------------------------------- os / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

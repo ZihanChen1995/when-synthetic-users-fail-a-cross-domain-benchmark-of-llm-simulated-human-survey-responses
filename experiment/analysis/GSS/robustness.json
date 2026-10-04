@@ -1,0 +1,30 @@
+{
+  "claude-haiku-4.5": {
+    "order": {
+      "flip_rate": 0.108,
+      "n_compared": 1986,
+      "variant_accuracy": 0.606
+    },
+    "persona": {
+      "flip_rate": 0.094,
+      "n_compared": 1986,
+      "variant_accuracy": 0.575
+    },
+    "_base_accuracy": 0.587,
+    "_seed_flip_rate": 0.026
+  },
+  "claude-sonnet-4.6": {
+    "order": {
+      "flip_rate": 0.098,
+      "n_compared": 1986,
+      "variant_accuracy": 0.587
+    },
+    "persona": {
+      "flip_rate": 0.091,
+      "n_compared": 1986,
+      "variant_accuracy": 0.573
+    },
+    "_base_accuracy": 0.563,
+    "_seed_flip_rate": 0.011
+  }
+}
