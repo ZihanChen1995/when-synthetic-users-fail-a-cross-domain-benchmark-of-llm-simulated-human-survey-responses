@@ -16,6 +16,9 @@ experiment/datasets/WVS/build/wvs_pilot_long.parquet
 # ---------------------------------------------------------------- inference run logs
 experiment/code/logs/
 
+# ---------------------------------------------------------------- Hugging Face release build output
+hf_release/
+
 # ---------------------------------------------------------------- python
 .venv/
 venv/

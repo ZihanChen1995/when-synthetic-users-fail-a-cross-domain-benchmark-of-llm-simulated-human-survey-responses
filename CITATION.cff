@@ -6,6 +6,8 @@ message: >-
   If you use this benchmark, the cached model outputs, or this code,
   please cite the paper below.
 type: software
+repository-code: https://github.com/ZihanChen1995/when-synthetic-users-fail-a-cross-domain-benchmark-of-llm-simulated-human-survey-responses
+repository-artifact: https://huggingface.co/datasets/ZihanChen/when-synthetic-users-fail
 authors:
   - given-names: Zihan
     family-names: Chen

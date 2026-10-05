@@ -3,6 +3,7 @@
 **Authors:** Zihan Chen, Di Zhu, and Lei Nico Zheng
 
 [![arXiv](https://img.shields.io/badge/arXiv-2607.26348-b31b1b.svg)](https://doi.org/10.48550/arXiv.2607.26348)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20dataset-GSS%20benchmark-yellow.svg)](https://huggingface.co/datasets/ZihanChen/when-synthetic-users-fail)
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0 (except WVS)](https://img.shields.io/badge/data-CC%20BY%204.0%20(except%20WVS)-lightgrey.svg)](LICENSE-DATA)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
@@ -89,6 +90,17 @@ answer code) or `raw` (the model's text). You get individual accuracy, Δbase ag
 the same non-LLM baseline, and a comparison with the paper's four models.
 `examples/load_benchmark.py` shows how to load the data directly.
 
+The GSS benchmark is also on Hugging Face, with the prompts built in, so you can
+evaluate a model without cloning this repository:
+
+```python
+from datasets import load_dataset
+bench = load_dataset("ZihanChen/when-synthetic-users-fail", "benchmark", split="test")
+```
+
+See the [dataset card](https://huggingface.co/datasets/ZihanChen/when-synthetic-users-fail) for the tables and a scoring example. The WVS half is
+available only here, under the WVSA terms (see [LICENSE-DATA](LICENSE-DATA)).
+
 ## What's in this repository
 
 | Path | Contents |
@@ -100,7 +112,7 @@ the same non-LLM baseline, and a comparison with the paper's four models.
 | `experiment/analysis/{GSS,WVS}/` | all metric files, summary tables, and figures reported in the paper |
 | `expected/` | reference copy of the main table, used by `make verify` |
 | `examples/` | data loader and bring-your-own-model evaluation script |
-| `scripts/` | smoke test and verification script |
+| `scripts/` | smoke test, verification script, and the Hugging Face release builder (`build_hf_dataset.py`) |
 | `docs/` | [DATA.md](docs/DATA.md) (every file and column), [REPRODUCE.md](docs/REPRODUCE.md) (pipeline and output-to-paper mapping), [RAW_DATA.md](docs/RAW_DATA.md) (obtaining the source surveys) |
 
 ### The two domains
